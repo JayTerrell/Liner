@@ -25,6 +25,7 @@ const VIDEOS_FILE = path.join(process.cwd(), "data", "youtube", "videos.json");
 export interface SeedChannel {
   id: string; name: string; query: string; lanes: string[];
   type: string; lean: "firsthand" | "secondhand" | "mixed"; notes?: string;
+  unresolved?: string;       // set when no real channel exists: never guess again
   handle?: string;           // @handle: an exact lookup, 1 unit, always preferred
   channelId?: string;        // verified channel, committed once confirmed
   resolvedTitle?: string;    // that channel's real title, so a bad match is visible
@@ -146,6 +147,7 @@ async function main() {
 
   const kept: RawVideo[] = all ? [] : existing;
   for (const c of seed.channels) {
+    if (c.unresolved) { console.log(`skip   ${c.name} — unresolved: ${c.unresolved.split(".")[0]}.`); continue; }
     if (!all && done.has(c.id)) { console.log(`skip   ${c.name} (already pulled)`); continue; }
     try {
       if (!c.channelId) {

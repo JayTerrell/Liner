@@ -70,3 +70,21 @@ export interface Channel {
 export interface Track { n: number; title: string; len: string; note: string }
 export interface CreditRow { name: string; role: string; scope: string; artistId?: string }
 export interface Story { tag: string; title: string; body: string }
+
+// A YouTube video matched to a Liner artist or album by scripts/youtube-match.ts.
+export interface VideoMatch {
+  videoId: string;
+  channelKey: string;
+  channelName: string;
+  title: string;
+  publishedAt: string;
+  durationSeconds: number;
+  viewCount: number;
+  thumbnail: string;
+  artistIds: string[];
+  albumIds: string[];
+  lean: Lean;
+  lanes: string[];
+  matchedOn: "title" | "description";
+  confidence: "strong" | "weak";
+}

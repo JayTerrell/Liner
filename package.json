@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "art:warm": "tsx scripts/warm-art.ts",
-    "yt:ingest": "tsx scripts/youtube-ingest.ts"
+    "yt:ingest": "tsx scripts/youtube-ingest.ts",
+    "yt:match": "tsx scripts/youtube-match.ts"
   },
   "dependencies": {
     "next": "^15.1.0",

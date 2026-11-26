@@ -1,8 +1,9 @@
 // Data access layer. Reads the seed JSON today; swap these functions for
 // Postgres queries later without touching any page.
 import seed from "@/data/seed.json";
+import matchData from "@/data/youtube/matches.json";
 import type {
-  Album, Artist, Channel, CreditRow, Lane, LinerPath, Story, Track,
+  Album, Artist, Channel, CreditRow, Lane, LinerPath, Story, Track, VideoMatch,
 } from "./types";
 
 const artists = seed.artists as Artist[];
@@ -36,6 +37,50 @@ export const pathsForArtist = (artistId: string) => {
 
 export const channelsForLanes = (laneIds: string[], limit = 4): Channel[] =>
   channels.filter((c) => c.lanes.some((l) => laneIds.includes(l))).slice(0, limit);
+
+// --- Ingested YouTube content -------------------------------------------
+// Matched by rules in scripts/youtube-match.ts, never at request time.
+
+const videos = matchData.matches as VideoMatch[];
+
+// Firsthand first, since the archive is meant to showcase people who were
+// there; then longer pieces over clips, which favours a real conversation
+// over a promo.
+const rank = (v: VideoMatch) =>
+  (v.lean === "firsthand" ? 2 : v.lean === "mixed" ? 1 : 0) * 1e6 +
+  Math.min(v.durationSeconds, 7200);
+
+const byRank = (a: VideoMatch, b: VideoMatch) => rank(b) - rank(a);
+
+// One channel can own a subject: ranked purely by lean and length, every slot
+// on J Dilla's page went to Red Bull Music Academy's lectures. Take the best
+// two from each channel first, then fill from what is left, so a page shows
+// several people talking rather than one archive.
+function spread(pool: VideoMatch[], limit: number, perChannel = 2): VideoMatch[] {
+  const sorted = [...pool].sort(byRank);
+  const seen = new Map<string, number>();
+  const first: VideoMatch[] = [];
+  const rest: VideoMatch[] = [];
+  for (const v of sorted) {
+    const n = seen.get(v.channelKey) ?? 0;
+    if (n < perChannel) { first.push(v); seen.set(v.channelKey, n + 1); } else rest.push(v);
+  }
+  return [...first, ...rest].slice(0, limit);
+}
+
+export const videosForArtist = (artistId: string, limit = 6): VideoMatch[] =>
+  spread(videos.filter((v) => v.artistIds.includes(artistId)), limit);
+
+// An album's videos are the ones that name it, then the rest about its artist.
+export const videosForAlbum = (album: Album, limit = 6): VideoMatch[] => {
+  const named = videos.filter((v) => v.albumIds.includes(album.id));
+  const rest = videos.filter(
+    (v) => !v.albumIds.includes(album.id) && v.artistIds.includes(album.artistId),
+  );
+  return [...spread(named, limit), ...spread(rest, limit)].slice(0, limit);
+};
+
+export const videoCount = videos.length;
 
 export function neighbors(album: Album) {
   const list = albumsByArtist(album.artistId);

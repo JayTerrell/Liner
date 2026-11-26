@@ -4,7 +4,7 @@ import { Cover, Portrait } from "@/components/Art";
 import { PathCard } from "@/components/PathCard";
 import { Voices } from "@/components/Voices";
 import {
-  albumsByArtist, channelsForLanes, getArtist, getArtists, getLane, pathsForArtist,
+  albumsByArtist, channelsForLanes, getArtist, getArtists, getLane, pathsForArtist, videosForArtist,
 } from "@/lib/data";
 import type { LineageRef } from "@/lib/types";
 
@@ -36,6 +36,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
   const albums = albumsByArtist(id);
   const paths = pathsForArtist(id);
   const voices = channelsForLanes(artist.lanes, 4);
+  const clips = videosForArtist(artist.id, 6);
 
   return (
     <div className="page">
@@ -94,8 +95,8 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
       )}
 
       <section>
-        <div className="section-label"><span>Voices on {artist.name}</span><span>Sample slots</span></div>
-        <Voices channels={voices} subject={artist.name} />
+        <div className="section-label"><span>Voices on {artist.name}</span><span>{clips.length ? `${clips.length} ingested` : "none ingested yet"}</span></div>
+        <Voices videos={clips} channels={voices} subject={artist.name} />
       </section>
     </div>
   );

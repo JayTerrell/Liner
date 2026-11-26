@@ -14,7 +14,8 @@
       "lean": "secondhand",
       "notes": "On Jay's list. Confirm exact channel name and handle.",
       "channelId": "UCRLA8svy3YM9b4y-ITYYtaA",
-      "resolvedTitle": "You'll Hear It"
+      "resolvedTitle": "You'll Hear It",
+      "uploadsPlaylist": "UURLA8svy3YM9b4y-ITYYtaA"
     },
     {
       "id": "digging-the-greats",
@@ -29,7 +30,8 @@
       "lean": "secondhand",
       "notes": "Brandon Shaw. 10-20 min musical analysis.",
       "channelId": "UCGSg3iQgRQ5M9CpluqkMAZg",
-      "resolvedTitle": "Digging The Greats"
+      "resolvedTitle": "Digging The Greats",
+      "uploadsPlaylist": "UUGSg3iQgRQ5M9CpluqkMAZg"
     },
     {
       "id": "black-radio-exchange",
@@ -43,9 +45,7 @@
       "type": "Artist interviews",
       "lean": "firsthand",
       "notes": "Musician-to-musician conversations.",
-      "channelId": "UCbI0u4X87G0Ddvw6V7VpDLg",
-      "resolvedTitle": "Robert Glasper",
-      "uploadsPlaylist": "UUbI0u4X87G0Ddvw6V7VpDLg"
+      "unresolved": "No YouTube channel found for the show. @blackradioexchange does not exist. Robert Glasper's own channel (UCbI0u4X87G0Ddvw6V7VpDLg) was tried and is a music catalogue, not the interview show: it yielded 47 song uploads and no conversations. Needs a real URL from Jay, or dropping."
     },
     {
       "id": "questlove",
@@ -75,7 +75,8 @@
       "lean": "secondhand",
       "notes": "Closest to Liner's scholarship idea.",
       "channelId": "UCaiXlXOldcHLgNWUiY3mf5A",
-      "resolvedTitle": "Dissect Podcast"
+      "resolvedTitle": "Dissect Podcast",
+      "uploadsPlaylist": "UUaiXlXOldcHLgNWUiY3mf5A"
     },
     {
       "id": "genius",
@@ -89,7 +90,8 @@
       "lean": "firsthand",
       "notes": "Verified / Deconstructed: artists explaining their own songs.",
       "channelId": "UCyFZMEnm1il5Wv3a6tPscbA",
-      "resolvedTitle": "Genius"
+      "resolvedTitle": "Genius",
+      "uploadsPlaylist": "UUyFZMEnm1il5Wv3a6tPscbA"
     },
     {
       "id": "whosampled",
@@ -104,7 +106,8 @@
       "lean": "secondhand",
       "notes": "Helps fill thin sample data in MusicBrainz.",
       "channelId": "UCqFn2QLxNfP4P2TtaNR0cCw",
-      "resolvedTitle": "WhoSampled"
+      "resolvedTitle": "WhoSampled",
+      "uploadsPlaylist": "UUqFn2QLxNfP4P2TtaNR0cCw"
     },
     {
       "id": "song-exploder",
@@ -115,7 +118,8 @@
       "lean": "firsthand",
       "notes": "All genres.",
       "channelId": "UCAm166_S0e3FAkO5GQmblbg",
-      "resolvedTitle": "Song Exploder"
+      "resolvedTitle": "Song Exploder",
+      "uploadsPlaylist": "UUAm166_S0e3FAkO5GQmblbg"
     },
     {
       "id": "rbma",
@@ -126,7 +130,8 @@
       "lean": "firsthand",
       "notes": "Check what is still on YouTube.",
       "channelId": "UCd4mTFLK9Ct4bgLlKAbhbcw",
-      "resolvedTitle": "Red Bull Music Academy"
+      "resolvedTitle": "Red Bull Music Academy",
+      "uploadsPlaylist": "UUd4mTFLK9Ct4bgLlKAbhbcw"
     },
     {
       "id": "soul-train",
@@ -141,7 +146,8 @@
       "lean": "firsthand",
       "notes": "Core funk and soul archive.",
       "channelId": "UCGgPV91EI-3Inz7NJ0Hx-mQ",
-      "resolvedTitle": "Soul Train"
+      "resolvedTitle": "Soul Train",
+      "uploadsPlaylist": "UUGgPV91EI-3Inz7NJ0Hx-mQ"
     },
     {
       "id": "okayplayer",
@@ -156,7 +162,8 @@
       "lean": "firsthand",
       "notes": "",
       "channelId": "UCUrbedJq6lK3EGKUMa9ZwBw",
-      "resolvedTitle": "Okayplayer"
+      "resolvedTitle": "Okayplayer",
+      "uploadsPlaylist": "UUUrbedJq6lK3EGKUMa9ZwBw"
     },
     {
       "id": "jazz-on-the-tube",
@@ -184,7 +191,8 @@
       "lean": "mixed",
       "notes": "",
       "channelId": "UCP108sGgYT_TlG2YRColGcg",
-      "resolvedTitle": "Jazz at Lincoln Center"
+      "resolvedTitle": "Jazz at Lincoln Center",
+      "uploadsPlaylist": "UUP108sGgYT_TlG2YRColGcg"
     },
     {
       "id": "life-of-music",
@@ -225,7 +233,8 @@
       "lean": "mixed",
       "notes": "Confirm handle.",
       "channelId": "UCCBnUpzIfbDqeUqM_8qsshg",
-      "resolvedTitle": "Afropop Worldwide"
+      "resolvedTitle": "Afropop Worldwide",
+      "uploadsPlaylist": "UUCBnUpzIfbDqeUqM_8qsshg"
     },
     {
       "id": "tejano-nation",
@@ -238,7 +247,8 @@
       "lean": "mixed",
       "notes": "Has a YouTube channel plus Spotify and iHeart shows.",
       "channelId": "UCMikBExMO3oY6UPkm81j96Q",
-      "resolvedTitle": "TejanoNation"
+      "resolvedTitle": "TejanoNation",
+      "uploadsPlaylist": "UUMikBExMO3oY6UPkm81j96Q"
     },
     {
       "id": "tma-tv",
@@ -251,7 +261,8 @@
       "lean": "firsthand",
       "notes": "Hosted by Lia C.",
       "channelId": "UC0qARNV6eULbVIxIiaF3WPA",
-      "resolvedTitle": "TejanoMusicAwards"
+      "resolvedTitle": "TejanoMusicAwards",
+      "uploadsPlaylist": "UU0qARNV6eULbVIxIiaF3WPA"
     },
     {
       "id": "viva-tejano",
