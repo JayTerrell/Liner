@@ -3,7 +3,7 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "Liner — hear music differently, together",
+  title: "Liner · Hear music differently, together",
   description: "A music-learning network: build a path, invite people, hear music differently together.",
 };
 
