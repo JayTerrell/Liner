@@ -8,8 +8,18 @@
 // Looks up every album cover and artist portrait in the seed and saves the
 // results to data/art-cache.json, so pages load instantly afterwards and
 // production never has to call MusicBrainz live.
-import seed from "../data/seed.json";
+import { readFileSync } from "fs";
+import path from "path";
+import { load as yamlLoad, dump as yamlDump } from "js-yaml";
 import { resolveAlbumArt, resolveArtistPhoto } from "../lib/art-resolver";
+
+const seed = yamlLoad(
+  readFileSync(path.join(process.cwd(), "data", "seed.yaml"), "utf8"),
+) as {
+  artists: { id: string; name: string; mbid?: string; wikidataQid?: string }[];
+  albums: { id: string; artistId: string; title: string; mbid?: string }[];
+  paths: { items: { title: string; artist: string; mbid?: string; albumId?: string }[] }[];
+};
 
 async function main() {
   const artistName = new Map(seed.artists.map((a) => [a.id, a.name]));

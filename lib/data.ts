@@ -1,10 +1,19 @@
 // Data access layer. Reads the seed JSON today; swap these functions for
 // Postgres queries later without touching any page.
-import seed from "@/data/seed.json";
-import matchData from "@/data/youtube/matches.json";
+import { loadYaml } from "./files";
 import type {
   Album, Artist, Channel, CreditRow, Lane, LinerPath, Story, Track, VideoMatch,
 } from "./types";
+
+interface Seed {
+  _note: string; lanes: Lane[]; artists: Artist[]; albums: Album[];
+  channels: Channel[]; paths: LinerPath[];
+}
+interface AlbumDetail { tracks: Track[]; credits: CreditRow[]; stories: Story[] }
+
+const seed = loadYaml<Seed>("seed.yaml");
+const details = loadYaml<{ albums: Record<string, AlbumDetail> }>("albums", "details.yaml");
+const matchData = loadYaml<{ matches: VideoMatch[] }>("youtube", "matches.yaml");
 
 const artists = seed.artists as Artist[];
 const albums = seed.albums as Album[];
@@ -88,15 +97,13 @@ export function neighbors(album: Album) {
   return { prev: list[i - 1], next: list[i + 1] };
 }
 
-export const kindOfBlue = seed.kindOfBlue as {
-  tracks: Track[];
-  credits: CreditRow[];
-  stories: Story[];
-};
+const EMPTY: AlbumDetail = { tracks: [], credits: [], stories: [] };
 
-export function detailFor(albumId: string) {
-  if (albumId === "kind-of-blue") return kindOfBlue;
-  return { tracks: [] as Track[], credits: [] as CreditRow[], stories: [] as Story[] };
+// Track lists and credits come from LINER_DB via scripts/build-album-details.ts.
+// Stories stay empty until creators and historians write them: MusicBrainz and
+// Discogs carry no such thing.
+export function detailFor(albumId: string): AlbumDetail {
+  return details.albums?.[albumId] ?? EMPTY;
 }
 
 export function search(q: string, lane?: string) {

@@ -6,9 +6,10 @@
 // User-Agent, so lookups run through a single slow queue.
 import { promises as fs } from "fs";
 import path from "path";
+import { load as yamlLoad, dump as yamlDump } from "js-yaml";
 
 const UA = "Liner/0.1 (https://github.com/JayTerrell/Liner)";
-const CACHE_FILE = path.join(process.cwd(), "data", "art-cache.json");
+const CACHE_FILE = path.join(process.cwd(), "data", "art-cache.yaml");
 const GAP_MS = 1100;
 
 export interface ArtHit { url: string; mbid?: string; credit?: string; creditUrl?: string }
@@ -20,7 +21,7 @@ let chain: Promise<unknown> = Promise.resolve();
 async function load(): Promise<Cache> {
   if (cache) return cache;
   try {
-    cache = JSON.parse(await fs.readFile(CACHE_FILE, "utf8")) as Cache;
+    cache = (yamlLoad(await fs.readFile(CACHE_FILE, "utf8")) ?? {}) as Cache;
   } catch {
     cache = {};
   }
@@ -29,7 +30,7 @@ async function load(): Promise<Cache> {
 
 async function persist() {
   try {
-    await fs.writeFile(CACHE_FILE, JSON.stringify(cache, null, 2));
+    await fs.writeFile(CACHE_FILE, yamlDump(cache, { lineWidth: 160, noRefs: true }));
   } catch {
     // read-only filesystems (serverless) just keep the in-memory cache
   }

@@ -1,5 +1,5 @@
 // Matches the videos in data/youtube/videos.json to the artists and albums in
-// data/seed.json, and writes data/youtube/matches.json.
+// data/seed.yaml, and writes data/youtube/matches.yaml.
 //
 //   npm run yt:match
 //
@@ -9,11 +9,12 @@
 // under the wrong artist is worse for Liner than no video at all.
 import { promises as fs } from "fs";
 import path from "path";
-import seed from "../data/seed.json";
+import { load as yamlLoad, dump as yamlDump } from "js-yaml";
 
 const VIDEOS = path.join(process.cwd(), "data", "youtube", "videos.json");
-const CHANNELS = path.join(process.cwd(), "data", "youtube", "channels.json");
-const OUT = path.join(process.cwd(), "data", "youtube", "matches.json");
+const CHANNELS = path.join(process.cwd(), "data", "youtube", "channels.yaml");
+const OUT = path.join(process.cwd(), "data", "youtube", "matches.yaml");
+const SEED = path.join(process.cwd(), "data", "seed.yaml");
 
 // Anything shorter than this is a Short or a teaser, not a piece of content.
 const MIN_SECONDS = 90;
@@ -90,11 +91,15 @@ interface Match {
 }
 
 async function main() {
+  const seed = yamlLoad(await fs.readFile(SEED, "utf8")) as {
+    artists: { id: string; name: string; lanes: string[] }[];
+    albums: { id: string; title: string; artistId: string }[];
+  };
   const videos = JSON.parse(await fs.readFile(VIDEOS, "utf8")).videos as Array<{
     videoId: string; channelKey: string; title: string; description: string;
     publishedAt: string; durationSeconds: number; viewCount: number; thumbnail: string;
   }>;
-  const channels = JSON.parse(await fs.readFile(CHANNELS, "utf8")).channels as Array<{
+  const channels = (yamlLoad(await fs.readFile(CHANNELS, "utf8")) as { channels: Array<{ id: string; name: string; lanes: string[]; lean: string }> }).channels as Array<{
     id: string; name: string; lanes: string[]; lean: string;
   }>;
   const chan = new Map(channels.map((c) => [c.id, c]));
@@ -156,11 +161,11 @@ async function main() {
     for (const id of hitIds) perArtist.set(id, (perArtist.get(id) ?? 0) + 1);
   }
 
-  await fs.writeFile(OUT, JSON.stringify({
+  await fs.writeFile(OUT, yamlDump({
     _note: "Videos matched to Liner artists and albums by scripts/youtube-match.ts. Rules only, no model judgement.",
     builtAt: new Date().toISOString(),
     matches,
-  }, null, 2) + "\n");
+  }, { lineWidth: 160, noRefs: true }));
 
   const strong = matches.filter((m) => m.confidence === "strong").length;
   console.log(`${videos.length} videos in`);

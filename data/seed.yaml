@@ -1,0 +1,1177 @@
+_note: >-
+  SAMPLE DATA for the design build. Music facts (years, personnel, relationships) were written from memory and must be
+  verified against MusicBrainz/Discogs before launch. Hosts marked sample:true are placeholders.
+lanes:
+  - id: jazz
+    label: Jazz
+  - id: funk
+    label: Funk
+  - id: soul
+    label: Soul
+  - id: rnb
+    label: R&B
+  - id: neo-soul
+    label: Neo-soul
+  - id: hip-hop
+    label: Hip-hop
+  - id: gospel
+    label: Gospel
+  - id: afrobeat
+    label: Afrobeat
+  - id: latin
+    label: Cuban / Latin
+  - id: tejano
+    label: Tejano
+artists:
+  - id: miles-davis
+    name: Miles Davis
+    roles: Trumpeter · bandleader · composer
+    years: 1926–1991
+    lanes:
+      - jazz
+    bio: >-
+      A bandleader who kept changing the sound of jazz: cool, hard bop, modal, then electric. Many musicians from his
+      groups went on to lead their own.
+    before:
+      - name: Charlie Parker
+        note: Miles played in his quintet in the late 1940s
+      - name: Gil Evans
+        note: arranger and long-time collaborator
+    after:
+      - id: john-coltrane
+        note: tenor saxophonist in the late-1950s quintet
+      - id: bill-evans
+        note: pianist on Kind of Blue
+      - id: herbie-hancock
+        note: pianist in the 1960s quintet
+  - id: john-coltrane
+    name: John Coltrane
+    roles: Saxophonist · composer
+    years: 1926–1967
+    lanes:
+      - jazz
+    bio: >-
+      Moved from hard bop through modal playing to spiritual, open-ended jazz. A Love Supreme is the record most
+      listeners start with.
+    before:
+      - id: miles-davis
+        note: played in his quintet
+      - id: thelonious-monk
+        note: worked with Monk in 1957
+    after:
+      - name: Pharoah Sanders
+        note: played in Coltrane's later groups
+      - name: Alice Coltrane
+        note: pianist and composer
+  - id: bill-evans
+    name: Bill Evans
+    roles: Pianist · composer
+    years: 1929–1980
+    lanes:
+      - jazz
+    bio: >-
+      Known for quiet, open voicings and a trio style where piano, bass and drums converse. He played on Kind of Blue
+      and wrote its original liner notes.
+    before:
+      - id: miles-davis
+        note: Kind of Blue, 1959
+    after:
+      - name: Later jazz pianists
+        note: his voicings became a shared vocabulary
+  - id: thelonious-monk
+    name: Thelonious Monk
+    roles: Pianist · composer
+    years: 1917–1982
+    lanes:
+      - jazz
+    bio: A composer with an unmistakable angular piano style. Many of his tunes became jazz standards.
+    before:
+      - name: Duke Ellington
+        note: an early touchstone
+    after:
+      - id: john-coltrane
+        note: played with Monk in 1957
+  - id: charles-mingus
+    name: Charles Mingus
+    roles: Bassist · composer · bandleader
+    years: 1922–1979
+    lanes:
+      - jazz
+    bio: A bassist and composer who blended gospel, blues and composition with raw, big-band energy.
+    before:
+      - name: Duke Ellington
+        note: a touchstone for his writing
+    after: []
+  - id: herbie-hancock
+    name: Herbie Hancock
+    roles: Pianist · keyboardist · composer
+    years: b. 1940
+    lanes:
+      - jazz
+      - funk
+    bio: Came up in Miles Davis's 1960s quintet, then moved through post-bop, funk and electronics.
+    before:
+      - id: miles-davis
+        note: 1960s quintet
+    after:
+      - id: robert-glasper
+        note: a later jazz and hip-hop bridge
+  - id: ornette-coleman
+    name: Ornette Coleman
+    roles: Saxophonist · composer
+    years: 1930–2015
+    lanes:
+      - jazz
+    bio: Pushed jazz toward free improvisation. The Shape of Jazz to Come is the usual doorway.
+    before: []
+    after: []
+  - id: art-blakey
+    name: Art Blakey
+    roles: Drummer · bandleader
+    years: 1919–1990
+    lanes:
+      - jazz
+    bio: Led the Jazz Messengers, a training ground for generations of jazz musicians.
+    before: []
+    after:
+      - name: Jazz Messengers alumni
+        note: many became bandleaders
+  - id: james-brown
+    name: James Brown
+    roles: Singer · bandleader
+    years: 1933–2006
+    lanes:
+      - funk
+      - soul
+    bio: 'Built funk around ''the one'': rhythm as the lead instrument. His drum breaks became raw material for hip-hop.'
+    before: []
+    after:
+      - id: fela-kuti
+        note: funk was one ingredient of Afrobeat
+      - name: Hip-hop producers
+        note: his records are among the most sampled
+  - id: sly-stone
+    name: Sly and the Family Stone
+    roles: Band · Sly Stone
+    years: formed 1966
+    lanes:
+      - funk
+      - soul
+    bio: A multiracial band that mixed soul, rock and psychedelia into pop-ready funk.
+    before: []
+    after:
+      - id: prince
+        note: a frequently cited influence
+  - id: parliament
+    name: Parliament
+    roles: Funk collective · George Clinton
+    years: formed 1970
+    lanes:
+      - funk
+    bio: George Clinton's funk collective, known for sprawling, theatrical records.
+    before:
+      - id: james-brown
+      - id: sly-stone
+    after:
+      - name: West Coast hip-hop
+        note: heavily sampled in G-funk
+  - id: stevie-wonder
+    name: Stevie Wonder
+    roles: Singer · multi-instrumentalist · producer
+    years: b. 1950
+    lanes:
+      - soul
+      - funk
+    bio: Moved from Motown child star to an album artist who played and produced much of his own 1970s run.
+    before: []
+    after:
+      - name: Neo-soul artists
+        note: his 1970s albums are a shared reference
+  - id: marvin-gaye
+    name: Marvin Gaye
+    roles: Singer · songwriter · producer
+    years: 1939–1984
+    lanes:
+      - soul
+    bio: What's Going On turned a Motown singer into a social commentator with a suite-like album.
+    before: []
+    after: []
+  - id: curtis-mayfield
+    name: Curtis Mayfield
+    roles: Singer · songwriter · guitarist
+    years: 1942–1999
+    lanes:
+      - soul
+      - funk
+    bio: A songwriter with a light falsetto, writing about community and struggle in the early 1970s.
+    before: []
+    after: []
+  - id: prince
+    name: Prince
+    roles: Multi-instrumentalist · songwriter · producer
+    years: 1958–2016
+    lanes:
+      - funk
+      - rnb
+      - soul
+    bio: Wrote, played and produced across funk, rock and pop. A frequent reference point for later R&B.
+    before:
+      - id: james-brown
+      - id: sly-stone
+    after:
+      - id: snoh-aalegra
+        note: cites Prince as an influence
+  - id: michael-jackson
+    name: Michael Jackson
+    roles: Singer · songwriter · dancer
+    years: 1958–2009
+    lanes:
+      - rnb
+      - soul
+    bio: Off the Wall and Thriller, both made with producer Quincy Jones, reshaped pop and R&B.
+    before: []
+    after:
+      - id: snoh-aalegra
+        note: a reference point in her music
+  - id: d-angelo
+    name: D'Angelo
+    roles: Singer · songwriter · producer
+    years: b. 1974
+    lanes:
+      - neo-soul
+    bio: Brown Sugar helped define neo-soul, and Voodoo pushed it into looser, drum-led territory.
+    before:
+      - id: prince
+      - id: marvin-gaye
+    after: []
+  - id: erykah-badu
+    name: Erykah Badu
+    roles: Singer · songwriter
+    years: b. 1971
+    lanes:
+      - neo-soul
+    bio: Baduizm put a hip-hop-minded neo-soul voice on the radio.
+    before:
+      - name: Billie Holiday
+        note: a voice she is often compared to
+    after: []
+  - id: robert-glasper
+    name: Robert Glasper
+    roles: Pianist · producer
+    years: b. 1978
+    lanes:
+      - jazz
+      - neo-soul
+      - hip-hop
+    bio: Bridges jazz, R&B and hip-hop. Hosts the Black Radio Exchange podcast.
+    before:
+      - id: herbie-hancock
+    after: []
+  - id: snoh-aalegra
+    name: Snoh Aalegra
+    roles: Singer · songwriter
+    years: b. 1987
+    lanes:
+      - rnb
+    bio: A singer-songwriter whose records draw on cinematic, vintage-leaning soul.
+    before:
+      - id: prince
+      - id: michael-jackson
+    after: []
+  - id: a-tribe-called-quest
+    name: A Tribe Called Quest
+    roles: Rap group
+    years: formed 1985
+    lanes:
+      - hip-hop
+    bio: Jazz-leaning, sample-rich hip-hop from Queens. The Low End Theory is the jazz-rap reference point.
+    before:
+      - name: Jazz records they sampled
+        note: bass lines and loops from jazz
+    after:
+      - id: j-dilla
+        note: worked with the group's circle
+  - id: j-dilla
+    name: J Dilla
+    roles: Producer · MC
+    years: 1974–2006
+    lanes:
+      - hip-hop
+      - neo-soul
+    mbid: cbcbb22c-3a8d-46af-b4ba-09c98f0d7931
+    wikidataQid: Q352218
+    bio: A producer whose off-grid drum programming shaped hip-hop and neo-soul. Donuts came out days before his death.
+    before:
+      - id: a-tribe-called-quest
+    after:
+      - id: d-angelo
+        note: close to the Soulquarians circle
+  - id: 9th-wonder
+    name: 9th Wonder
+    roles: Producer · professor
+    years: b. 1975
+    lanes:
+      - hip-hop
+    bio: North Carolina producer and teacher. Appears here only as an illustrative course host; there is no partnership.
+    before: []
+    after: []
+  - id: outkast
+    name: OutKast
+    roles: Duo · André 3000 and Big Boi
+    years: formed 1992
+    lanes:
+      - hip-hop
+    bio: An Atlanta duo who made Southern hip-hop a creative center.
+    before: []
+    after: []
+  - id: public-enemy
+    name: Public Enemy
+    roles: Rap group
+    years: formed 1982
+    lanes:
+      - hip-hop
+    bio: Dense, sample-heavy production and sharp politics. It Takes a Nation of Millions is a landmark.
+    before: []
+    after: []
+  - id: fela-kuti
+    name: Fela Kuti
+    roles: Bandleader · saxophonist · activist
+    years: 1938–1997
+    lanes:
+      - afrobeat
+    mbid: 6514cffa-fbe0-4965-ad88-e998ead8a82a
+    wikidataQid: Q313868
+    bio: Created Afrobeat from highlife, jazz and funk, with long, political songs.
+    before:
+      - id: james-brown
+        note: funk was a key ingredient
+      - name: Highlife
+        note: West African dance-band music
+    after:
+      - name: Tony Allen
+        note: co-architect of the rhythm
+      - name: Afrobeats
+        note: a separate, later genre with Afrobeat roots
+  - id: tito-puente
+    name: Tito Puente
+    roles: Timbalero · bandleader
+    years: 1923–2000
+    lanes:
+      - latin
+    bio: A New York bandleader who helped define mambo and Latin jazz.
+    before: []
+    after: []
+  - id: buena-vista-social-club
+    name: Buena Vista Social Club
+    roles: Ensemble
+    years: 1997 album
+    lanes:
+      - latin
+    bio: Veteran Cuban musicians brought together for an album recorded in Havana.
+    before: []
+    after: []
+  - id: selena
+    name: Selena
+    roles: Singer
+    years: 1971–1995
+    lanes:
+      - tejano
+      - latin
+    bio: The 'Queen of Tejano', who crossed from Tejano into mainstream pop before her death in 1995.
+    before:
+      - name: Tejano acts of her era
+        note: such as Grupo Mazz and La Mafia
+    after:
+      - name: A new generation of Tejano artists
+        note: many cite her as a reference
+  - id: aretha-franklin
+    name: Aretha Franklin
+    roles: Singer · pianist
+    years: 1942–2018
+    lanes:
+      - gospel
+      - soul
+    bio: Raised in the church. Amazing Grace is her live gospel album.
+    before:
+      - name: Mahalia Jackson
+        note: a gospel touchstone
+    after: []
+albums:
+  - id: kind-of-blue
+    artistId: miles-davis
+    title: Kind of Blue
+    year: 1959
+    blurb: >-
+      Davis brought sketches, not charts. Built on scales instead of fast chord changes, it gave soloists room to
+      breathe, and it became the most-taught record in jazz.
+  - id: milestones
+    artistId: miles-davis
+    title: Milestones
+    year: 1958
+    blurb: A step toward the modal language that comes fully into view on Kind of Blue.
+  - id: bitches-brew
+    artistId: miles-davis
+    title: Bitches Brew
+    year: 1970
+    blurb: 'Where it all breaks open: electric instruments, long studio-edited pieces.'
+  - id: round-about-midnight
+    artistId: miles-davis
+    title: '''Round About Midnight'
+    year: 1957
+  - id: sketches-of-spain
+    artistId: miles-davis
+    title: Sketches of Spain
+    year: 1960
+  - id: in-a-silent-way
+    artistId: miles-davis
+    title: In a Silent Way
+    year: 1969
+  - id: tutu
+    artistId: miles-davis
+    title: Tutu
+    year: 1986
+  - id: blue-train
+    artistId: john-coltrane
+    title: Blue Train
+    year: 1958
+  - id: giant-steps
+    artistId: john-coltrane
+    title: Giant Steps
+    year: 1960
+  - id: my-favorite-things
+    artistId: john-coltrane
+    title: My Favorite Things
+    year: 1961
+  - id: a-love-supreme
+    artistId: john-coltrane
+    title: A Love Supreme
+    year: 1965
+  - id: portrait-in-jazz
+    artistId: bill-evans
+    title: Portrait in Jazz
+    year: 1960
+    mbid: dc3d3207-9505-45ba-bd06-879806c6e0fd
+  - id: sunday-at-the-village-vanguard
+    artistId: bill-evans
+    title: Sunday at the Village Vanguard
+    year: 1961
+  - id: waltz-for-debby
+    artistId: bill-evans
+    title: Waltz for Debby
+    year: 1961
+  - id: brilliant-corners
+    artistId: thelonious-monk
+    title: Brilliant Corners
+    year: 1957
+  - id: mingus-ah-um
+    artistId: charles-mingus
+    title: Mingus Ah Um
+    year: 1959
+  - id: maiden-voyage
+    artistId: herbie-hancock
+    title: Maiden Voyage
+    year: 1965
+  - id: head-hunters
+    artistId: herbie-hancock
+    title: Head Hunters
+    year: 1973
+  - id: shape-of-jazz-to-come
+    artistId: ornette-coleman
+    title: The Shape of Jazz to Come
+    year: 1959
+  - id: moanin
+    artistId: art-blakey
+    title: Moanin'
+    year: 1958
+  - id: live-at-the-apollo
+    artistId: james-brown
+    title: Live at the Apollo
+    year: 1963
+  - id: stand
+    artistId: sly-stone
+    title: Stand!
+    year: 1969
+  - id: riot
+    artistId: sly-stone
+    title: There's a Riot Goin' On
+    year: 1971
+  - id: mothership-connection
+    artistId: parliament
+    title: Mothership Connection
+    year: 1975
+  - id: talking-book
+    artistId: stevie-wonder
+    title: Talking Book
+    year: 1972
+  - id: innervisions
+    artistId: stevie-wonder
+    title: Innervisions
+    year: 1973
+  - id: songs-in-the-key-of-life
+    artistId: stevie-wonder
+    title: Songs in the Key of Life
+    year: 1976
+  - id: whats-going-on
+    artistId: marvin-gaye
+    title: What's Going On
+    year: 1971
+    mbid: c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90
+  - id: curtis
+    artistId: curtis-mayfield
+    title: Curtis
+    year: 1970
+  - id: super-fly
+    artistId: curtis-mayfield
+    title: Super Fly
+    year: 1972
+  - id: purple-rain
+    artistId: prince
+    title: Purple Rain
+    year: 1984
+  - id: sign-o-the-times
+    artistId: prince
+    title: Sign o' the Times
+    year: 1987
+  - id: off-the-wall
+    artistId: michael-jackson
+    title: Off the Wall
+    year: 1979
+  - id: thriller
+    artistId: michael-jackson
+    title: Thriller
+    year: 1982
+  - id: brown-sugar
+    artistId: d-angelo
+    title: Brown Sugar
+    year: 1995
+  - id: voodoo
+    artistId: d-angelo
+    title: Voodoo
+    year: 2000
+  - id: black-messiah
+    artistId: d-angelo
+    title: Black Messiah
+    year: 2014
+  - id: baduizm
+    artistId: erykah-badu
+    title: Baduizm
+    year: 1997
+  - id: mamas-gun
+    artistId: erykah-badu
+    title: Mama's Gun
+    year: 2000
+  - id: black-radio
+    artistId: robert-glasper
+    title: Black Radio
+    year: 2012
+  - id: feels
+    artistId: snoh-aalegra
+    title: Feels
+    year: 2017
+  - id: ugh-those-feels-again
+    artistId: snoh-aalegra
+    title: Ugh, Those Feels Again
+    year: 2019
+  - id: temporary-highs
+    artistId: snoh-aalegra
+    title: Temporary Highs in the Violet Skies
+    year: 2021
+  - id: peoples-instinctive-travels
+    artistId: a-tribe-called-quest
+    title: People's Instinctive Travels and the Paths of Rhythm
+    year: 1990
+  - id: low-end-theory
+    artistId: a-tribe-called-quest
+    title: The Low End Theory
+    year: 1991
+  - id: midnight-marauders
+    artistId: a-tribe-called-quest
+    title: Midnight Marauders
+    year: 1993
+  - id: donuts
+    artistId: j-dilla
+    title: Donuts
+    year: 2006
+  - id: southernplayalistic
+    artistId: outkast
+    title: Southernplayalisticadillacmuzik
+    year: 1994
+  - id: atliens
+    artistId: outkast
+    title: ATLiens
+    year: 1996
+  - id: aquemini
+    artistId: outkast
+    title: Aquemini
+    year: 1998
+  - id: it-takes-a-nation
+    artistId: public-enemy
+    title: It Takes a Nation of Millions to Hold Us Back
+    year: 1988
+  - id: gentleman
+    artistId: fela-kuti
+    title: Gentleman
+    year: 1973
+  - id: confusion
+    artistId: fela-kuti
+    title: Confusion
+    year: 1975
+  - id: expensive-shit
+    artistId: fela-kuti
+    title: Expensive Shit
+    year: 1975
+  - id: zombie
+    artistId: fela-kuti
+    title: Zombie
+    year: 1977
+  - id: dance-mania
+    artistId: tito-puente
+    title: Dance Mania
+    year: 1958
+  - id: buena-vista-social-club
+    artistId: buena-vista-social-club
+    title: Buena Vista Social Club
+    year: 1997
+  - id: ven-conmigo
+    artistId: selena
+    title: Ven Conmigo
+    year: 1990
+  - id: selena-live
+    artistId: selena
+    title: Live!
+    year: 1993
+    mbid: 08daa7d0-5f32-3bbd-8329-4706b2247c64
+  - id: amor-prohibido
+    artistId: selena
+    title: Amor Prohibido
+    year: 1994
+  - id: amazing-grace
+    artistId: aretha-franklin
+    title: Amazing Grace
+    year: 1972
+kindOfBlue:
+  tracks:
+    - 'n': 1
+      title: So What
+      len: '9:22'
+      note: Bass asks, horns answer. Two scales, sixteen bars each, endless room.
+    - 'n': 2
+      title: Freddie Freeloader
+      len: '9:46'
+      note: Wynton Kelly sits in on piano. The bluesiest stop on the record.
+    - 'n': 3
+      title: Blue in Green
+      len: '5:37'
+      note: A ten-bar cycle with no obvious top. Evans and Davis at their quietest.
+    - 'n': 4
+      title: All Blues
+      len: '11:33'
+      note: A 6/8 blues that floats instead of swings.
+    - 'n': 5
+      title: Flamenco Sketches
+      len: '9:26'
+      note: Five scales. Each soloist decides when to move on.
+  credits:
+    - name: Miles Davis
+      role: Trumpet, leader
+      scope: All tracks
+      artistId: miles-davis
+    - name: John Coltrane
+      role: Tenor saxophone
+      scope: All tracks
+      artistId: john-coltrane
+    - name: Cannonball Adderley
+      role: Alto saxophone
+      scope: Tracks 1, 2, 4, 5
+    - name: Bill Evans
+      role: Piano
+      scope: Tracks 1, 3, 4, 5
+      artistId: bill-evans
+    - name: Wynton Kelly
+      role: Piano
+      scope: Track 2
+    - name: Paul Chambers
+      role: Bass
+      scope: All tracks
+    - name: Jimmy Cobb
+      role: Drums
+      scope: All tracks
+    - name: Teo Macero, Irving Townsend
+      role: Producers
+      scope: Session
+    - name: Fred Plaut
+      role: Recording engineer
+      scope: 30th St. Studio
+  stories:
+    - tag: SESSION
+      title: Two days, barely rehearsed
+      body: >-
+        Recorded March 2 and April 22, 1959 at Columbia's 30th Street Studio. Most of the players saw Davis's sketches
+        for the first time at the date.
+    - tag: LINER NOTES
+      title: Evans writes the sleeve
+      body: >-
+        Bill Evans's original notes compare the sessions to a Japanese painting discipline: one stroke, no erasing, no
+        going back.
+    - tag: PRESSING
+      title: Side one ran fast
+      body: >-
+        A tape machine running slow meant the first three tracks were issued slightly sharp. Corrected-speed masters
+        came decades later.
+channels:
+  - id: digging-the-greats
+    name: Digging the Greats
+    lanes:
+      - hip-hop
+      - soul
+      - rnb
+    type: Song & album breakdowns
+    lean: secondhand
+  - id: genius
+    name: Genius
+    lanes:
+      - hip-hop
+      - rnb
+    type: Artist-narrated breakdowns
+    lean: firsthand
+  - id: song-exploder
+    name: Song Exploder
+    lanes:
+      - hip-hop
+      - rnb
+      - soul
+      - neo-soul
+      - funk
+    type: Artists take apart their songs
+    lean: firsthand
+  - id: black-radio-exchange
+    name: Black Radio Exchange
+    lanes:
+      - neo-soul
+      - jazz
+      - rnb
+    type: Musician interviews
+    lean: firsthand
+  - id: red-bull-music-academy
+    name: Red Bull Music Academy
+    lanes:
+      - hip-hop
+      - funk
+      - soul
+      - neo-soul
+    type: Producer lectures
+    lean: firsthand
+  - id: jazz-on-the-tube
+    name: Jazz on the Tube
+    lanes:
+      - jazz
+      - latin
+    type: Curated video archive
+    lean: mixed
+  - id: jazz-at-lincoln-center
+    name: Jazz at Lincoln Center
+    lanes:
+      - jazz
+    type: Lectures & performances
+    lean: mixed
+  - id: soul-train
+    name: Soul Train
+    lanes:
+      - soul
+      - funk
+      - rnb
+    type: Archive performances
+    lean: firsthand
+  - id: the-life-of-music
+    name: The Life of Music
+    lanes:
+      - gospel
+    type: Documentary series
+    lean: secondhand
+  - id: afropop-worldwide
+    name: Afropop Worldwide
+    lanes:
+      - afrobeat
+    type: Radio & video
+    lean: mixed
+  - id: tma-tv
+    name: Tejano Music Awards TV
+    lanes:
+      - tejano
+    type: Interviews & performances
+    lean: firsthand
+  - id: tejano-nation
+    name: Tejano Nation
+    lanes:
+      - tejano
+    type: News & interviews
+    lean: mixed
+  - id: latin-percussion
+    name: Latin Percussion
+    lanes:
+      - latin
+    type: Education & archive
+    lean: mixed
+paths:
+  - id: miles-davis-journey
+    kind: journey
+    badge: ENTHUSIAST JOURNEY
+    title: The Miles Davis Journey
+    host: Jay
+    sample: true
+    blurb: >-
+      I'm listening through Miles Davis's catalog to understand how his sound, collaborators and ideas changed over
+      time. I'm inviting other curious listeners to learn alongside me.
+    meta: 24 albums · weekly · 86 along
+    along: 86
+    done: 10
+    cadence: Weekly · Tuesdays 8 PM ET
+    whyNext: >-
+      I want to hear what changes after 'Round About Midnight, and how this record starts moving toward the modal
+      language I expect to hear fully on Kind of Blue.
+    listenFor:
+      - The role of the rhythm section
+      - How Miles approaches space
+      - What changed in the personnel and feel
+    items:
+      - title: Birth of the Cool
+        artist: Miles Davis
+        year: '1949'
+      - title: Dig
+        artist: Miles Davis
+        year: '1951'
+      - title: Walkin'
+        artist: Miles Davis
+        year: '1954'
+        mbid: 01ec3c28-cba3-3c7d-b4af-0cfc7ad8ddc4
+      - title: Bags' Groove
+        artist: Miles Davis
+        year: '1954'
+        mbid: 25a721dc-0940-359e-8b0d-4be9d5616348
+      - title: Modern Jazz Giants
+        artist: Miles Davis
+        year: '1954'
+      - title: Cookin'
+        artist: Miles Davis
+        year: '1956'
+      - title: Relaxin'
+        artist: Miles Davis
+        year: '1956'
+      - title: '''Round About Midnight'
+        artist: Miles Davis
+        year: '1956'
+        albumId: round-about-midnight
+      - title: Miles Ahead
+        artist: Miles Davis
+        year: '1957'
+      - title: Ascenseur pour l'échafaud
+        artist: Miles Davis
+        year: '1957'
+      - title: Milestones
+        artist: Miles Davis
+        year: '1958'
+        albumId: milestones
+      - title: Porgy and Bess
+        artist: Miles Davis
+        year: '1958'
+      - title: Kind of Blue
+        artist: Miles Davis
+        year: '1959'
+        albumId: kind-of-blue
+      - title: Sketches of Spain
+        artist: Miles Davis
+        year: '1960'
+        albumId: sketches-of-spain
+      - title: Someday My Prince Will Come
+        artist: Miles Davis
+        year: '1961'
+      - title: Seven Steps to Heaven
+        artist: Miles Davis
+        year: '1963'
+      - title: E.S.P.
+        artist: Miles Davis
+        year: '1965'
+      - title: Miles Smiles
+        artist: Miles Davis
+        year: '1966'
+      - title: Nefertiti
+        artist: Miles Davis
+        year: '1967'
+      - title: Filles de Kilimanjaro
+        artist: Miles Davis
+        year: '1968'
+      - title: In a Silent Way
+        artist: Miles Davis
+        year: '1969'
+        albumId: in-a-silent-way
+      - title: Bitches Brew
+        artist: Miles Davis
+        year: '1970'
+        albumId: bitches-brew
+      - title: On the Corner
+        artist: Miles Davis
+        year: '1972'
+      - title: Tutu
+        artist: Miles Davis
+        year: '1986'
+        albumId: tutu
+    forks:
+      - glyph: ⑂
+        title: Miles Davis for First-Time Listeners
+        by: jun
+        change: cut to 8 albums
+        'n': 41 ALONG
+      - glyph: ⑂
+        title: Miles Through His Collaborators
+        by: keisha.listens
+        change: adds sideman records
+        'n': 27 ALONG
+      - glyph: ↳
+        title: The Electric Miles Route
+        by: pat_l
+        change: branches at 20
+        'n': 33 ALONG
+      - glyph: ⑂
+        title: 'Miles Davis: A Trumpet Player''s Study'
+        by: t.okafor
+        change: adds practice prompts
+        'n': 12 ALONG
+      - glyph: ↳
+        title: Miles and Gil Evans
+        by: oldsoul
+        change: branches at 09
+        'n': 19 ALONG
+  - id: jazz-lineage
+    kind: guided
+    badge: SCHOLAR-LED
+    title: The Jazz Lineage
+    host: Dana Whitfield
+    sample: true
+    blurb: From bebop's aftermath to modal and free. One essential album a week, heard together, taught live.
+    meta: 12 sessions · Thursdays · 412 enrolled
+    along: 412
+    done: 6
+    cadence: Thursdays 8 PM ET
+    items:
+      - title: Birth of the Cool
+        artist: Miles Davis
+        year: '1949'
+      - title: Clifford Brown & Max Roach
+        artist: Brown / Roach
+        year: '1954'
+        mbid: 492e9fb1-5992-3efb-99ca-fda9c713fa8b
+      - title: Saxophone Colossus
+        artist: Sonny Rollins
+        year: '1956'
+      - title: Brilliant Corners
+        artist: Thelonious Monk
+        year: '1956'
+        albumId: brilliant-corners
+      - title: Moanin'
+        artist: Art Blakey & the Jazz Messengers
+        year: '1958'
+        albumId: moanin
+      - title: Somethin' Else
+        artist: Cannonball Adderley
+        year: '1958'
+      - title: Kind of Blue
+        artist: Miles Davis
+        year: '1959'
+        albumId: kind-of-blue
+      - title: Mingus Ah Um
+        artist: Charles Mingus
+        year: '1959'
+        albumId: mingus-ah-um
+      - title: The Shape of Jazz to Come
+        artist: Ornette Coleman
+        year: '1959'
+        albumId: shape-of-jazz-to-come
+      - title: Giant Steps
+        artist: John Coltrane
+        year: '1960'
+        albumId: giant-steps
+      - title: The Blues and the Abstract Truth
+        artist: Oliver Nelson
+        year: '1961'
+      - title: Sunday at the Village Vanguard
+        artist: Bill Evans Trio
+        year: '1961'
+        albumId: sunday-at-the-village-vanguard
+  - id: southern-hip-hop
+    kind: guided
+    badge: PRODUCER-LED
+    title: The Architecture of Southern Hip-Hop
+    host: 9th Wonder
+    sample: true
+    blurb: 'Illustrative only: a sample of how an expert-led course would sit on Liner. No partnership exists.'
+    meta: 10 sessions · starts soon
+    along: 0
+    done: 0
+    cadence: Weekly
+    items:
+      - title: Southernplayalisticadillacmuzik
+        artist: OutKast
+        year: '1994'
+        albumId: southernplayalistic
+      - title: ATLiens
+        artist: OutKast
+        year: '1996'
+        albumId: atliens
+      - title: Aquemini
+        artist: OutKast
+        year: '1998'
+        albumId: aquemini
+  - id: neo-soul-club
+    kind: club
+    badge: CURATED CLUB
+    title: Six Albums That Changed How I Hear Neo-Soul
+    host: keisha.listens
+    sample: true
+    blurb: A short listening club that starts with Brown Sugar and ends with Black Messiah.
+    meta: biweekly · 140 along
+    along: 140
+    done: 3
+    cadence: Every other Sunday
+    items:
+      - title: Brown Sugar
+        artist: D'Angelo
+        year: '1995'
+        albumId: brown-sugar
+      - title: Baduizm
+        artist: Erykah Badu
+        year: '1997'
+        albumId: baduizm
+      - title: Voodoo
+        artist: D'Angelo
+        year: '2000'
+        albumId: voodoo
+      - title: Mama's Gun
+        artist: Erykah Badu
+        year: '2000'
+        albumId: mamas-gun
+      - title: Black Radio
+        artist: Robert Glasper
+        year: '2012'
+        albumId: black-radio
+      - title: Black Messiah
+        artist: D'Angelo
+        year: '2014'
+        albumId: black-messiah
+  - id: snoh-prince-mj
+    kind: journey
+    badge: ENTHUSIAST JOURNEY
+    title: Snoh Aalegra and the Prince / Michael Jackson Thread
+    host: Jay
+    sample: true
+    blurb: >-
+      Starting with the records that shaped her sound, then following her albums. Her newest record joins once the
+      archive has it.
+    meta: 6 albums · self-paced
+    along: 0
+    done: 0
+    cadence: Self-paced
+    items:
+      - title: Off the Wall
+        artist: Michael Jackson
+        year: '1979'
+        albumId: off-the-wall
+      - title: Purple Rain
+        artist: Prince
+        year: '1984'
+        albumId: purple-rain
+      - title: Sign o' the Times
+        artist: Prince
+        year: '1987'
+        albumId: sign-o-the-times
+      - title: Feels
+        artist: Snoh Aalegra
+        year: '2017'
+        albumId: feels
+      - title: Ugh, Those Feels Again
+        artist: Snoh Aalegra
+        year: '2019'
+        albumId: ugh-those-feels-again
+      - title: Temporary Highs in the Violet Skies
+        artist: Snoh Aalegra
+        year: '2021'
+        albumId: temporary-highs
+  - id: soul-gets-political
+    kind: club
+    badge: CURATED CLUB
+    title: Soul Gets Political, 1970–73
+    host: oldsoul
+    sample: true
+    blurb: Four records where soul turned its attention to the street, the city and the state of things.
+    meta: 4 albums · biweekly · 58 along
+    along: 58
+    done: 0
+    cadence: Every other Sunday
+    items:
+      - title: Curtis
+        artist: Curtis Mayfield
+        year: '1970'
+        albumId: curtis
+      - title: What's Going On
+        artist: Marvin Gaye
+        year: '1971'
+        albumId: whats-going-on
+      - title: There's a Riot Goin' On
+        artist: Sly and the Family Stone
+        year: '1971'
+        albumId: riot
+      - title: Innervisions
+        artist: Stevie Wonder
+        year: '1973'
+        albumId: innervisions
+  - id: fela-album-by-album
+    kind: journey
+    badge: ENTHUSIAST JOURNEY
+    title: Fela, Album by Album
+    host: ines
+    sample: true
+    blurb: 'From Gentleman to Zombie: how long songs, a big band and politics fit together.'
+    meta: 4 albums · weekly · 22 along
+    along: 22
+    done: 0
+    cadence: Weekly
+    items:
+      - title: Gentleman
+        artist: Fela Kuti
+        year: '1973'
+        albumId: gentleman
+      - title: Confusion
+        artist: Fela Kuti
+        year: '1975'
+        albumId: confusion
+      - title: Expensive Shit
+        artist: Fela Kuti
+        year: '1975'
+        albumId: expensive-shit
+      - title: Zombie
+        artist: Fela Kuti
+        year: '1977'
+        albumId: zombie
+  - id: selena-and-tejano
+    kind: open
+    badge: OPEN ROOM · FIRST LISTEN
+    title: Selena and the Tejano Sound
+    host: marcus.k
+    sample: true
+    blurb: Three albums, one open room. Bring what your family played.
+    meta: 3 albums · Sun 8 PM · 31 going
+    along: 31
+    done: 0
+    cadence: Sundays 8 PM
+    items:
+      - title: Ven Conmigo
+        artist: Selena
+        year: '1990'
+        albumId: ven-conmigo
+      - title: Live!
+        artist: Selena
+        year: '1993'
+        albumId: selena-live
+      - title: Amor Prohibido
+        artist: Selena
+        year: '1994'
+        albumId: amor-prohibido
