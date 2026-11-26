@@ -20,7 +20,7 @@ export function Voices({
 }: { videos: VideoMatch[]; channels: Channel[]; subject: string }) {
   if (videos.length) {
     return (
-      <div className="card-grid">
+      <div className="card-grid voice-grid">
         {videos.map((v) => (
           <a
             key={v.videoId}
