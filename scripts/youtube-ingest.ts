@@ -25,8 +25,10 @@ const VIDEOS_FILE = path.join(process.cwd(), "data", "youtube", "videos.json");
 export interface SeedChannel {
   id: string; name: string; query: string; lanes: string[];
   type: string; lean: "firsthand" | "secondhand" | "mixed"; notes?: string;
-  channelId?: string;        // filled on first run and committed
-  resolvedTitle?: string;    // the real YouTube title, to check the match by eye
+  handle?: string;           // @handle: an exact lookup, 1 unit, always preferred
+  channelId?: string;        // verified channel, committed once confirmed
+  resolvedTitle?: string;    // that channel's real title, so a bad match is visible
+  titleMustContain?: string; // for a show that lives inside a bigger channel
   uploadsPlaylist?: string;
 }
 
@@ -54,12 +56,30 @@ async function api(resource: string, params: Record<string, string>, cost: numbe
   return body;
 }
 
-// 100 units. Only ever run once per channel; the result is committed.
-async function resolveChannel(c: SeedChannel) {
-  const j = await api("search", { part: "snippet", q: c.query, type: "channel", maxResults: "1" }, 100);
+// An exact handle lookup: 1 unit, and it either matches or returns nothing.
+async function byHandle(handle: string) {
+  const j = await api("channels", { part: "snippet", forHandle: handle.replace(/^@/, "") }, 1);
   const hit = j.items?.[0];
-  if (!hit) return null;
-  return { channelId: hit.snippet.channelId as string, title: hit.snippet.channelTitle as string };
+  return hit ? { channelId: hit.id as string, title: hit.snippet.title as string } : null;
+}
+
+// 100 units, and NOT reliable: a name search picked the wrong channel for 6 of
+// the first 19 (Questlove's podcast came back as Rick Rubin's, "Trévon Dawson"
+// as "Brooks & Dunn - Topic"). It is the last resort, and whatever it returns
+// has to be read by a person against resolvedTitle before the ID is committed.
+async function bySearch(query: string) {
+  const j = await api("search", { part: "snippet", q: query, type: "channel", maxResults: "1" }, 100);
+  const hit = j.items?.[0];
+  return hit ? { channelId: hit.snippet.channelId as string, title: hit.snippet.channelTitle as string } : null;
+}
+
+async function resolveChannel(c: SeedChannel) {
+  if (c.handle) {
+    const r = await byHandle(c.handle);
+    if (r) return { ...r, how: "handle" as const };
+  }
+  const r = await bySearch(c.query);
+  return r ? { ...r, how: "search" as const } : null;
 }
 
 async function uploadsPlaylist(channelId: string) {
@@ -133,12 +153,22 @@ async function main() {
         if (!r) { console.log(`MISS   ${c.name} — no channel matched "${c.query}"`); continue; }
         c.channelId = r.channelId;
         c.resolvedTitle = r.title;
-        console.log(`found  ${c.name} -> "${r.title}" (${r.channelId})`);
+        const flag = r.how === "search" ? "  <-- CHECK THIS BY EYE (fuzzy search)" : "";
+        console.log(`found  ${c.name} -> "${r.title}" (${r.channelId})${flag}`);
       }
       if (!c.uploadsPlaylist) c.uploadsPlaylist = await uploadsPlaylist(c.channelId);
       if (!c.uploadsPlaylist) { console.log(`MISS   ${c.name} — no uploads playlist`); continue; }
-      const ids = await recentVideoIds(c.uploadsPlaylist, PER_CHANNEL);
-      const vids = await videoDetails(ids, c);
+      // A channel filtered by title needs a wider trawl: the show's episodes
+      // are scattered among everything else the channel posts.
+      const want = c.titleMustContain ? Math.max(PER_CHANNEL, 200) : PER_CHANNEL;
+      const ids = await recentVideoIds(c.uploadsPlaylist, want);
+      let vids = await videoDetails(ids, c);
+      if (c.titleMustContain) {
+        const needle = c.titleMustContain.toLowerCase();
+        const all = vids.length;
+        vids = vids.filter((v) => v.title.toLowerCase().includes(needle));
+        console.log(`       ${c.name}: ${vids.length} of ${all} titles contain "${c.titleMustContain}"`);
+      }
       kept.push(...vids);
       console.log(`ok     ${c.name} — ${vids.length} videos`);
     } catch (e) {
