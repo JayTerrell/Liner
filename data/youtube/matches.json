@@ -1,6 +1,6 @@
 {
   "_note": "Videos matched to Liner artists and albums by scripts/youtube-match.ts. Rules only, no model judgement.",
-  "builtAt": "2026-11-26T04:36:27.638Z",
+  "builtAt": "2026-11-26T04:52:53.440Z",
   "matches": [
     {
       "videoId": "5849lYLkgc4",
@@ -9,7 +9,7 @@
       "title": "This Herbie Hancock Deep Cut Is a MASTERCLASS in Jazz Harmony",
       "publishedAt": "2026-11-16T09:00:12Z",
       "durationSeconds": 3692,
-      "viewCount": 53447,
+      "viewCount": 53461,
       "thumbnail": "https://i.ytimg.com/vi/5849lYLkgc4/mqdefault.jpg",
       "artistIds": [
         "herbie-hancock"
@@ -65,7 +65,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "neo-soul"
       ],
       "matchedOn": "title",
@@ -78,7 +77,7 @@
       "title": "\"Superwoman\" by Stevie Wonder",
       "publishedAt": "2026-03-04T16:01:31Z",
       "durationSeconds": 134,
-      "viewCount": 8768,
+      "viewCount": 8765,
       "thumbnail": "https://i.ytimg.com/vi/zM4dh42mBHE/mqdefault.jpg",
       "artistIds": [
         "stevie-wonder"
@@ -88,7 +87,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "soul",
         "funk"
       ],
@@ -102,7 +100,7 @@
       "title": "If You’ve Never Really 'Got' Prince, Start Here",
       "publishedAt": "2025-12-22T09:00:45Z",
       "durationSeconds": 5382,
-      "viewCount": 130290,
+      "viewCount": 130327,
       "thumbnail": "https://i.ytimg.com/vi/NoBEZ-csVQQ/mqdefault.jpg",
       "artistIds": [
         "prince"
@@ -112,7 +110,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "funk",
         "soul"
       ],
@@ -136,7 +133,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "soul",
         "funk"
       ],
@@ -160,7 +156,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "soul",
         "funk"
       ],
@@ -174,7 +169,7 @@
       "title": "This Mingus Track is 7 Minutes of GENIUS",
       "publishedAt": "2025-11-13T17:15:09Z",
       "durationSeconds": 533,
-      "viewCount": 3924,
+      "viewCount": 3927,
       "thumbnail": "https://i.ytimg.com/vi/jtVmLyXBU2I/mqdefault.jpg",
       "artistIds": [
         "charles-mingus"
@@ -196,7 +191,7 @@
       "title": "Charles Mingus: Jazz's Ultimate Tough Guy",
       "publishedAt": "2025-11-10T13:44:32Z",
       "durationSeconds": 4408,
-      "viewCount": 37817,
+      "viewCount": 37815,
       "thumbnail": "https://i.ytimg.com/vi/XYeRZ0Awui4/mqdefault.jpg",
       "artistIds": [
         "charles-mingus"
@@ -228,7 +223,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "soul"
       ],
       "matchedOn": "title",
@@ -241,7 +235,7 @@
       "title": "D'Angelo - \"Untitled (How Does It Feel)\"",
       "publishedAt": "2025-10-17T21:33:19Z",
       "durationSeconds": 486,
-      "viewCount": 221061,
+      "viewCount": 221082,
       "thumbnail": "https://i.ytimg.com/vi/EflU_gDWQSI/mqdefault.jpg",
       "artistIds": [
         "d-angelo"
@@ -251,7 +245,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "neo-soul"
       ],
       "matchedOn": "title",
@@ -274,7 +267,6 @@
       "lanes": [
         "hip-hop",
         "rnb",
-        "jazz",
         "soul",
         "funk"
       ],
@@ -676,7 +668,7 @@
       "title": "How Outkast Set Southern Hip Hop Free",
       "publishedAt": "2024-01-19T16:21:42Z",
       "durationSeconds": 1014,
-      "viewCount": 106207,
+      "viewCount": 106209,
       "thumbnail": "https://i.ytimg.com/vi/5tMOCJhxGFo/mqdefault.jpg",
       "artistIds": [
         "outkast"
@@ -698,7 +690,7 @@
       "title": "The D'Angelo Song That's 100% REAL",
       "publishedAt": "2023-10-20T15:27:26Z",
       "durationSeconds": 998,
-      "viewCount": 165952,
+      "viewCount": 165953,
       "thumbnail": "https://i.ytimg.com/vi/UCALQl9UYYk/mqdefault.jpg",
       "artistIds": [
         "d-angelo"
@@ -721,7 +713,7 @@
       "title": "\"Stakes is High\" Changed Everything | De La Soul & J Dilla",
       "publishedAt": "2023-07-21T16:14:26Z",
       "durationSeconds": 1167,
-      "viewCount": 188626,
+      "viewCount": 188617,
       "thumbnail": "https://i.ytimg.com/vi/O68B6-LSo-M/mqdefault.jpg",
       "artistIds": [
         "j-dilla"
@@ -769,7 +761,7 @@
       "title": "D’Angelo, J Dilla & the “Lauryn” Track that Never Was",
       "publishedAt": "2022-11-26T16:37:40Z",
       "durationSeconds": 483,
-      "viewCount": 91570,
+      "viewCount": 91566,
       "thumbnail": "https://i.ytimg.com/vi/5kZMvKFTsAE/mqdefault.jpg",
       "artistIds": [
         "d-angelo",
@@ -816,7 +808,7 @@
       "title": "The Unexpected Complexity of D'Angelo",
       "publishedAt": "2022-07-12T12:00:42Z",
       "durationSeconds": 866,
-      "viewCount": 349124,
+      "viewCount": 349125,
       "thumbnail": "https://i.ytimg.com/vi/zUXBK1K9gGE/mqdefault.jpg",
       "artistIds": [
         "d-angelo"
@@ -851,6 +843,929 @@
         "soul",
         "rnb",
         "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "TgwVhzaTWGs",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper • Black Radio III Live @ The Vermont ft. BJ the Chicago Kidd, Vic Mensa, DSmoke, etc",
+      "publishedAt": "2023-03-18T22:00:06Z",
+      "durationSeconds": 1449,
+      "viewCount": 179140,
+      "thumbnail": "https://i.ytimg.com/vi/TgwVhzaTWGs/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "cuHiEF3mgB0",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 18",
+      "publishedAt": "2020-09-05T01:00:10Z",
+      "durationSeconds": 3994,
+      "viewCount": 35148,
+      "thumbnail": "https://i.ytimg.com/vi/cuHiEF3mgB0/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "uSAJLZN3BPI",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Week 17",
+      "publishedAt": "2020-08-29T01:00:10Z",
+      "durationSeconds": 3844,
+      "viewCount": 63327,
+      "thumbnail": "https://i.ytimg.com/vi/uSAJLZN3BPI/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "1uqjbvlx8OA",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 16",
+      "publishedAt": "2020-08-22T01:00:10Z",
+      "durationSeconds": 3623,
+      "viewCount": 32554,
+      "thumbnail": "https://i.ytimg.com/vi/1uqjbvlx8OA/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "VuRGr9HTfQI",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 15",
+      "publishedAt": "2020-08-15T01:00:10Z",
+      "durationSeconds": 3625,
+      "viewCount": 15642,
+      "thumbnail": "https://i.ytimg.com/vi/VuRGr9HTfQI/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "iu0zFNvnP18",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 14",
+      "publishedAt": "2020-08-08T01:00:10Z",
+      "durationSeconds": 3209,
+      "viewCount": 23798,
+      "thumbnail": "https://i.ytimg.com/vi/iu0zFNvnP18/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "uc9GE3Z9S14",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 13",
+      "publishedAt": "2020-08-01T01:00:10Z",
+      "durationSeconds": 4113,
+      "viewCount": 15574,
+      "thumbnail": "https://i.ytimg.com/vi/uc9GE3Z9S14/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ziuzjIcxg8Y",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 12",
+      "publishedAt": "2020-07-25T01:00:11Z",
+      "durationSeconds": 3429,
+      "viewCount": 25664,
+      "thumbnail": "https://i.ytimg.com/vi/ziuzjIcxg8Y/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "w_ropMVw6S8",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 11",
+      "publishedAt": "2020-07-18T01:00:09Z",
+      "durationSeconds": 3622,
+      "viewCount": 35126,
+      "thumbnail": "https://i.ytimg.com/vi/w_ropMVw6S8/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "n_s-Tp_psQw",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 10",
+      "publishedAt": "2020-07-11T01:00:12Z",
+      "durationSeconds": 3792,
+      "viewCount": 32547,
+      "thumbnail": "https://i.ytimg.com/vi/n_s-Tp_psQw/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "1oectDa_ShQ",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 9",
+      "publishedAt": "2020-07-04T01:00:10Z",
+      "durationSeconds": 3473,
+      "viewCount": 26035,
+      "thumbnail": "https://i.ytimg.com/vi/1oectDa_ShQ/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "uY9W2HHHWw0",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 8",
+      "publishedAt": "2020-06-27T01:00:09Z",
+      "durationSeconds": 3687,
+      "viewCount": 33169,
+      "thumbnail": "https://i.ytimg.com/vi/uY9W2HHHWw0/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "UOQiEjSUAEY",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 7 [Father's Day Mix]",
+      "publishedAt": "2020-06-21T01:00:12Z",
+      "durationSeconds": 3915,
+      "viewCount": 24016,
+      "thumbnail": "https://i.ytimg.com/vi/UOQiEjSUAEY/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "4lZNK6NADIA",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 6",
+      "publishedAt": "2020-06-14T02:00:09Z",
+      "durationSeconds": 4412,
+      "viewCount": 46315,
+      "thumbnail": "https://i.ytimg.com/vi/4lZNK6NADIA/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "0gU3Due9v4c",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 5 [Protest Mix]",
+      "publishedAt": "2020-06-06T02:00:10Z",
+      "durationSeconds": 3611,
+      "viewCount": 29652,
+      "thumbnail": "https://i.ytimg.com/vi/0gU3Due9v4c/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ClxNDLxirAs",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 4",
+      "publishedAt": "2020-05-30T01:00:11Z",
+      "durationSeconds": 3238,
+      "viewCount": 32020,
+      "thumbnail": "https://i.ytimg.com/vi/ClxNDLxirAs/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "dzDs3VdTY0A",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 3",
+      "publishedAt": "2020-05-23T01:00:10Z",
+      "durationSeconds": 2483,
+      "viewCount": 58188,
+      "thumbnail": "https://i.ytimg.com/vi/dzDs3VdTY0A/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Xo38MMpKXgY",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Episode 2",
+      "publishedAt": "2020-05-16T01:00:10Z",
+      "durationSeconds": 3154,
+      "viewCount": 34365,
+      "thumbnail": "https://i.ytimg.com/vi/Xo38MMpKXgY/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "u1qnv1_xrWc",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio Broadcast Episode 1",
+      "publishedAt": "2020-05-09T01:00:09Z",
+      "durationSeconds": 3042,
+      "viewCount": 87161,
+      "thumbnail": "https://i.ytimg.com/vi/u1qnv1_xrWc/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "andanPmWFzI",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper Experiment - Black Radio 2 (EPK)",
+      "publishedAt": "2013-10-17T07:00:02Z",
+      "durationSeconds": 230,
+      "viewCount": 38313,
+      "thumbnail": "https://i.ytimg.com/vi/andanPmWFzI/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "5xOeHioxYqM",
+      "channelKey": "black-radio-exchange",
+      "channelName": "Black Radio Exchange",
+      "title": "Robert Glasper - Black Radio EPK",
+      "publishedAt": "2012-02-07T00:00:00Z",
+      "durationSeconds": 387,
+      "viewCount": 63253,
+      "thumbnail": "https://i.ytimg.com/vi/5xOeHioxYqM/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul",
+        "jazz",
+        "rnb",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "r-uXZRz4EG0",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "George Clinton On Parliament Funkadelic, Influencing Rappers, Writing Music On Acid | People's Party",
+      "publishedAt": "2023-09-11T13:00:40Z",
+      "durationSeconds": 2458,
+      "viewCount": 36293,
+      "thumbnail": "https://i.ytimg.com/vi/r-uXZRz4EG0/mqdefault.jpg",
+      "artistIds": [
+        "parliament"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "CwNH1FmLQBM",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Robert Glasper On Spotify Money, Chris Brown \"Beef,\" And Working With Rappers | People's Party",
+      "publishedAt": "2023-09-04T13:17:18Z",
+      "durationSeconds": 2369,
+      "viewCount": 12639,
+      "thumbnail": "https://i.ytimg.com/vi/CwNH1FmLQBM/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "7XLvwKnYf20",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Robert Glasper Explains The FACTS Behind His Grammy \"Beef\" With Chris Brown | People's Party Clip",
+      "publishedAt": "2023-09-02T20:35:02Z",
+      "durationSeconds": 193,
+      "viewCount": 12532,
+      "thumbnail": "https://i.ytimg.com/vi/7XLvwKnYf20/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "S43cybVRC1k",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Chace Infinite Reveals How He Got Booted From The VIP By Both Prince & Leo DiCaprio | People's Party",
+      "publishedAt": "2023-01-21T20:00:07Z",
+      "durationSeconds": 161,
+      "viewCount": 4861,
+      "thumbnail": "https://i.ytimg.com/vi/S43cybVRC1k/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "qgJ3j84Gubc",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Ty Dolla $ign On Big TC, Mac Miller, 'Beach House,' J Dilla, YG | People's Party Full",
+      "publishedAt": "2022-11-21T14:00:28Z",
+      "durationSeconds": 2233,
+      "viewCount": 19012,
+      "thumbnail": "https://i.ytimg.com/vi/qgJ3j84Gubc/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "hMfmyj7Nquk",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Ali Shaheed Muhammad On ATCQ, Phife, De La Soul, 'Jazz Is Dead' | People's Party Full",
+      "publishedAt": "2022-07-25T13:00:32Z",
+      "durationSeconds": 6395,
+      "viewCount": 72168,
+      "thumbnail": "https://i.ytimg.com/vi/hMfmyj7Nquk/mqdefault.jpg",
+      "artistIds": [
+        "a-tribe-called-quest"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "wW_ZpGAcK74",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & The D.O.C. On Death Row, N.W.A., Erykah Badu, 2Pac, Dre, Snoop | People's Party Full",
+      "publishedAt": "2022-06-06T13:00:35Z",
+      "durationSeconds": 3787,
+      "viewCount": 118444,
+      "thumbnail": "https://i.ytimg.com/vi/wW_ZpGAcK74/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "nGcsIh8UIys",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Will.i.am Shares The Impact Of Native Tongues & ATCQ On The Black Eyed Peas | People's Party Clip",
+      "publishedAt": "2022-04-29T23:12:46Z",
+      "durationSeconds": 210,
+      "viewCount": 12067,
+      "thumbnail": "https://i.ytimg.com/vi/nGcsIh8UIys/mqdefault.jpg",
+      "artistIds": [
+        "a-tribe-called-quest"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Xhzs6AptNX8",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Masego On 'Tadow,' Drake, FKJ, Tyler The Creator, Dilla, 'Yamz' | People's Party Full",
+      "publishedAt": "2022-04-25T13:00:13Z",
+      "durationSeconds": 3705,
+      "viewCount": 57276,
+      "thumbnail": "https://i.ytimg.com/vi/Xhzs6AptNX8/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "R-Z0N6ktMLs",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Goapele On 'Closer,' Hieroglyphics, Zion I, Prince, E-40, Snoop | People's Party Full",
+      "publishedAt": "2021-12-27T14:00:10Z",
+      "durationSeconds": 4401,
+      "viewCount": 45056,
+      "thumbnail": "https://i.ytimg.com/vi/R-Z0N6ktMLs/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "t4-M--lxYyM",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Isaiah Rashad Talks Outkast Influence And Playing With Pauses | People's Party Clip",
+      "publishedAt": "2021-08-15T16:00:33Z",
+      "durationSeconds": 312,
+      "viewCount": 7759,
+      "thumbnail": "https://i.ytimg.com/vi/t4-M--lxYyM/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "lIagH7IAjcU",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Terrace Martin Talk Jazz, ATCQ, Snoop, NWA, Kendrick, Gang Life | People's Party Full",
+      "publishedAt": "2021-08-09T13:00:31Z",
+      "durationSeconds": 8255,
+      "viewCount": 82156,
+      "thumbnail": "https://i.ytimg.com/vi/lIagH7IAjcU/mqdefault.jpg",
+      "artistIds": [
+        "a-tribe-called-quest"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "JOjJrmvlnvg",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Terrace Martin Gives A Masterclass On How A Tribe Called Quest Combined Jazz & Rap | People's Party",
+      "publishedAt": "2021-08-08T16:00:17Z",
+      "durationSeconds": 274,
+      "viewCount": 7147,
+      "thumbnail": "https://i.ytimg.com/vi/JOjJrmvlnvg/mqdefault.jpg",
+      "artistIds": [
+        "a-tribe-called-quest"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "rDk36AVhUAE",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Skyzoo Talk Biggie, 9th Wonder, Ghostwriting, & Culture Vultures | People's Party Full",
+      "publishedAt": "2021-08-02T13:00:34Z",
+      "durationSeconds": 4689,
+      "viewCount": 49987,
+      "thumbnail": "https://i.ytimg.com/vi/rDk36AVhUAE/mqdefault.jpg",
+      "artistIds": [
+        "9th-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "rr4IMZbfqg0",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Pete Rock Talk C.L. Smooth, 'Illmatic,' J Dilla, Heavy D, Biggie | People's Party Full",
+      "publishedAt": "2021-06-07T13:00:24Z",
+      "durationSeconds": 4941,
+      "viewCount": 130827,
+      "thumbnail": "https://i.ytimg.com/vi/rr4IMZbfqg0/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "lTg0QC7UW4A",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Madlib Talk 'Black Star II,' Gibbs, Dilla, Doom, & Fav Producers | People's Party Full",
+      "publishedAt": "2021-05-10T13:00:14Z",
+      "durationSeconds": 3192,
+      "viewCount": 148300,
+      "thumbnail": "https://i.ytimg.com/vi/lTg0QC7UW4A/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "eEm_MYn_H98",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Madlib Opens Up About His Mystical Connection With MF Doom & J Dilla | People's Party Clip",
+      "publishedAt": "2021-05-06T19:14:34Z",
+      "durationSeconds": 285,
+      "viewCount": 117145,
+      "thumbnail": "https://i.ytimg.com/vi/eEm_MYn_H98/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "OlkAihLVqls",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Hi-Tek Talk 'Reflection Eternal,' Black Star, J Dilla, & Snoop | People's Party Full",
+      "publishedAt": "2021-04-26T13:00:10Z",
+      "durationSeconds": 4963,
+      "viewCount": 48644,
+      "thumbnail": "https://i.ytimg.com/vi/OlkAihLVqls/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "-TlnRy-xTUE",
+      "channelKey": "talib-kweli",
+      "channelName": "Talib Kweli — People's Party",
+      "title": "Talib Kweli & Gangsta Boo Talk Three 6 Mafia, Outkast, RTJ, 'Hustle & Flow' | People's Party Full",
+      "publishedAt": "2021-03-01T14:00:01Z",
+      "durationSeconds": 3336,
+      "viewCount": 30762,
+      "thumbnail": "https://i.ytimg.com/vi/-TlnRy-xTUE/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
       ],
       "matchedOn": "title",
       "confidence": "strong"
@@ -953,7 +1868,7 @@
       "title": "Turning Down Pink and Aretha Franklin: Why Jimmy Jam & Terry Lewis Say “No” To Big Projects",
       "publishedAt": "2026-04-10T15:00:00Z",
       "durationSeconds": 441,
-      "viewCount": 9919,
+      "viewCount": 9920,
       "thumbnail": "https://i.ytimg.com/vi/y49Qpp4aQs4/mqdefault.jpg",
       "artistIds": [
         "aretha-franklin"
@@ -1056,6 +1971,528 @@
         "hip-hop",
         "funk",
         "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "OYa-NQqT-ys",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast 2025 Rock n' Roll Hall of Famers!",
+      "publishedAt": "2025-04-28T01:01:24Z",
+      "durationSeconds": 118,
+      "viewCount": 4045,
+      "thumbnail": "https://i.ytimg.com/vi/OYa-NQqT-ys/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "9E_lHPyukrg",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast  \"Bombs Over Baghdad\" 2000 LIVE",
+      "publishedAt": "2023-06-11T00:24:44Z",
+      "durationSeconds": 256,
+      "viewCount": 41444,
+      "thumbnail": "https://i.ytimg.com/vi/9E_lHPyukrg/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "yYlDFDiU-CU",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Braves x Outkast - Scenes from the first ever #OutkastNight",
+      "publishedAt": "2023-06-02T03:27:33Z",
+      "durationSeconds": 124,
+      "viewCount": 2088,
+      "thumbnail": "https://i.ytimg.com/vi/yYlDFDiU-CU/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "RFWmTVd2nj0",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Sickick - Mood x Ms  Jackson 24kGoldn x Outkast Remix",
+      "publishedAt": "2021-05-06T17:41:28Z",
+      "durationSeconds": 119,
+      "viewCount": 219862,
+      "thumbnail": "https://i.ytimg.com/vi/RFWmTVd2nj0/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "3IqoxuORyIk",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "King of Pop Playlist (Michael Jackson Channel - SiriusXM Radio)",
+      "publishedAt": "2020-08-04T05:36:03Z",
+      "durationSeconds": 520,
+      "viewCount": 4443,
+      "thumbnail": "https://i.ytimg.com/vi/3IqoxuORyIk/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "1JGRtv2Wl0A",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "True story! OutKast West Palm Beach ... 💯 @pitchfork Blue Williams @thecheckfinder 🎯",
+      "publishedAt": "2020-07-06T00:15:41Z",
+      "durationSeconds": 151,
+      "viewCount": 45675,
+      "thumbnail": "https://i.ytimg.com/vi/1JGRtv2Wl0A/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "HIVtdWt7PXI",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "OutKast performing live at the Apollo 1996",
+      "publishedAt": "2018-12-06T21:46:56Z",
+      "durationSeconds": 211,
+      "viewCount": 47327,
+      "thumbnail": "https://i.ytimg.com/vi/HIVtdWt7PXI/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [
+        "live-at-the-apollo"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "7sGZPjyDFHg",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast: Rare Footage from the Dungeon 1995",
+      "publishedAt": "2018-12-06T18:10:29Z",
+      "durationSeconds": 124,
+      "viewCount": 4658,
+      "thumbnail": "https://i.ytimg.com/vi/7sGZPjyDFHg/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "fpUxgpNNDt4",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Georgia Tech Students Meet Big Boi from Outkast",
+      "publishedAt": "2018-12-05T23:48:51Z",
+      "durationSeconds": 164,
+      "viewCount": 703,
+      "thumbnail": "https://i.ytimg.com/vi/fpUxgpNNDt4/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "QLvB07dIB3Q",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast 2004 NBA All-Star Performance",
+      "publishedAt": "2018-12-05T23:26:51Z",
+      "durationSeconds": 901,
+      "viewCount": 3755,
+      "thumbnail": "https://i.ytimg.com/vi/QLvB07dIB3Q/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "4Qv_A-pv37U",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast Rare Interview (1998)",
+      "publishedAt": "2018-12-05T23:14:42Z",
+      "durationSeconds": 620,
+      "viewCount": 78177,
+      "thumbnail": "https://i.ytimg.com/vi/4Qv_A-pv37U/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "PFA3RRKpoe8",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast performance at the American Music Awards",
+      "publishedAt": "2018-12-05T22:57:11Z",
+      "durationSeconds": 474,
+      "viewCount": 65290,
+      "thumbnail": "https://i.ytimg.com/vi/PFA3RRKpoe8/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "00beUbaYe68",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Outkast performing Rosa Parks (Chris Rock Show - Early 2000's)",
+      "publishedAt": "2018-12-05T22:51:43Z",
+      "durationSeconds": 255,
+      "viewCount": 38543,
+      "thumbnail": "https://i.ytimg.com/vi/00beUbaYe68/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "4CbKCKhqH0A",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "MADtv - Outkast \"I'm Sorry Mrs. Jackson\"",
+      "publishedAt": "2018-12-05T22:47:53Z",
+      "durationSeconds": 156,
+      "viewCount": 70342,
+      "thumbnail": "https://i.ytimg.com/vi/4CbKCKhqH0A/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "LeRSMmwN1sY",
+      "channelKey": "big-boi",
+      "channelName": "Big Boi",
+      "title": "Big Boi of OutKast rehearsing and performing at age 17 (1993)",
+      "publishedAt": "2014-04-10T22:38:46Z",
+      "durationSeconds": 370,
+      "viewCount": 47690,
+      "thumbnail": "https://i.ytimg.com/vi/LeRSMmwN1sY/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "5RHFP6lAAo4",
+      "channelKey": "nardwuar",
+      "channelName": "Nardwuar",
+      "title": "Nardwuar vs. James Brown",
+      "publishedAt": "2016-08-09T13:33:35Z",
+      "durationSeconds": 979,
+      "viewCount": 594673,
+      "thumbnail": "https://i.ytimg.com/vi/5RHFP6lAAo4/mqdefault.jpg",
+      "artistIds": [
+        "james-brown"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "W-XUTzpv7jk",
+      "channelKey": "drink-champs",
+      "channelName": "Drink Champs",
+      "title": "“I ain’t gonna walk it back.” DJ Quik doubles down on his “Michael Jackson was a Crip”",
+      "publishedAt": "2026-09-11T19:38:55Z",
+      "durationSeconds": 378,
+      "viewCount": 53567,
+      "thumbnail": "https://i.ytimg.com/vi/W-XUTzpv7jk/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "hn8J3kJj1-s",
+      "channelKey": "drink-champs",
+      "channelName": "Drink Champs",
+      "title": "Low End Legends: A Tribe Called Quest on Drink Champs | Full Episode",
+      "publishedAt": "2025-12-10T17:00:06Z",
+      "durationSeconds": 4028,
+      "viewCount": 18295,
+      "thumbnail": "https://i.ytimg.com/vi/hn8J3kJj1-s/mqdefault.jpg",
+      "artistIds": [
+        "a-tribe-called-quest"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "IxJ2wXW0eLk",
+      "channelKey": "drink-champs",
+      "channelName": "Drink Champs",
+      "title": "😂 Deon Cole talks losing his chick to Stevie Wonder ✊| DRINK CHAMPS",
+      "publishedAt": "2025-11-03T03:10:57Z",
+      "durationSeconds": 103,
+      "viewCount": 24660,
+      "thumbnail": "https://i.ytimg.com/vi/IxJ2wXW0eLk/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "b0dTVbspYso",
+      "channelKey": "drink-champs",
+      "channelName": "Drink Champs",
+      "title": "Neo-Soul & Hip Hop Alchemy: Erykah Badu x The Alchemist on Drink Champs | Full Episode",
+      "publishedAt": "2025-09-15T19:00:07Z",
+      "durationSeconds": 9361,
+      "viewCount": 58420,
+      "thumbnail": "https://i.ytimg.com/vi/b0dTVbspYso/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "MNsQgEsMb3k",
+      "channelKey": "drink-champs",
+      "channelName": "Drink Champs",
+      "title": "Alchemist & Erykah Badu talk chemistry & collaboration | DRINK CHAMPS",
+      "publishedAt": "2025-08-29T17:08:51Z",
+      "durationSeconds": 109,
+      "viewCount": 22534,
+      "thumbnail": "https://i.ytimg.com/vi/MNsQgEsMb3k/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "gkUvItl9ABc",
+      "channelKey": "tidal-rap-radar",
+      "channelName": "TIDAL (Rap Radar)",
+      "title": "Chuck D. of Public Enemy Talks How 'Fight The Power' Speaks To This Moment, New Album, & More",
+      "publishedAt": "2020-10-05T18:00:06Z",
+      "durationSeconds": 2330,
+      "viewCount": 2962,
+      "thumbnail": "https://i.ytimg.com/vi/gkUvItl9ABc/mqdefault.jpg",
+      "artistIds": [
+        "public-enemy"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "1fxaqj5sjy4",
+      "channelKey": "tidal-rap-radar",
+      "channelName": "TIDAL (Rap Radar)",
+      "title": "Rap Radar: J Prince",
+      "publishedAt": "2018-07-16T15:54:00Z",
+      "durationSeconds": 3988,
+      "viewCount": 165975,
+      "thumbnail": "https://i.ytimg.com/vi/1fxaqj5sjy4/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "fitDTwVAkq8",
+      "channelKey": "tidal-rap-radar",
+      "channelName": "TIDAL (Rap Radar)",
+      "title": "Rap Radar: Young Guru and 9th Wonder",
+      "publishedAt": "2017-12-01T01:22:54Z",
+      "durationSeconds": 4716,
+      "viewCount": 76005,
+      "thumbnail": "https://i.ytimg.com/vi/fitDTwVAkq8/mqdefault.jpg",
+      "artistIds": [
+        "9th-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "juWNR3KC-9g",
+      "channelKey": "no-jumper",
+      "channelName": "No Jumper",
+      "title": "Charleston White on J Prince Jr Not Being Indicted in Ben10 Shooting",
+      "publishedAt": "2026-10-15T16:45:03Z",
+      "durationSeconds": 524,
+      "viewCount": 144834,
+      "thumbnail": "https://i.ytimg.com/vi/juWNR3KC-9g/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "rnb",
+        "soul"
       ],
       "matchedOn": "title",
       "confidence": "strong"
@@ -1296,7 +2733,7 @@
       "title": "El Guincho talks Sampling, Positive music and J Dilla | Red Bull Music Academy",
       "publishedAt": "2018-03-23T03:05:47Z",
       "durationSeconds": 3355,
-      "viewCount": 7328,
+      "viewCount": 7329,
       "thumbnail": "https://i.ytimg.com/vi/BCBNMXxhNmk/mqdefault.jpg",
       "artistIds": [
         "j-dilla"
@@ -1543,6 +2980,504 @@
       "confidence": "strong"
     },
     {
+      "videoId": "0NseBr7-W5s",
+      "channelKey": "pensados-place",
+      "channelName": "Pensado's Place",
+      "title": "Grammy Award Winning Mix Engineer, Neal H. Pogue (Outkast, Tyler The Creator) - Pensado's Place #545",
+      "publishedAt": "2022-06-27T22:45:09Z",
+      "durationSeconds": 1936,
+      "viewCount": 9147,
+      "thumbnail": "https://i.ytimg.com/vi/0NseBr7-W5s/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "JvCukq3GmOo",
+      "channelKey": "pensados-place",
+      "channelName": "Pensado's Place",
+      "title": "Producer / Mix Engineer, Neal Pogue (Outkast, TLC, Earth Wind & Fire) - Pensado's Place #409",
+      "publishedAt": "2019-03-29T17:42:36Z",
+      "durationSeconds": 2599,
+      "viewCount": 22893,
+      "thumbnail": "https://i.ytimg.com/vi/JvCukq3GmOo/mqdefault.jpg",
+      "artistIds": [
+        "outkast"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Zsij0ZJZnYo",
+      "channelKey": "tetragrammaton",
+      "channelName": "Tetragrammaton",
+      "title": "Adam D’Angelo",
+      "publishedAt": "2025-04-30T23:01:18Z",
+      "durationSeconds": 7554,
+      "viewCount": 4434,
+      "thumbnail": "https://i.ytimg.com/vi/Zsij0ZJZnYo/mqdefault.jpg",
+      "artistIds": [
+        "d-angelo"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ERmoRc40x9M",
+      "channelKey": "tetragrammaton",
+      "channelName": "Tetragrammaton",
+      "title": "Richard Prince",
+      "publishedAt": "2025-02-19T17:02:27Z",
+      "durationSeconds": 8361,
+      "viewCount": 9984,
+      "thumbnail": "https://i.ytimg.com/vi/ERmoRc40x9M/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "2ZxyXPMgBso",
+      "channelKey": "broken-record",
+      "channelName": "Broken Record",
+      "title": "Easy Mo Bee on Sampling, \"Iconic Beats\", & Working with Tupac, The Notorious B.I.G. & Miles Davis",
+      "publishedAt": "2026-11-10T14:00:20Z",
+      "durationSeconds": 4595,
+      "viewCount": 28459,
+      "thumbnail": "https://i.ytimg.com/vi/2ZxyXPMgBso/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "nzvVkgZB4YM",
+      "channelKey": "broken-record",
+      "channelName": "Broken Record",
+      "title": "Tommy Emmanuel on His Unique Fingerstyle Technique and Opening for Stevie Wonder | Broken Record",
+      "publishedAt": "2026-03-10T13:16:26Z",
+      "durationSeconds": 4438,
+      "viewCount": 21717,
+      "thumbnail": "https://i.ytimg.com/vi/nzvVkgZB4YM/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "BvS_3Vw3iGk",
+      "channelKey": "broken-record",
+      "channelName": "Broken Record",
+      "title": "Bilal on watching J Dilla build a beat from nothing | Broken Record #podcast",
+      "publishedAt": "2025-07-17T21:12:41Z",
+      "durationSeconds": 137,
+      "viewCount": 150867,
+      "thumbnail": "https://i.ytimg.com/vi/BvS_3Vw3iGk/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ZSKW5wBOpdI",
+      "channelKey": "broken-record",
+      "channelName": "Broken Record",
+      "title": "R&B writer/producer Raphael Saadiq breaks down his collaboration with D’Angelo on “Lady”",
+      "publishedAt": "2024-09-26T15:41:41Z",
+      "durationSeconds": 268,
+      "viewCount": 30430,
+      "thumbnail": "https://i.ytimg.com/vi/ZSKW5wBOpdI/mqdefault.jpg",
+      "artistIds": [
+        "d-angelo"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "BggSrAfhHmI",
+      "channelKey": "broken-record",
+      "channelName": "Broken Record",
+      "title": "J Dilla: Dan Charnas on the Life and Legacy of Jay Dee | Broken Record (Hosted by Rick Rubin)",
+      "publishedAt": "2022-06-14T15:59:59Z",
+      "durationSeconds": 3983,
+      "viewCount": 25658,
+      "thumbnail": "https://i.ytimg.com/vi/BggSrAfhHmI/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "VR2R27_ZuBc",
+      "channelKey": "tiny-desk",
+      "channelName": "NPR Tiny Desk",
+      "title": "Erykah Badu & The Alchemist's 'Before the World Blows' + Saul Williams' 'Leap Life,' are dead fresh.",
+      "publishedAt": "2026-09-16T17:00:48Z",
+      "durationSeconds": 102,
+      "viewCount": 9025,
+      "thumbnail": "https://i.ytimg.com/vi/VR2R27_ZuBc/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "X1bx9_TL20A",
+      "channelKey": "tiny-desk",
+      "channelName": "NPR Tiny Desk",
+      "title": "The Cast of Buena Vista Social Club: Tiny Desk Concert",
+      "publishedAt": "2025-05-27T09:00:47Z",
+      "durationSeconds": 1219,
+      "viewCount": 4848304,
+      "thumbnail": "https://i.ytimg.com/vi/X1bx9_TL20A/mqdefault.jpg",
+      "artistIds": [
+        "buena-vista-social-club"
+      ],
+      "albumIds": [
+        "buena-vista-social-club"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "latin"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "tpzLD-SAwW8",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "Did Ed Sheeran ACTUALLY Plagiarize Marvin Gaye?",
+      "publishedAt": "2023-04-28T14:48:14Z",
+      "durationSeconds": 514,
+      "viewCount": 819573,
+      "thumbnail": "https://i.ytimg.com/vi/tpzLD-SAwW8/mqdefault.jpg",
+      "artistIds": [
+        "marvin-gaye"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Sapc6BSxlRI",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "The ****ed up legacy of the arrest of Miles Davis",
+      "publishedAt": "2020-06-04T16:13:47Z",
+      "durationSeconds": 447,
+      "viewCount": 456910,
+      "thumbnail": "https://i.ytimg.com/vi/Sapc6BSxlRI/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "vgRxCOr6MUI",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "The Lost Album of John Coltrane",
+      "publishedAt": "2018-06-29T14:00:07Z",
+      "durationSeconds": 648,
+      "viewCount": 210002,
+      "thumbnail": "https://i.ytimg.com/vi/vgRxCOr6MUI/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "J98jwtm5U4E",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "The Coltrane Fractal",
+      "publishedAt": "2017-07-03T14:02:22Z",
+      "durationSeconds": 552,
+      "viewCount": 1207276,
+      "thumbnail": "https://i.ytimg.com/vi/J98jwtm5U4E/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "v521bcTmy3c",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "Q+A #26 - What is good music? Knower/John Coltrane",
+      "publishedAt": "2017-02-20T03:17:09Z",
+      "durationSeconds": 1072,
+      "viewCount": 187788,
+      "thumbnail": "https://i.ytimg.com/vi/v521bcTmy3c/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "3nFZvWO7QIc",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "Q+A #14 - Glenn Fricker fanboys, D'Angelo grooves, and Bandcamp",
+      "publishedAt": "2016-08-01T20:30:00Z",
+      "durationSeconds": 863,
+      "viewCount": 60942,
+      "thumbnail": "https://i.ytimg.com/vi/3nFZvWO7QIc/mqdefault.jpg",
+      "artistIds": [
+        "d-angelo"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "WaGbVW_K1Gk",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "Knower - PYT (Michael Jackson) Adam Neely Bass Cover",
+      "publishedAt": "2013-04-29T00:53:06Z",
+      "durationSeconds": 156,
+      "viewCount": 56024,
+      "thumbnail": "https://i.ytimg.com/vi/WaGbVW_K1Gk/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "3el3Wj_LGUE",
+      "channelKey": "adam-neely",
+      "channelName": "Adam Neely",
+      "title": "Billie Jean (Michael Jackson) - bass guitar/beatbox",
+      "publishedAt": "2013-03-28T22:32:16Z",
+      "durationSeconds": 103,
+      "viewCount": 16949,
+      "thumbnail": "https://i.ytimg.com/vi/3el3Wj_LGUE/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Oi07kBeRZkE",
+      "channelKey": "david-bennett",
+      "channelName": "David Bennett Piano",
+      "title": "How Stevie Wonder uses Jazz Harmony",
+      "publishedAt": "2026-09-28T13:57:05Z",
+      "durationSeconds": 513,
+      "viewCount": 62325,
+      "thumbnail": "https://i.ytimg.com/vi/Oi07kBeRZkE/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "FcU0Rc5iXFg",
+      "channelKey": "david-bennett",
+      "channelName": "David Bennett Piano",
+      "title": "Ed Sheeran didn't copy Marvin Gaye... he copied a different soul song",
+      "publishedAt": "2023-04-30T15:55:48Z",
+      "durationSeconds": 498,
+      "viewCount": 155333,
+      "thumbnail": "https://i.ytimg.com/vi/FcU0Rc5iXFg/mqdefault.jpg",
+      "artistIds": [
+        "marvin-gaye"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "H7oJ7s1sLQ8",
+      "channelKey": "polyphonic",
+      "channelName": "Polyphonic",
+      "title": "How Do You Tell the Story of Fela Kuti? (feat. Jad Abumrad)",
+      "publishedAt": "2025-11-29T22:30:01Z",
+      "durationSeconds": 2008,
+      "viewCount": 34518,
+      "thumbnail": "https://i.ytimg.com/vi/H7oJ7s1sLQ8/mqdefault.jpg",
+      "artistIds": [
+        "fela-kuti"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "afrobeat"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Bg1RGmyl-_A",
+      "channelKey": "polyphonic",
+      "channelName": "Polyphonic",
+      "title": "How Coltrane Broke \"My Favorite Things\" (feat. Adam Neely)",
+      "publishedAt": "2020-12-03T20:25:13Z",
+      "durationSeconds": 843,
+      "viewCount": 458505,
+      "thumbnail": "https://i.ytimg.com/vi/Bg1RGmyl-_A/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [
+        "my-favorite-things"
+      ],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "nfroW6KaXXc",
+      "channelKey": "polyphonic",
+      "channelName": "Polyphonic",
+      "title": "Kind of Blue: How Miles Davis Changed Jazz",
+      "publishedAt": "2018-04-19T19:47:49Z",
+      "durationSeconds": 641,
+      "viewCount": 1044764,
+      "thumbnail": "https://i.ytimg.com/vi/nfroW6KaXXc/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [
+        "kind-of-blue"
+      ],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "21bfc1Ret58",
       "channelKey": "soul-train",
       "channelName": "Soul Train",
@@ -1595,7 +3530,7 @@
       "title": "Ladies Love Soul: Marvin Gaye, Al Green & Barry White's Impact on R&B Music  | Soul Train Awards '21",
       "publishedAt": "2021-11-11T20:15:58Z",
       "durationSeconds": 229,
-      "viewCount": 9270,
+      "viewCount": 9274,
       "thumbnail": "https://i.ytimg.com/vi/h35Sy3r1oko/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -1617,7 +3552,7 @@
       "title": "All Day Long! 2018 BET Soul Train Awards Performances Ft Faith Evans, Erykah Badu, Jon B & More",
       "publishedAt": "2021-11-06T06:40:15Z",
       "durationSeconds": 42850,
-      "viewCount": 323120,
+      "viewCount": 323130,
       "thumbnail": "https://i.ytimg.com/vi/1pi44JKSfrQ/mqdefault.jpg",
       "artistIds": [
         "erykah-badu"
@@ -1685,7 +3620,7 @@
       "title": "Soul Train Dancer Crystal McCarey Recalls Marvin Gaye Asking Her To Dance During His Performance!",
       "publishedAt": "2020-11-19T17:00:01Z",
       "durationSeconds": 699,
-      "viewCount": 1690632,
+      "viewCount": 1690630,
       "thumbnail": "https://i.ytimg.com/vi/2aIj0IHqYAw/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -1866,7 +3801,7 @@
       "title": "One Of The Sexiest Songs Ever: Marvin Gaye - \"Let's Get It On\"",
       "publishedAt": "2019-04-16T22:00:00Z",
       "durationSeconds": 207,
-      "viewCount": 7839088,
+      "viewCount": 7839127,
       "thumbnail": "https://i.ytimg.com/vi/9KmR774hV5o/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -2039,6 +3974,222 @@
       "confidence": "strong"
     },
     {
+      "videoId": "XqlAqXm0l3k",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Curtis Mayfield • Superfly • 1972 [Reelin' In The Years Archive]",
+      "publishedAt": "2026-11-17T20:00:06Z",
+      "durationSeconds": 241,
+      "viewCount": 5903,
+      "thumbnail": "https://i.ytimg.com/vi/XqlAqXm0l3k/mqdefault.jpg",
+      "artistIds": [
+        "curtis-mayfield"
+      ],
+      "albumIds": [
+        "curtis"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "zKC9Wddcjm8",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Stevie Wonder • Interview • 1985 [Reelin' In The Years Archive]",
+      "publishedAt": "2026-10-31T19:00:07Z",
+      "durationSeconds": 222,
+      "viewCount": 4621,
+      "thumbnail": "https://i.ytimg.com/vi/zKC9Wddcjm8/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "YRCqi7IsNOg",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Fela Kuti • I.T.T. (International Thief Thief) • 1981 [Reelin' In The Years Archive]",
+      "publishedAt": "2026-08-26T19:00:16Z",
+      "durationSeconds": 705,
+      "viewCount": 6132,
+      "thumbnail": "https://i.ytimg.com/vi/YRCqi7IsNOg/mqdefault.jpg",
+      "artistIds": [
+        "fela-kuti"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk",
+        "afrobeat"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "TG9RbSoAokc",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "James Brown • It's A Man's Man's Man's World • 1968 [Reelin' In The Years Archive]",
+      "publishedAt": "2026-07-22T19:00:19Z",
+      "durationSeconds": 682,
+      "viewCount": 3412,
+      "thumbnail": "https://i.ytimg.com/vi/TG9RbSoAokc/mqdefault.jpg",
+      "artistIds": [
+        "james-brown"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "59b-fSFyXW4",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Erykah Badu • Liberation • 2000 [Reelin' In The Years Archive]",
+      "publishedAt": "2026-04-15T19:00:04Z",
+      "durationSeconds": 598,
+      "viewCount": 2077,
+      "thumbnail": "https://i.ytimg.com/vi/59b-fSFyXW4/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "F2wa6m1Om5U",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Stevie Wonder • Lately • 1980 (Reelin’ In The Years Archive)",
+      "publishedAt": "2026-03-07T20:00:11Z",
+      "durationSeconds": 267,
+      "viewCount": 7068,
+      "thumbnail": "https://i.ytimg.com/vi/F2wa6m1Om5U/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "S9ph98y75CM",
+      "channelKey": "reelin-in-the-years",
+      "channelName": "Reelin' In The Years",
+      "title": "Stevie Wonder • Master Blaster (Jammin') • 1980",
+      "publishedAt": "2026-01-07T20:00:33Z",
+      "durationSeconds": 325,
+      "viewCount": 22864,
+      "thumbnail": "https://i.ytimg.com/vi/S9ph98y75CM/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "1UKdMn4UmEo",
+      "channelKey": "rock-hall",
+      "channelName": "Rock & Roll Hall of Fame",
+      "title": "Sheila E. on how Marvin Gaye didn't miss a beat | New 'Music Makes Us' out tomorrow",
+      "publishedAt": "2026-10-19T14:00:18Z",
+      "durationSeconds": 96,
+      "viewCount": 93197,
+      "thumbnail": "https://i.ytimg.com/vi/1UKdMn4UmEo/mqdefault.jpg",
+      "artistIds": [
+        "marvin-gaye"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "vCYzDL0KG2w",
+      "channelKey": "rock-hall",
+      "channelName": "Rock & Roll Hall of Fame",
+      "title": "Beatles Songs at Rock Hall: Prince, Paul McCartney, Foo Fighters & More",
+      "publishedAt": "2026-09-05T14:00:06Z",
+      "durationSeconds": 2006,
+      "viewCount": 658137,
+      "thumbnail": "https://i.ytimg.com/vi/vCYzDL0KG2w/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "klbGYtpmOqY",
+      "channelKey": "rock-hall",
+      "channelName": "Rock & Roll Hall of Fame",
+      "title": "Rock Hall Tributes: Prince, Alicia Keys, Stevie Wonder & More",
+      "publishedAt": "2026-08-19T14:00:03Z",
+      "durationSeconds": 173,
+      "viewCount": 7512,
+      "thumbnail": "https://i.ytimg.com/vi/klbGYtpmOqY/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder",
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "soul",
+        "funk",
+        "rnb"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "T_11YDQxRlA",
       "channelKey": "jazz-on-the-tube",
       "channelName": "Jazz on the Tube",
@@ -2108,7 +4259,7 @@
       "title": "Christmas Music: O Tannenbaum - ARETHA FRANKLIN from BIG BAND HOLIDAYS II",
       "publishedAt": "2019-11-27T15:22:25Z",
       "durationSeconds": 159,
-      "viewCount": 94819,
+      "viewCount": 94818,
       "thumbnail": "https://i.ytimg.com/vi/jPxnqlF064Y/mqdefault.jpg",
       "artistIds": [
         "aretha-franklin"
@@ -2184,6 +4335,129 @@
       "confidence": "strong"
     },
     {
+      "videoId": "wv3EbfQtj2w",
+      "channelKey": "jazz-night",
+      "channelName": "Jazz Night in America",
+      "title": "Marcus Miller: Electric Miles Davis | JAZZ NIGHT IN AMERICA",
+      "publishedAt": "2021-04-22T20:00:15Z",
+      "durationSeconds": 3555,
+      "viewCount": 114891,
+      "thumbnail": "https://i.ytimg.com/vi/wv3EbfQtj2w/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "MAgJ-igwuSQ",
+      "channelKey": "jazz-night",
+      "channelName": "Jazz Night in America",
+      "title": "Saint Coltrane: The Church Built On 'A Love Supreme' | JAZZ NIGHT IN AMERICA",
+      "publishedAt": "2021-02-02T20:30:11Z",
+      "durationSeconds": 1243,
+      "viewCount": 202095,
+      "thumbnail": "https://i.ytimg.com/vi/MAgJ-igwuSQ/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Caxwob1iKX4",
+      "channelKey": "jazz-night",
+      "channelName": "Jazz Night in America",
+      "title": "Robert Glasper: “Jazz is the mother of hip-hop” | JAZZ NIGHT IN AMERICA",
+      "publishedAt": "2017-04-19T13:47:24Z",
+      "durationSeconds": 188,
+      "viewCount": 1758797,
+      "thumbnail": "https://i.ytimg.com/vi/Caxwob1iKX4/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz",
+        "neo-soul",
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "2abyocolQSw",
+      "channelKey": "jazz-night",
+      "channelName": "Jazz Night in America",
+      "title": "Herbie Hancock: Live from The BRIC Celebrate Brooklyn! Festival",
+      "publishedAt": "2016-10-21T13:14:25Z",
+      "durationSeconds": 2206,
+      "viewCount": 215661,
+      "thumbnail": "https://i.ytimg.com/vi/2abyocolQSw/mqdefault.jpg",
+      "artistIds": [
+        "herbie-hancock"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "JqhH-OUXyrY",
+      "channelKey": "jazz-night",
+      "channelName": "Jazz Night in America",
+      "title": "Jason Moran Plays Thelonious Monk",
+      "publishedAt": "2015-10-08T16:12:48Z",
+      "durationSeconds": 2067,
+      "viewCount": 91336,
+      "thumbnail": "https://i.ytimg.com/vi/JqhH-OUXyrY/mqdefault.jpg",
+      "artistIds": [
+        "thelonious-monk"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "DSmU7r9sfbo",
+      "channelKey": "aimee-nolte",
+      "channelName": "Aimee Nolte",
+      "title": "10 Things That Made Miles Davis, Miles Davis",
+      "publishedAt": "2021-03-08T22:29:13Z",
+      "durationSeconds": 374,
+      "viewCount": 18835,
+      "thumbnail": "https://i.ytimg.com/vi/DSmU7r9sfbo/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "hau9eTCneAQ",
       "channelKey": "trevon-dawson",
       "channelName": "Trévon Dawson",
@@ -2247,6 +4521,29 @@
       "confidence": "strong"
     },
     {
+      "videoId": "DQJm7HR5DaA",
+      "channelKey": "gospel-music-assoc",
+      "channelName": "Gospel Music Association",
+      "title": "Hillsong United: \"Prince of Peace\" (47th Dove Awards)",
+      "publishedAt": "2021-04-22T20:53:33Z",
+      "durationSeconds": 257,
+      "viewCount": 34622,
+      "thumbnail": "https://i.ytimg.com/vi/DQJm7HR5DaA/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "gospel",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "1uGk-Lt_qt4",
       "channelKey": "afropop-worldwide",
       "channelName": "Afropop Worldwide",
@@ -2282,6 +4579,160 @@
       "lean": "mixed",
       "lanes": [
         "afrobeat"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "0IAtzqN6ubg",
+      "channelKey": "okayafrica",
+      "channelName": "OkayAfrica",
+      "title": "KABAKA PYRAMID Gives Praise to Fela Kuti, Shares His Unique Zodiac Chart, & More | OkayAfrica",
+      "publishedAt": "2026-11-06T18:31:43Z",
+      "durationSeconds": 2564,
+      "viewCount": 1003,
+      "thumbnail": "https://i.ytimg.com/vi/0IAtzqN6ubg/mqdefault.jpg",
+      "artistIds": [
+        "fela-kuti"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "afrobeat"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ryTTHmUYc2o",
+      "channelKey": "pbs-sound-field",
+      "channelName": "PBS Sound Field",
+      "title": "The Genius of Fela Kuti and Afrobeat (feat. Femi & Made Kuti)",
+      "publishedAt": "2021-02-24T17:25:51Z",
+      "durationSeconds": 996,
+      "viewCount": 419332,
+      "thumbnail": "https://i.ytimg.com/vi/ryTTHmUYc2o/mqdefault.jpg",
+      "artistIds": [
+        "fela-kuti"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "afrobeat"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "LBKeDBr2M3U",
+      "channelKey": "pbs-sound-field",
+      "channelName": "PBS Sound Field",
+      "title": "How Jazz and Hip Hop Harmonize: J Dilla, Herbie Hancock, and Nas",
+      "publishedAt": "2021-02-01T16:05:50Z",
+      "durationSeconds": 1245,
+      "viewCount": 354655,
+      "thumbnail": "https://i.ytimg.com/vi/LBKeDBr2M3U/mqdefault.jpg",
+      "artistIds": [
+        "herbie-hancock",
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "afrobeat",
+        "jazz",
+        "funk",
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "TBr6H75DBsU",
+      "channelKey": "pbs-sound-field",
+      "channelName": "PBS Sound Field",
+      "title": "Where is the Funk? How Prince Created the Minneapolis Sound (feat. Jellybean Johnson of The Time)",
+      "publishedAt": "2020-01-02T15:18:39Z",
+      "durationSeconds": 688,
+      "viewCount": 475509,
+      "thumbnail": "https://i.ytimg.com/vi/TBr6H75DBsU/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "afrobeat",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "AihgZv1D5-4",
+      "channelKey": "pbs-sound-field",
+      "channelName": "PBS Sound Field",
+      "title": "How James Brown Invented Funk",
+      "publishedAt": "2019-01-31T13:00:48Z",
+      "durationSeconds": 501,
+      "viewCount": 343769,
+      "thumbnail": "https://i.ytimg.com/vi/AihgZv1D5-4/mqdefault.jpg",
+      "artistIds": [
+        "james-brown"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "afrobeat",
+        "funk",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "K-qPIEhRRro",
+      "channelKey": "trescubano",
+      "channelName": "TresCubano",
+      "title": "How To Play 'Dos Gardenias' on Tres Cubano | Buena Vista Social Club | GCE Tuning | Cuban Tres",
+      "publishedAt": "2018-10-27T09:30:00Z",
+      "durationSeconds": 333,
+      "viewCount": 6384,
+      "thumbnail": "https://i.ytimg.com/vi/K-qPIEhRRro/mqdefault.jpg",
+      "artistIds": [
+        "buena-vista-social-club"
+      ],
+      "albumIds": [
+        "buena-vista-social-club"
+      ],
+      "lean": "mixed",
+      "lanes": [
+        "latin"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "m-UegHhK4UI",
+      "channelKey": "trescubano",
+      "channelName": "TresCubano",
+      "title": "How To Play 'Orgullecida' on Tres Cubano | Buena Vista Social Club | GCE Tuning | Cuban Tres",
+      "publishedAt": "2016-07-09T10:10:58Z",
+      "durationSeconds": 416,
+      "viewCount": 2666,
+      "thumbnail": "https://i.ytimg.com/vi/m-UegHhK4UI/mqdefault.jpg",
+      "artistIds": [
+        "buena-vista-social-club"
+      ],
+      "albumIds": [
+        "buena-vista-social-club"
+      ],
+      "lean": "mixed",
+      "lanes": [
+        "latin"
       ],
       "matchedOn": "title",
       "confidence": "strong"
@@ -2345,6 +4796,89 @@
       "lanes": [
         "tejano",
         "latin"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "YkVerwxpFAY",
+      "channelKey": "smithsonian-amhistory",
+      "channelName": "Smithsonian American History",
+      "title": "Selena: Crossing Over Cultural Boundaries |  Verónica A. Méndez and Mireya Loza",
+      "publishedAt": "2021-04-16T16:09:11Z",
+      "durationSeconds": 284,
+      "viewCount": 9605,
+      "thumbnail": "https://i.ytimg.com/vi/YkVerwxpFAY/mqdefault.jpg",
+      "artistIds": [
+        "selena"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "tejano",
+        "latin"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "cVN5akAeL08",
+      "channelKey": "smithsonian-amhistory",
+      "channelName": "Smithsonian American History",
+      "title": "Selena interview, 1994",
+      "publishedAt": "2017-09-14T21:50:27Z",
+      "durationSeconds": 156,
+      "viewCount": 5925084,
+      "thumbnail": "https://i.ytimg.com/vi/cVN5akAeL08/mqdefault.jpg",
+      "artistIds": [
+        "selena"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "tejano",
+        "latin"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "v0WARZCrb-c",
+      "channelKey": "library-of-congress",
+      "channelName": "Library of Congress",
+      "title": "Marvin Gaye: Melancholy and Genius in Black Culture and Media",
+      "publishedAt": "2025-07-17T13:53:51Z",
+      "durationSeconds": 5752,
+      "viewCount": 884,
+      "thumbnail": "https://i.ytimg.com/vi/v0WARZCrb-c/mqdefault.jpg",
+      "artistIds": [
+        "marvin-gaye"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "M2wlGbNk8Sc",
+      "channelKey": "nmaahc",
+      "channelName": "Smithsonian NMAAHC",
+      "title": "Stevie Wonder Performs at the NMAAHC Grand Opening Dedication Ceremony",
+      "publishedAt": "2016-09-26T14:33:58Z",
+      "durationSeconds": 399,
+      "viewCount": 18078,
+      "thumbnail": "https://i.ytimg.com/vi/M2wlGbNk8Sc/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "soul",
+        "funk"
       ],
       "matchedOn": "title",
       "confidence": "strong"

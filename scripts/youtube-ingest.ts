@@ -83,9 +83,14 @@ async function resolveChannel(c: SeedChannel) {
   return r ? { ...r, how: "search" as const } : null;
 }
 
-async function uploadsPlaylist(channelId: string) {
-  const j = await api("channels", { part: "contentDetails", id: channelId }, 1);
-  return j.items?.[0]?.contentDetails?.relatedPlaylists?.uploads as string | undefined;
+// Also returns the channel's real title. When the ID came from a URL someone
+// pasted, that title is the only way a wrong channel becomes visible.
+async function channelFacts(channelId: string) {
+  const j = await api("channels", { part: "contentDetails,snippet", id: channelId }, 1);
+  const it = j.items?.[0];
+  return it
+    ? { uploads: it.contentDetails?.relatedPlaylists?.uploads as string | undefined, title: it.snippet?.title as string }
+    : null;
 }
 
 async function recentVideoIds(playlistId: string, want: number) {
@@ -158,11 +163,20 @@ async function main() {
         const flag = r.how === "search" ? "  <-- CHECK THIS BY EYE (fuzzy search)" : "";
         console.log(`found  ${c.name} -> "${r.title}" (${r.channelId})${flag}`);
       }
-      if (!c.uploadsPlaylist) c.uploadsPlaylist = await uploadsPlaylist(c.channelId);
-      if (!c.uploadsPlaylist) { console.log(`MISS   ${c.name} — no uploads playlist`); continue; }
+      const facts = await channelFacts(c.channelId);
+      if (!facts?.uploads) { console.log(`MISS   ${c.name} — channel ${c.channelId} has no uploads playlist`); continue; }
+      c.uploadsPlaylist = facts.uploads;
+      if (facts.title && facts.title !== c.resolvedTitle) {
+        c.resolvedTitle = facts.title;
+        if (facts.title.toLowerCase() !== c.name.toLowerCase()) {
+          console.log(`       ${c.name}: channel is really "${facts.title}"`);
+        }
+      }
       // A channel filtered by title needs a wider trawl: the show's episodes
       // are scattered among everything else the channel posts.
-      const want = c.titleMustContain ? Math.max(PER_CHANNEL, 200) : PER_CHANNEL;
+      // A filtered show is a thin seam in a big channel, so dig much deeper
+      // for it than for a channel we take whole.
+      const want = c.titleMustContain ? Math.max(PER_CHANNEL, 1500) : PER_CHANNEL;
       const ids = await recentVideoIds(c.uploadsPlaylist, want);
       let vids = await videoDetails(ids, c);
       if (c.titleMustContain) {

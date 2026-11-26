@@ -1,21 +1,20 @@
 {
-  "_note": "Priority-1 channels from Jay's 'Liner Channel List' sheet (claude.ai artifact WsaBSAZYdupEvxECcFUWmY), read 2026-11-26. 'lean' is the channel's default firsthand/secondhand tendency and the starting point for a video's tag, not the final word. channelId is the verified YouTube channel and resolvedTitle is that channel's real title: both were checked by hand on 2026-11-26 after a name search picked the wrong channel for 6 of 19. Never trust a search result here without reading resolvedTitle. titleMustContain, where set, keeps only videos whose title contains it, for a show that lives inside a larger channel.",
+  "_note": "Channels from Jay's 'Liner Channel List' sheet (claude.ai artifact WsaBSAZYdupEvxECcFUWmY), read at revision 8 on 2026-11-26, after Jay filled in the URLs himself and the five rows with no channel were removed. channelId comes from Jay's URL, so it is not guessed; resolvedTitle is written back by the ingest and records the channel's real title, which is how a wrong URL stays visible. titleMustContain keeps only videos whose title contains it, for a show that lives inside a bigger channel.",
   "channels": [
     {
       "id": "youll-hear-it",
       "name": "you'll hear it",
-      "query": "you'll hear it jazz podcast",
+      "query": "you'll hear it",
       "lanes": [
         "hip-hop",
-        "rnb",
-        "jazz"
+        "rnb"
       ],
       "type": "Song & album breakdowns",
       "lean": "secondhand",
-      "notes": "On Jay's list. Confirm exact channel name and handle.",
+      "priority": "P1",
       "channelId": "UCRLA8svy3YM9b4y-ITYYtaA",
-      "resolvedTitle": "You'll Hear It",
-      "uploadsPlaylist": "UURLA8svy3YM9b4y-ITYYtaA"
+      "uploadsPlaylist": "UURLA8svy3YM9b4y-ITYYtaA",
+      "resolvedTitle": "You'll Hear It"
     },
     {
       "id": "digging-the-greats",
@@ -28,15 +27,15 @@
       ],
       "type": "Song & album breakdowns",
       "lean": "secondhand",
-      "notes": "Brandon Shaw. 10-20 min musical analysis.",
+      "priority": "P1",
       "channelId": "UCGSg3iQgRQ5M9CpluqkMAZg",
-      "resolvedTitle": "Digging The Greats",
-      "uploadsPlaylist": "UUGSg3iQgRQ5M9CpluqkMAZg"
+      "uploadsPlaylist": "UUGSg3iQgRQ5M9CpluqkMAZg",
+      "resolvedTitle": "Digging The Greats"
     },
     {
       "id": "black-radio-exchange",
       "name": "Black Radio Exchange",
-      "query": "Robert Glasper Black Radio Exchange",
+      "query": "Black Radio Exchange",
       "lanes": [
         "neo-soul",
         "jazz",
@@ -44,13 +43,32 @@
       ],
       "type": "Artist interviews",
       "lean": "firsthand",
-      "notes": "Musician-to-musician conversations.",
-      "unresolved": "No YouTube channel found for the show. @blackradioexchange does not exist. Robert Glasper's own channel (UCbI0u4X87G0Ddvw6V7VpDLg) was tried and is a music catalogue, not the interview show: it yielded 47 song uploads and no conversations. Needs a real URL from Jay, or dropping."
+      "priority": "P1",
+      "channelId": "UCbI0u4X87G0Ddvw6V7VpDLg",
+      "titleMustContain": "Black Radio",
+      "uploadsPlaylist": "UUbI0u4X87G0Ddvw6V7VpDLg",
+      "resolvedTitle": "Robert Glasper"
+    },
+    {
+      "id": "talib-kweli",
+      "name": "Talib Kweli — People's Party",
+      "query": "Talib Kweli — People's Party",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "handle": "@uproxx",
+      "titleMustContain": "People's Party",
+      "channelId": "UCWGljB8djPusdaKtVx1UKfg",
+      "resolvedTitle": "UPROXX",
+      "uploadsPlaylist": "UUWGljB8djPusdaKtVx1UKfg"
     },
     {
       "id": "questlove",
       "name": "Questlove's podcast",
-      "query": "Questlove Supreme podcast",
+      "query": "Questlove's podcast",
       "lanes": [
         "soul",
         "hip-hop",
@@ -58,25 +76,53 @@
       ],
       "type": "Interviews + deep dives",
       "lean": "firsthand",
-      "notes": "Confirm show name and channel.",
+      "priority": "P1",
       "channelId": "UCvSjMQpSM8QvvYj8rCe_l7A",
-      "resolvedTitle": "QLS",
-      "uploadsPlaylist": "UUvSjMQpSM8QvvYj8rCe_l7A"
+      "uploadsPlaylist": "UUvSjMQpSM8QvvYj8rCe_l7A",
+      "resolvedTitle": "QLS"
+    },
+    {
+      "id": "sway",
+      "name": "Sway in the Morning",
+      "query": "Sway in the Morning",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Artist interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UCm1rJvggb7msnIo9zjxwN5g",
+      "uploadsPlaylist": "UUm1rJvggb7msnIo9zjxwN5g",
+      "resolvedTitle": "SWAY𖤐⁶⁶⁶"
+    },
+    {
+      "id": "big-boi",
+      "name": "Big Boi",
+      "query": "Big Boi",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCQlGLw4kadZL_qrmL7H118A",
+      "uploadsPlaylist": "UUQlGLw4kadZL_qrmL7H118A",
+      "resolvedTitle": "Big Boi"
     },
     {
       "id": "dissect",
       "name": "Dissect",
-      "query": "Dissect podcast Cole Cuchna",
+      "query": "Dissect",
       "lanes": [
         "hip-hop",
         "rnb"
       ],
       "type": "Season-long album deep dives",
       "lean": "secondhand",
-      "notes": "Closest to Liner's scholarship idea.",
+      "priority": "P1",
       "channelId": "UCaiXlXOldcHLgNWUiY3mf5A",
-      "resolvedTitle": "Dissect Podcast",
-      "uploadsPlaylist": "UUaiXlXOldcHLgNWUiY3mf5A"
+      "uploadsPlaylist": "UUaiXlXOldcHLgNWUiY3mf5A",
+      "resolvedTitle": "Dissect Podcast"
     },
     {
       "id": "genius",
@@ -88,10 +134,10 @@
       ],
       "type": "Artist-narrated breakdowns",
       "lean": "firsthand",
-      "notes": "Verified / Deconstructed: artists explaining their own songs.",
+      "priority": "P1",
       "channelId": "UCyFZMEnm1il5Wv3a6tPscbA",
-      "resolvedTitle": "Genius",
-      "uploadsPlaylist": "UUyFZMEnm1il5Wv3a6tPscbA"
+      "uploadsPlaylist": "UUyFZMEnm1il5Wv3a6tPscbA",
+      "resolvedTitle": "Genius"
     },
     {
       "id": "whosampled",
@@ -104,10 +150,10 @@
       ],
       "type": "Sample and cover breakdowns",
       "lean": "secondhand",
-      "notes": "Helps fill thin sample data in MusicBrainz.",
+      "priority": "P1",
       "channelId": "UCqFn2QLxNfP4P2TtaNR0cCw",
-      "resolvedTitle": "WhoSampled",
-      "uploadsPlaylist": "UUqFn2QLxNfP4P2TtaNR0cCw"
+      "uploadsPlaylist": "UUqFn2QLxNfP4P2TtaNR0cCw",
+      "resolvedTitle": "WhoSampled"
     },
     {
       "id": "song-exploder",
@@ -116,27 +162,299 @@
       "lanes": [],
       "type": "Artists take apart their own songs",
       "lean": "firsthand",
-      "notes": "All genres.",
+      "priority": "P1",
       "channelId": "UCAm166_S0e3FAkO5GQmblbg",
-      "resolvedTitle": "Song Exploder",
-      "uploadsPlaylist": "UUAm166_S0e3FAkO5GQmblbg"
+      "uploadsPlaylist": "UUAm166_S0e3FAkO5GQmblbg",
+      "resolvedTitle": "Song Exploder"
+    },
+    {
+      "id": "vox-earworm",
+      "name": "Vox Earworm",
+      "query": "Vox Earworm",
+      "lanes": [
+        "hip-hop",
+        "jazz"
+      ],
+      "type": "Short explainers",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCLXo7UDZvByw2ixzpQCufnA",
+      "titleMustContain": "Earworm",
+      "uploadsPlaylist": "UULXo7UDZvByw2ixzpQCufnA",
+      "resolvedTitle": "Vox"
+    },
+    {
+      "id": "rick-beato",
+      "name": "Rick Beato",
+      "query": "Rick Beato",
+      "lanes": [
+        "jazz",
+        "soul",
+        "hip-hop"
+      ],
+      "type": "Breakdowns + long interviews",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UCJquYOG5EL82sKTfH9aMA9Q",
+      "uploadsPlaylist": "UUJquYOG5EL82sKTfH9aMA9Q",
+      "resolvedTitle": "Rick Beato"
+    },
+    {
+      "id": "nardwuar",
+      "name": "Nardwuar",
+      "query": "Nardwuar",
+      "lanes": [
+        "hip-hop",
+        "funk",
+        "soul"
+      ],
+      "type": "Research-heavy interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UC8h8NJG9gacZ5lAJJvhD0fQ",
+      "uploadsPlaylist": "UU8h8NJG9gacZ5lAJJvhD0fQ",
+      "resolvedTitle": "NardwuarServiette"
+    },
+    {
+      "id": "drink-champs",
+      "name": "Drink Champs",
+      "query": "Drink Champs",
+      "lanes": [
+        "hip-hop",
+        "rnb"
+      ],
+      "type": "Long-form interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UCUseCJIxUbK_WIn0sUvBZVg",
+      "uploadsPlaylist": "UUUseCJIxUbK_WIn0sUvBZVg",
+      "resolvedTitle": "Drink Champs"
+    },
+    {
+      "id": "tidal-rap-radar",
+      "name": "TIDAL (Rap Radar)",
+      "query": "TIDAL (Rap Radar)",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UC-9EHhfnWiG4lkQgKfxuQHw",
+      "uploadsPlaylist": "UU-9EHhfnWiG4lkQgKfxuQHw",
+      "resolvedTitle": "TIDAL"
+    },
+    {
+      "id": "vlad-tv",
+      "name": "Vlad TV",
+      "query": "Vlad TV",
+      "lanes": [
+        "hip-hop",
+        "rnb"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UCg7lal8IC-xPyKfgH4rdUcA",
+      "uploadsPlaylist": "UUg7lal8IC-xPyKfgH4rdUcA",
+      "resolvedTitle": "djvlad"
+    },
+    {
+      "id": "no-jumper",
+      "name": "No Jumper",
+      "query": "No Jumper",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UCNNTZgxNQuBrhbO0VrG8woA",
+      "uploadsPlaylist": "UUNNTZgxNQuBrhbO0VrG8woA",
+      "resolvedTitle": "No Jumper"
+    },
+    {
+      "id": "breakfast-club",
+      "name": "The Breakfast Club",
+      "query": "The Breakfast Club",
+      "lanes": [
+        "hip-hop",
+        "rnb"
+      ],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UCUQQiGcmAEy103FyFYaFlnA",
+      "uploadsPlaylist": "UUUQQiGcmAEy103FyFYaFlnA",
+      "resolvedTitle": "Breakfastclub"
+    },
+    {
+      "id": "joe-budden",
+      "name": "The Joe Budden Podcast",
+      "query": "The Joe Budden Podcast",
+      "lanes": [
+        "hip-hop"
+      ],
+      "type": "Commentary + interviews",
+      "lean": "mixed",
+      "priority": "P3",
+      "channelId": "UCPxR_ZMvfpoUdsT6tq5vBIw",
+      "uploadsPlaylist": "UUPxR_ZMvfpoUdsT6tq5vBIw",
+      "resolvedTitle": "Gummy Man"
     },
     {
       "id": "rbma",
       "name": "Red Bull Music Academy",
-      "query": "Red Bull Music Academy lectures",
+      "query": "Red Bull Music Academy",
       "lanes": [],
       "type": "Producer and artist lectures",
       "lean": "firsthand",
-      "notes": "Check what is still on YouTube.",
+      "priority": "P1",
       "channelId": "UCd4mTFLK9Ct4bgLlKAbhbcw",
-      "resolvedTitle": "Red Bull Music Academy",
-      "uploadsPlaylist": "UUd4mTFLK9Ct4bgLlKAbhbcw"
+      "uploadsPlaylist": "UUd4mTFLK9Ct4bgLlKAbhbcw",
+      "resolvedTitle": "Red Bull Music Academy"
+    },
+    {
+      "id": "pensados-place",
+      "name": "Pensado's Place",
+      "query": "Pensado's Place",
+      "lanes": [],
+      "type": "Producer and engineer interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCno8mYpnGhTA9COSW9sP8gQ",
+      "uploadsPlaylist": "UUno8mYpnGhTA9COSW9sP8gQ",
+      "resolvedTitle": "Pensado's Place"
+    },
+    {
+      "id": "mix-with-the-masters",
+      "name": "Mix with the Masters",
+      "query": "Mix with the Masters",
+      "lanes": [],
+      "type": "Mix sessions with top engineers",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UC-y-8VGVtlP8zDnT60dDgkw",
+      "uploadsPlaylist": "UU-y-8VGVtlP8zDnT60dDgkw",
+      "resolvedTitle": "Mix with the Masters"
+    },
+    {
+      "id": "tetragrammaton",
+      "name": "Tetragrammaton",
+      "query": "Tetragrammaton",
+      "lanes": [],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "handle": "@tetragrammaton_now",
+      "channelId": "UC5Gat6FdyiG5ydUUHqPTAEQ",
+      "resolvedTitle": "Tetragrammaton with Rick Rubin",
+      "uploadsPlaylist": "UU5Gat6FdyiG5ydUUHqPTAEQ"
+    },
+    {
+      "id": "broken-record",
+      "name": "Broken Record",
+      "query": "Broken Record",
+      "lanes": [],
+      "type": "Interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCZ8_-dTIxnLOLt3jfH5XHJw",
+      "uploadsPlaylist": "UUZ8_-dTIxnLOLt3jfH5XHJw",
+      "resolvedTitle": "Broken Record Podcast"
+    },
+    {
+      "id": "tiny-desk",
+      "name": "NPR Tiny Desk",
+      "query": "NPR Tiny Desk",
+      "lanes": [],
+      "type": "Live sets",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UC4eYXhJI4-7wSWc8UNRwD4A",
+      "uploadsPlaylist": "UU4eYXhJI4-7wSWc8UNRwD4A",
+      "resolvedTitle": "NPR Music"
+    },
+    {
+      "id": "kexp",
+      "name": "KEXP",
+      "query": "KEXP",
+      "lanes": [],
+      "type": "Live sets + interviews",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UC3I2GFN_F8WudD_2jUZbojA",
+      "uploadsPlaylist": "UU3I2GFN_F8WudD_2jUZbojA",
+      "resolvedTitle": "KEXP"
+    },
+    {
+      "id": "colors",
+      "name": "COLORS",
+      "query": "COLORS",
+      "lanes": [],
+      "type": "Live sets",
+      "lean": "firsthand",
+      "priority": "P3",
+      "channelId": "UC2Qw1dzXDBAZPwS7zm37g8g",
+      "uploadsPlaylist": "UU2Qw1dzXDBAZPwS7zm37g8g",
+      "resolvedTitle": "COLORS"
+    },
+    {
+      "id": "adam-neely",
+      "name": "Adam Neely",
+      "query": "Adam Neely",
+      "lanes": [
+        "jazz"
+      ],
+      "type": "Musicianship and theory",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCnkp4xDOwqqJD7sSM3xdUiQ",
+      "uploadsPlaylist": "UUnkp4xDOwqqJD7sSM3xdUiQ",
+      "resolvedTitle": "Adam Neely"
+    },
+    {
+      "id": "david-bennett",
+      "name": "David Bennett Piano",
+      "query": "David Bennett Piano",
+      "lanes": [],
+      "type": "Theory and record production",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCz2iUx-Imr6HgDC3zAFpjOw",
+      "uploadsPlaylist": "UUz2iUx-Imr6HgDC3zAFpjOw",
+      "resolvedTitle": "David Bennett Music Theory"
+    },
+    {
+      "id": "polyphonic",
+      "name": "Polyphonic",
+      "query": "Polyphonic",
+      "lanes": [],
+      "type": "Music video essays",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCXkNod_JcH7PleOjwK_8rYQ",
+      "uploadsPlaylist": "UUXkNod_JcH7PleOjwK_8rYQ",
+      "resolvedTitle": "Polyphonic"
+    },
+    {
+      "id": "professor-of-rock",
+      "name": "Professor of Rock",
+      "query": "Professor of Rock",
+      "lanes": [
+        "soul"
+      ],
+      "type": "History breakdowns",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCOwSCdQi9YRIVq6H2iX3qWg",
+      "uploadsPlaylist": "UUOwSCdQi9YRIVq6H2iX3qWg",
+      "resolvedTitle": "Professor of Rock"
     },
     {
       "id": "soul-train",
       "name": "Soul Train",
-      "query": "Soul Train official",
+      "query": "Soul Train",
       "lanes": [
         "soul",
         "funk",
@@ -144,10 +462,10 @@
       ],
       "type": "Archive performances and interviews",
       "lean": "firsthand",
-      "notes": "Core funk and soul archive.",
+      "priority": "P1",
       "channelId": "UCGgPV91EI-3Inz7NJ0Hx-mQ",
-      "resolvedTitle": "Soul Train",
-      "uploadsPlaylist": "UUGgPV91EI-3Inz7NJ0Hx-mQ"
+      "uploadsPlaylist": "UUGgPV91EI-3Inz7NJ0Hx-mQ",
+      "resolvedTitle": "Soul Train"
     },
     {
       "id": "okayplayer",
@@ -160,10 +478,37 @@
       ],
       "type": "Interviews and features",
       "lean": "firsthand",
-      "notes": "",
+      "priority": "P1",
       "channelId": "UCUrbedJq6lK3EGKUMa9ZwBw",
-      "resolvedTitle": "Okayplayer",
-      "uploadsPlaylist": "UUUrbedJq6lK3EGKUMa9ZwBw"
+      "uploadsPlaylist": "UUUrbedJq6lK3EGKUMa9ZwBw",
+      "resolvedTitle": "Okayplayer"
+    },
+    {
+      "id": "reelin-in-the-years",
+      "name": "Reelin' In The Years",
+      "query": "Reelin' In The Years",
+      "lanes": [
+        "soul",
+        "funk"
+      ],
+      "type": "Vintage TV performances and interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCjIrqdXaUzYEEAIib8bsBrw",
+      "uploadsPlaylist": "UUjIrqdXaUzYEEAIib8bsBrw",
+      "resolvedTitle": "ReelinInTheYears66"
+    },
+    {
+      "id": "rock-hall",
+      "name": "Rock & Roll Hall of Fame",
+      "query": "Rock & Roll Hall of Fame",
+      "lanes": [],
+      "type": "Induction speeches and interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UClh2CI968a1tE8pQ31pg_Ww",
+      "uploadsPlaylist": "UUlh2CI968a1tE8pQ31pg_Ww",
+      "resolvedTitle": "Rock & Roll Hall of Fame"
     },
     {
       "id": "jazz-on-the-tube",
@@ -175,10 +520,10 @@
       ],
       "type": "Curated video archive",
       "lean": "mixed",
-      "notes": "Strong Cuban and Latin jazz section.",
+      "priority": "P1",
       "channelId": "UCsVpCgF4FU4teaVobkwHA_Q",
-      "resolvedTitle": "jazzonthetube",
-      "uploadsPlaylist": "UUsVpCgF4FU4teaVobkwHA_Q"
+      "uploadsPlaylist": "UUsVpCgF4FU4teaVobkwHA_Q",
+      "resolvedTitle": "jazzonthetube"
     },
     {
       "id": "jazz-lincoln-center",
@@ -189,38 +534,166 @@
       ],
       "type": "Lectures and performances",
       "lean": "mixed",
-      "notes": "",
+      "priority": "P1",
       "channelId": "UCP108sGgYT_TlG2YRColGcg",
-      "resolvedTitle": "Jazz at Lincoln Center",
-      "uploadsPlaylist": "UUP108sGgYT_TlG2YRColGcg"
+      "uploadsPlaylist": "UUP108sGgYT_TlG2YRColGcg",
+      "resolvedTitle": "Jazz at Lincoln Center"
+    },
+    {
+      "id": "jazz-night",
+      "name": "Jazz Night in America",
+      "query": "Jazz Night in America",
+      "lanes": [
+        "jazz"
+      ],
+      "type": "Concert and interview features",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCIdy9BaEy8QTU80L9diHP9A",
+      "uploadsPlaylist": "UUIdy9BaEy8QTU80L9diHP9A",
+      "resolvedTitle": "Jazz Night in America"
+    },
+    {
+      "id": "jazzfuel",
+      "name": "JazzFuel",
+      "query": "JazzFuel",
+      "lanes": [
+        "jazz"
+      ],
+      "type": "Musician interviews",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCeoBsAlJSr_efQEj1uGeiBg",
+      "uploadsPlaylist": "UUeoBsAlJSr_efQEj1uGeiBg",
+      "resolvedTitle": "Jazzfuel"
+    },
+    {
+      "id": "blue-note",
+      "name": "Blue Note Records",
+      "query": "Blue Note Records",
+      "lanes": [
+        "jazz"
+      ],
+      "type": "Label interviews and archive",
+      "lean": "firsthand",
+      "priority": "P2",
+      "handle": "@BlueNoteRecords",
+      "channelId": "UCVJx__ZVLGqL9JYorSj8xMg",
+      "resolvedTitle": "BlueNoteRecords",
+      "uploadsPlaylist": "UUVJx__ZVLGqL9JYorSj8xMg"
+    },
+    {
+      "id": "aimee-nolte",
+      "name": "Aimee Nolte",
+      "query": "Aimee Nolte",
+      "lanes": [
+        "jazz"
+      ],
+      "type": "Education",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UCZIB_p5AgVVdxgkYWHeUy-Q",
+      "uploadsPlaylist": "UUZIB_p5AgVVdxgkYWHeUy-Q",
+      "resolvedTitle": "Aimee Nolte Music"
+    },
+    {
+      "id": "bobby-sanabria",
+      "name": "Bobby Sanabria",
+      "query": "Bobby Sanabria",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Educator / performer",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UC9mD1P0a7YuCo5PrNh1K8fw",
+      "uploadsPlaylist": "UU9mD1P0a7YuCo5PrNh1K8fw",
+      "resolvedTitle": "Bobby Sanabria"
+    },
+    {
+      "id": "chef-kd",
+      "name": "Chef KD",
+      "query": "Chef KD",
+      "lanes": [
+        "afrobeat"
+      ],
+      "type": "Short-form video",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UCADj6wtgh2SRaDr77SuIuNQ",
+      "uploadsPlaylist": "UUADj6wtgh2SRaDr77SuIuNQ",
+      "resolvedTitle": "Kofi Boateng"
     },
     {
       "id": "life-of-music",
       "name": "The Life of Music",
-      "query": "The Life of Music gospel documentary",
+      "query": "The Life of Music",
       "lanes": [
         "gospel"
       ],
       "type": "Documentary series",
       "lean": "secondhand",
-      "notes": "Handle @The-Life-of-Music. 3-part gospel history.",
+      "priority": "P1",
       "channelId": "UCD2sQ-sPKwgbUWFNPOxuwaA",
-      "resolvedTitle": "The Life of Music",
-      "uploadsPlaylist": "UUD2sQ-sPKwgbUWFNPOxuwaA"
+      "uploadsPlaylist": "UUD2sQ-sPKwgbUWFNPOxuwaA",
+      "resolvedTitle": "The Life of Music"
     },
     {
       "id": "trevon-dawson",
       "name": "Trévon Dawson",
-      "query": "Trevon Dawson gospel Tre Talks",
+      "query": "Trévon Dawson",
       "lanes": [
         "gospel"
       ],
       "type": "Archival clips + interviews",
       "lean": "mixed",
-      "notes": "Vintage gospel clip archive and interview series.",
+      "priority": "P1",
       "channelId": "UClI_jJwwQPkIgU1FDN0lCZg",
-      "resolvedTitle": "Trevon Dawson",
-      "uploadsPlaylist": "UUlI_jJwwQPkIgU1FDN0lCZg"
+      "uploadsPlaylist": "UUlI_jJwwQPkIgU1FDN0lCZg",
+      "resolvedTitle": "Trevon Dawson"
+    },
+    {
+      "id": "detroit-pbs",
+      "name": "Detroit PBS",
+      "query": "Detroit PBS",
+      "lanes": [
+        "gospel"
+      ],
+      "type": "Local TV features",
+      "lean": "secondhand",
+      "priority": "P2",
+      "channelId": "UCeKem7g09AKfD1KNR1ytjhA",
+      "uploadsPlaylist": "UUeKem7g09AKfD1KNR1ytjhA",
+      "resolvedTitle": "Detroit PBS"
+    },
+    {
+      "id": "pbs-gospel",
+      "name": "PBS — GOSPEL",
+      "query": "PBS — GOSPEL",
+      "lanes": [
+        "gospel"
+      ],
+      "type": "Docuseries clips",
+      "lean": "secondhand",
+      "priority": "P2",
+      "channelId": "UCgyeJxD05YnoDquRMNBfBqw",
+      "titleMustContain": "Gospel",
+      "uploadsPlaylist": "UUgyeJxD05YnoDquRMNBfBqw",
+      "resolvedTitle": "PBS"
+    },
+    {
+      "id": "gospel-music-assoc",
+      "name": "Gospel Music Association",
+      "query": "Gospel Music Association",
+      "lanes": [
+        "gospel"
+      ],
+      "type": "Organization channel",
+      "lean": "mixed",
+      "priority": "P3",
+      "channelId": "UCYyc4F5YE5BGDoN9ZfVi0GQ",
+      "uploadsPlaylist": "UUYyc4F5YE5BGDoN9ZfVi0GQ",
+      "resolvedTitle": "GMA Dove Awards"
     },
     {
       "id": "afropop-worldwide",
@@ -231,10 +704,109 @@
       ],
       "type": "Radio and video",
       "lean": "mixed",
-      "notes": "Confirm handle.",
+      "priority": "P1",
       "channelId": "UCCBnUpzIfbDqeUqM_8qsshg",
-      "resolvedTitle": "Afropop Worldwide",
-      "uploadsPlaylist": "UUCBnUpzIfbDqeUqM_8qsshg"
+      "uploadsPlaylist": "UUCBnUpzIfbDqeUqM_8qsshg",
+      "resolvedTitle": "Afropop Worldwide"
+    },
+    {
+      "id": "okayafrica",
+      "name": "OkayAfrica",
+      "query": "OkayAfrica",
+      "lanes": [
+        "afrobeat"
+      ],
+      "type": "Features and documentaries",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UC9uTPtGRkKIUUjFmICXChAA",
+      "uploadsPlaylist": "UU9uTPtGRkKIUUjFmICXChAA",
+      "resolvedTitle": "OkayAfrica"
+    },
+    {
+      "id": "pbs-sound-field",
+      "name": "PBS Sound Field",
+      "query": "PBS Sound Field",
+      "lanes": [
+        "afrobeat"
+      ],
+      "type": "Series episode",
+      "lean": "secondhand",
+      "priority": "P2",
+      "handle": "@SoundFieldPBS",
+      "channelId": "UCvMLMyKPomE6kTTL9Kv8Iww",
+      "resolvedTitle": "Sound Field",
+      "uploadsPlaylist": "UUvMLMyKPomE6kTTL9Kv8Iww"
+    },
+    {
+      "id": "trescubano",
+      "name": "TresCubano",
+      "query": "TresCubano",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Archive documentary uploads",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UCVzHKEIXRPd11gcQ9uXiOyQ",
+      "uploadsPlaylist": "UUVzHKEIXRPd11gcQ9uXiOyQ",
+      "resolvedTitle": "TresCubano"
+    },
+    {
+      "id": "latin-percussion",
+      "name": "Latin Percussion",
+      "query": "Latin Percussion",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Education and archive",
+      "lean": "mixed",
+      "priority": "P3",
+      "channelId": "UCu0lMtTHS_4zTyf-0QoJq2g",
+      "uploadsPlaylist": "UUu0lMtTHS_4zTyf-0QoJq2g",
+      "resolvedTitle": "LatinPercussion"
+    },
+    {
+      "id": "ben-lapidus",
+      "name": "Ben Lapidus",
+      "query": "Ben Lapidus",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Scholarly presentations",
+      "lean": "secondhand",
+      "priority": "P2",
+      "channelId": "UCRbVF0fkKSa1NMqowHHNQZA",
+      "uploadsPlaylist": "UURbVF0fkKSa1NMqowHHNQZA",
+      "resolvedTitle": "benlapidus"
+    },
+    {
+      "id": "ivor-miller",
+      "name": "Ivor Miller",
+      "query": "Ivor Miller",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Scholar",
+      "lean": "secondhand",
+      "priority": "P3",
+      "channelId": "UC0iblXjmdyrsu1_sruXuShA",
+      "uploadsPlaylist": "UU0iblXjmdyrsu1_sruXuShA",
+      "resolvedTitle": "Ivor Miller"
+    },
+    {
+      "id": "fania-records",
+      "name": "Fania Records",
+      "query": "Fania Records",
+      "lanes": [
+        "latin"
+      ],
+      "type": "Label archive",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UC8ZpFsxodudZcJRBLq6aQTA",
+      "uploadsPlaylist": "UU8ZpFsxodudZcJRBLq6aQTA",
+      "resolvedTitle": "Fania Records"
     },
     {
       "id": "tejano-nation",
@@ -245,39 +817,105 @@
       ],
       "type": "News and interviews",
       "lean": "mixed",
-      "notes": "Has a YouTube channel plus Spotify and iHeart shows.",
+      "priority": "P1",
       "channelId": "UCMikBExMO3oY6UPkm81j96Q",
-      "resolvedTitle": "TejanoNation",
-      "uploadsPlaylist": "UUMikBExMO3oY6UPkm81j96Q"
+      "uploadsPlaylist": "UUMikBExMO3oY6UPkm81j96Q",
+      "resolvedTitle": "TejanoNation"
     },
     {
       "id": "tma-tv",
       "name": "Tejano Music Awards TV",
-      "query": "Tejano Music Awards TV TMA",
+      "query": "Tejano Music Awards TV",
       "lanes": [
         "tejano"
       ],
       "type": "Interviews, performances, throwbacks",
       "lean": "firsthand",
-      "notes": "Hosted by Lia C.",
+      "priority": "P1",
       "channelId": "UC0qARNV6eULbVIxIiaF3WPA",
-      "resolvedTitle": "TejanoMusicAwards",
-      "uploadsPlaylist": "UU0qARNV6eULbVIxIiaF3WPA"
+      "uploadsPlaylist": "UU0qARNV6eULbVIxIiaF3WPA",
+      "resolvedTitle": "TejanoMusicAwards"
+    },
+    {
+      "id": "smithsonian-amhistory",
+      "name": "Smithsonian American History",
+      "query": "Smithsonian American History",
+      "lanes": [
+        "tejano",
+        "latin"
+      ],
+      "type": "Museum features",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UCcBeQ2q6YyOpOaUREG-Z3pg",
+      "uploadsPlaylist": "UUcBeQ2q6YyOpOaUREG-Z3pg",
+      "resolvedTitle": "National Museum of American History"
     },
     {
       "id": "viva-tejano",
       "name": "Viva Tejano",
-      "query": "Viva Tejano Texas Monthly",
+      "query": "Viva Tejano",
       "lanes": [
         "tejano"
       ],
       "type": "Podcast with artists",
       "lean": "firsthand",
-      "notes": "Hosted by J.B. Sauceda. Check for video.",
+      "priority": "P1",
       "channelId": "UC0bIRiJsmjpuhx3tVUepQgg",
-      "resolvedTitle": "Texas Monthly",
       "titleMustContain": "Viva Tejano",
-      "uploadsPlaylist": "UU0bIRiJsmjpuhx3tVUepQgg"
+      "uploadsPlaylist": "UU0bIRiJsmjpuhx3tVUepQgg",
+      "resolvedTitle": "Texas Monthly"
+    },
+    {
+      "id": "voces",
+      "name": "Voces Oral History Center",
+      "query": "Voces Oral History Center",
+      "lanes": [
+        "tejano",
+        "latin"
+      ],
+      "type": "Oral histories",
+      "lean": "firsthand",
+      "priority": "P2",
+      "channelId": "UCU_W9jThezjbd1ylAlWUsKA",
+      "uploadsPlaylist": "UUU_W9jThezjbd1ylAlWUsKA",
+      "resolvedTitle": "Voces Oral History Center"
+    },
+    {
+      "id": "folkways",
+      "name": "Smithsonian Folkways",
+      "query": "Smithsonian Folkways",
+      "lanes": [],
+      "type": "Label archive",
+      "lean": "mixed",
+      "priority": "P2",
+      "channelId": "UCWgEWXnFFFeoXMJ766CfDLw",
+      "uploadsPlaylist": "UUWgEWXnFFFeoXMJ766CfDLw",
+      "resolvedTitle": "Smithsonian Folkways"
+    },
+    {
+      "id": "library-of-congress",
+      "name": "Library of Congress",
+      "query": "Library of Congress",
+      "lanes": [],
+      "type": "Archive",
+      "lean": "mixed",
+      "priority": "P3",
+      "channelId": "UCbObxjfi3W9YKnDS0PgadNA",
+      "uploadsPlaylist": "UUbObxjfi3W9YKnDS0PgadNA",
+      "resolvedTitle": "Library of Congress"
+    },
+    {
+      "id": "nmaahc",
+      "name": "Smithsonian NMAAHC",
+      "query": "Smithsonian NMAAHC",
+      "lanes": [],
+      "type": "Museum features",
+      "lean": "secondhand",
+      "priority": "P2",
+      "channelId": "UC_66nY81jHx8OsvfjhFydZw",
+      "uploadsPlaylist": "UU_66nY81jHx8OsvfjhFydZw",
+      "resolvedTitle": "NMAAHC"
     }
   ]
 }

@@ -66,6 +66,7 @@ const REJECT: Record<string, string[]> = {
   prince: ["prince paul", "arabian prince", "prince choir", "prince of the", "prince of darkness"],
   parliament: ["houses of parliament", "member of parliament", "parliament square"],
   selena: ["selena gomez"],
+  "fela-kuti": ["wena fela"],
 };
 
 // Album titles too generic to stand on their own: they only count when the
