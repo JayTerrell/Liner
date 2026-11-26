@@ -1,6 +1,6 @@
 {
   "_note": "Videos matched to Liner artists and albums by scripts/youtube-match.ts. Rules only, no model judgement.",
-  "builtAt": "2026-11-26T05:04:30.033Z",
+  "builtAt": "2026-11-26T05:11:27.105Z",
   "matches": [
     {
       "videoId": "5849lYLkgc4",
@@ -5360,6 +5360,136 @@
       "lanes": [
         "soul",
         "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "q6XB0FrBQl4",
+      "channelKey": "breakfast-club",
+      "channelName": "The Breakfast Club",
+      "title": "Erykah Badu On Why Her Timeless Music Is Like Tupperware; Fans 'Don’t Need Anything Else'",
+      "publishedAt": "2026-10-21T14:30:04Z",
+      "durationSeconds": 185,
+      "viewCount": 42613,
+      "thumbnail": "https://i.ytimg.com/vi/q6XB0FrBQl4/mqdefault.jpg",
+      "artistIds": [
+        "erykah-badu"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "EVZYpwhpkpQ",
+      "channelKey": "breakfast-club",
+      "channelName": "The Breakfast Club",
+      "title": "Jon Boogz On Who’s The Better Dancer Michael Jackson Or Chris Brown",
+      "publishedAt": "2026-09-23T14:00:16Z",
+      "durationSeconds": 179,
+      "viewCount": 16637,
+      "thumbnail": "https://i.ytimg.com/vi/EVZYpwhpkpQ/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ZbDrbKe380M",
+      "channelKey": "breakfast-club",
+      "channelName": "The Breakfast Club",
+      "title": "Busta Rhymes Reveals Untold Stories About J Dilla, ODB & The Music Videos That Changed Hip-Hop",
+      "publishedAt": "2026-08-26T13:55:10Z",
+      "durationSeconds": 560,
+      "viewCount": 91450,
+      "thumbnail": "https://i.ytimg.com/vi/ZbDrbKe380M/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "ycOLauNckZg",
+      "channelKey": "joe-budden",
+      "channelName": "The Joe Budden Podcast",
+      "title": "Stevie Wonder Wants Ex OUT After 38 Years of Free Housing",
+      "publishedAt": "2026-10-25T00:00:35Z",
+      "durationSeconds": 769,
+      "viewCount": 45882,
+      "thumbnail": "https://i.ytimg.com/vi/ycOLauNckZg/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "hip-hop",
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "zZBBJQq5cms",
+      "channelKey": "joe-budden",
+      "channelName": "The Joe Budden Podcast",
+      "title": "The Joe Budden Podcast Episode 941 | 9th Wonder Is Watching",
+      "publishedAt": "2026-06-28T12:00:34Z",
+      "durationSeconds": 9869,
+      "viewCount": 245867,
+      "thumbnail": "https://i.ytimg.com/vi/zZBBJQq5cms/mqdefault.jpg",
+      "artistIds": [
+        "9th-wonder"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "EnA9tt-tWpY",
+      "channelKey": "joe-budden",
+      "channelName": "The Joe Budden Podcast",
+      "title": "This Michael Jackson Biopic Feels Off… | Joe Budden Reacts",
+      "publishedAt": "2026-05-01T13:00:33Z",
+      "durationSeconds": 770,
+      "viewCount": 174691,
+      "thumbnail": "https://i.ytimg.com/vi/EnA9tt-tWpY/mqdefault.jpg",
+      "artistIds": [
+        "michael-jackson"
+      ],
+      "albumIds": [],
+      "lean": "mixed",
+      "lanes": [
+        "hip-hop",
+        "rnb",
+        "soul"
       ],
       "matchedOn": "title",
       "confidence": "strong"

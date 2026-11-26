@@ -285,9 +285,10 @@
       "type": "Interviews",
       "lean": "firsthand",
       "priority": "P3",
-      "channelId": "UCUQQiGcmAEy103FyFYaFlnA",
-      "uploadsPlaylist": "UUUQQiGcmAEy103FyFYaFlnA",
-      "resolvedTitle": "Breakfastclub"
+      "handle": "@BreakfastClubPower1051FM",
+      "channelId": "UChi08h4577eFsNXGd3sxYhw",
+      "resolvedTitle": "Breakfast Club Power 105.1 FM",
+      "uploadsPlaylist": "UUhi08h4577eFsNXGd3sxYhw"
     },
     {
       "id": "joe-budden",
@@ -299,9 +300,9 @@
       "type": "Commentary + interviews",
       "lean": "mixed",
       "priority": "P3",
-      "channelId": "UCPxR_ZMvfpoUdsT6tq5vBIw",
-      "uploadsPlaylist": "UUPxR_ZMvfpoUdsT6tq5vBIw",
-      "resolvedTitle": "Gummy Man"
+      "channelId": "UC23_r1bpkTWaBltbXsQxysA",
+      "uploadsPlaylist": "UU23_r1bpkTWaBltbXsQxysA",
+      "resolvedTitle": "Joe Budden TV"
     },
     {
       "id": "rbma",
