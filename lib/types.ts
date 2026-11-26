@@ -9,17 +9,23 @@ export interface LineageRef {
   note?: string;
 }
 
+// One shape for everyone on Liner. A curated artist carries a biography, a
+// lane and a thread; a session player credited on one record carries a name
+// and what they played. Everything past the name is optional, so the same
+// page renders both without a second type or a second template.
 export interface Artist {
   id: string;
   name: string;
-  roles: string;
-  years: string;
-  lanes: string[];
-  bio: string;
-  before: LineageRef[];
-  after: LineageRef[];
+  roles?: string;
+  years?: string;
+  lanes?: string[];
+  bio?: string;
+  before?: LineageRef[];
+  after?: LineageRef[];
   mbid?: string;     // MusicBrainz artist ID, once matched
   wikidataQid?: string; // Wikidata ID, once matched: lets the portrait lookup skip MusicBrainz
+  // Set on people who exist only through their credits. Their id IS the mbid.
+  fromCredits?: boolean;
 }
 
 export interface Album {
@@ -68,7 +74,7 @@ export interface Channel {
 }
 
 export interface Track { n: number; title: string; len: string; note: string }
-export interface CreditRow { name: string; role: string; scope: string; artistId?: string }
+export interface CreditRow { name: string; role: string; scope: string; mbid?: string; artistId?: string }
 export interface Story { tag: string; title: string; body: string }
 
 // A YouTube video matched to a Liner artist or album by scripts/youtube-match.ts.

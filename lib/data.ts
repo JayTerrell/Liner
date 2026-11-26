@@ -24,7 +24,66 @@ export const lanes = seed.lanes as Lane[];
 export const sampleNote = seed._note;
 
 export const getArtists = () => artists;
-export const getArtist = (id: string) => artists.find((a) => a.id === id);
+
+// --- Everyone credited on a record ---------------------------------------
+// 804 people appear in the credits; 30 of them are curated artists with a
+// biography and a thread. The rest exist only through their work, and they
+// get the same page, keyed on their MusicBrainz ID. The index is derived
+// from the album detail rather than stored twice.
+
+export interface CreditOf { albumId: string; role: string; scope: string }
+
+const creditsByPerson = new Map<string, { name: string; credits: CreditOf[] }>();
+for (const [albumId, detail] of Object.entries(details.albums ?? {})) {
+  for (const c of detail.credits) {
+    if (!c.mbid) continue;
+    const seen = creditsByPerson.get(c.mbid) ?? { name: c.name, credits: [] };
+    seen.credits.push({ albumId, role: c.role, scope: c.scope });
+    creditsByPerson.set(c.mbid, seen);
+  }
+}
+
+const bySeedId = new Map(artists.map((a) => [a.id, a]));
+// A curated artist reached through a credit keeps their own page, so nobody
+// ends up with two.
+const seedIdForMbid = new Map<string, string>();
+for (const detail of Object.values(details.albums ?? {})) {
+  for (const c of detail.credits) if (c.mbid && c.artistId) seedIdForMbid.set(c.mbid, c.artistId);
+}
+
+export const creditsFor = (artistId: string): CreditOf[] => {
+  const direct = creditsByPerson.get(artistId)?.credits;
+  if (direct) return direct;
+  // A curated artist is keyed by slug, so find them through their mbid.
+  for (const [mbid, seedId] of seedIdForMbid) {
+    if (seedId === artistId) return creditsByPerson.get(mbid)?.credits ?? [];
+  }
+  return [];
+};
+
+export function getArtist(id: string): Artist | undefined {
+  const seeded = bySeedId.get(id);
+  if (seeded) return seeded;
+  const person = creditsByPerson.get(id);
+  if (!person) return undefined;
+  // Someone who exists only through their credits. Their roles are whatever
+  // they are credited as, most frequent first.
+  const tally = new Map<string, number>();
+  for (const c of person.credits) {
+    for (const r of c.role.split(", ")) tally.set(r, (tally.get(r) ?? 0) + 1);
+  }
+  const roles = [...tally.entries()].sort((a, b) => b[1] - a[1]).map(([r]) => r);
+  return { id, name: person.name, mbid: id, roles: roles.join(" · "), fromCredits: true };
+}
+
+// Every page to build: the curated artists, plus everyone who exists only
+// through a credit.
+export const allArtistIds = (): string[] => [
+  ...artists.map((a) => a.id),
+  ...[...creditsByPerson.keys()].filter((mbid) => !seedIdForMbid.has(mbid)),
+];
+
+export const personCount = creditsByPerson.size;
 export const getAlbums = () => albums;
 export const getAlbum = (id: string) => albums.find((a) => a.id === id);
 export const getPaths = () => paths;
@@ -108,7 +167,7 @@ export function detailFor(albumId: string): AlbumDetail {
 
 export function search(q: string, lane?: string) {
   const needle = q.trim().toLowerCase();
-  const inLane = (ls: string[]) => !lane || ls.includes(lane);
+  const inLane = (ls: string[] = []) => !lane || ls.includes(lane);
   const hit = (...s: (string | undefined)[]) =>
     !needle || s.some((x) => x && x.toLowerCase().includes(needle));
 
@@ -122,7 +181,7 @@ export function search(q: string, lane?: string) {
     x.items.forEach((i) => {
       const alb = i.albumId ? getAlbum(i.albumId) : undefined;
       const ar = alb ? getArtist(alb.artistId) : artists.find((z) => z.name === i.artist);
-      ar?.lanes.forEach((l) => ls.add(l));
+      ar?.lanes?.forEach((l) => ls.add(l));
     });
     return inLane([...ls]) && hit(x.title, x.host, x.blurb);
   });

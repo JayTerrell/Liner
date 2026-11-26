@@ -278,6 +278,18 @@ a.thread-item:hover .thread-name { color: var(--green-light); }
 @media (min-width: 760px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
 .voice { background: var(--brush), var(--s-gun); box-shadow: var(--bev); border: 1px solid var(--rule); padding: 16px; display: flex; flex-direction: column; gap: 8px; }
 .voice:hover { border-color: var(--green); }
+/* Credit pagination. Plain numbers, because a credits list is something you
+   scan to a point and stop, not something you scroll forever. */
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 16px 0 4px; }
+.pager-num, .pager-step {
+  min-width: 32px; height: 32px; padding: 0 8px; cursor: pointer;
+  background: var(--s-gun); box-shadow: var(--bev); border: 1px solid var(--rule);
+  color: var(--paper); font-family: "IBM Plex Mono", monospace; font-size: 12px;
+}
+.pager-num:hover:not(.on), .pager-step:hover:not(:disabled) { border-color: #4a524e; }
+.pager-num.on { background: var(--s-em); box-shadow: var(--bev-hi); border-color: var(--edge-em); color: #06150e; }
+.pager-step:disabled { opacity: 0.35; cursor: default; }
+
 .voice-video { padding: 0; overflow: hidden; }
 .voice-video .row-gap,
 .voice-video .voice-title,
