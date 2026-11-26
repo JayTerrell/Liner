@@ -69,13 +69,6 @@ const REJECT: Record<string, string[]> = {
   "fela-kuti": ["wena fela"],
 };
 
-// Album titles too generic to stand on their own: they only count when the
-// album's artist is matched in the same video.
-const WEAK_TITLES = new Set([
-  "live!", "dig", "milestones", "feels", "voodoo", "zombie", "donuts", "1999",
-  "thriller", "control", "touch", "gold", "home", "trane", "soul", "funk",
-]);
-
 const norm = (s: string) =>
   s.toLowerCase()
     .replace(/[‘’ʼ`]/g, "'")
@@ -139,10 +132,15 @@ async function main() {
     const inTitle = hit;
 
     const hitIds = new Set(hit.map((a) => a.id));
-    const hay = inTitle.length ? title : `${title} ${desc}`;
+    // Albums are read from the description as well as the title, but only for
+    // an artist the TITLE already confirmed. That is the safe half of the
+    // description: once we know the video is about Marvin Gaye, "What's Going
+    // On" further down the page is almost certainly his record and not a turn
+    // of phrase. Albums by anyone else are ignored, which is what made
+    // description matching unusable for artists.
     const albumIds = albums
-      .filter((al) => mentions(hay, al.title))
-      .filter((al) => !WEAK_TITLES.has(al.title.toLowerCase()) || hitIds.has(al.artistId))
+      .filter((al) => hitIds.has(al.artistId))
+      .filter((al) => mentions(title, al.title) || mentions(desc, al.title))
       .map((al) => al.id);
 
     const c = chan.get(v.channelKey);
@@ -169,7 +167,8 @@ async function main() {
   console.log(`  ${tooShort} dropped: under ${MIN_SECONDS}s (Shorts and teasers)`);
   console.log(`  ${noMatch} dropped: no Liner artist named in the title`);
   console.log(`  ${matches.length} matched  (${strong} by title, ${matches.length - strong} by description only)`);
-  console.log(`  ${matches.filter((m) => m.albumIds.length).length} also name a Liner album`);
+  const withAlbum = matches.filter((m) => m.albumIds.length);
+  console.log(`  ${withAlbum.length} also name an album by that artist (title or description)`);
   console.log(`\nartists covered: ${perArtist.size} of ${seed.artists.length}`);
   for (const [id, n] of [...perArtist].sort((a, b) => b[1] - a[1])) {
     console.log(`  ${String(n).padStart(3)}  ${id}`);

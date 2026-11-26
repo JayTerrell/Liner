@@ -1,6 +1,6 @@
 {
   "_note": "Videos matched to Liner artists and albums by scripts/youtube-match.ts. Rules only, no model judgement.",
-  "builtAt": "2026-11-26T04:52:53.440Z",
+  "builtAt": "2026-11-26T05:04:30.033Z",
   "matches": [
     {
       "videoId": "5849lYLkgc4",
@@ -37,7 +37,10 @@
       "artistIds": [
         "herbie-hancock"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "maiden-voyage",
+        "head-hunters"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -60,7 +63,10 @@
       "artistIds": [
         "d-angelo"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "brown-sugar",
+        "voodoo"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -77,7 +83,7 @@
       "title": "\"Superwoman\" by Stevie Wonder",
       "publishedAt": "2026-03-04T16:01:31Z",
       "durationSeconds": 134,
-      "viewCount": 8765,
+      "viewCount": 8768,
       "thumbnail": "https://i.ytimg.com/vi/zM4dh42mBHE/mqdefault.jpg",
       "artistIds": [
         "stevie-wonder"
@@ -105,7 +111,10 @@
       "artistIds": [
         "prince"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "purple-rain",
+        "sign-o-the-times"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -128,7 +137,9 @@
       "artistIds": [
         "stevie-wonder"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "songs-in-the-key-of-life"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -151,7 +162,9 @@
       "artistIds": [
         "stevie-wonder"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "songs-in-the-key-of-life"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -169,12 +182,14 @@
       "title": "This Mingus Track is 7 Minutes of GENIUS",
       "publishedAt": "2025-11-13T17:15:09Z",
       "durationSeconds": 533,
-      "viewCount": 3927,
+      "viewCount": 3925,
       "thumbnail": "https://i.ytimg.com/vi/jtVmLyXBU2I/mqdefault.jpg",
       "artistIds": [
         "charles-mingus"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "mingus-ah-um"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -196,7 +211,9 @@
       "artistIds": [
         "charles-mingus"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "mingus-ah-um"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -218,7 +235,9 @@
       "artistIds": [
         "michael-jackson"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "off-the-wall"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -240,7 +259,9 @@
       "artistIds": [
         "d-angelo"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "voodoo"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -257,12 +278,14 @@
       "title": "Favorite Stevie Wonder Tune in Eb Minor?",
       "publishedAt": "2025-09-10T15:01:31Z",
       "durationSeconds": 90,
-      "viewCount": 27787,
+      "viewCount": 27786,
       "thumbnail": "https://i.ytimg.com/vi/ktzBpgVRMFE/mqdefault.jpg",
       "artistIds": [
         "stevie-wonder"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "innervisions"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -353,7 +376,11 @@
       "artistIds": [
         "bill-evans"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "portrait-in-jazz",
+        "sunday-at-the-village-vanguard",
+        "waltz-for-debby"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -375,7 +402,10 @@
       "artistIds": [
         "john-coltrane"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "blue-train",
+        "giant-steps"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -392,7 +422,7 @@
       "title": "How Bill Evans Practiced Harmony",
       "publishedAt": "2024-03-07T15:40:17Z",
       "durationSeconds": 1753,
-      "viewCount": 104422,
+      "viewCount": 104423,
       "thumbnail": "https://i.ytimg.com/vi/UcxWTpen30s/mqdefault.jpg",
       "artistIds": [
         "bill-evans"
@@ -464,7 +494,9 @@
       "artistIds": [
         "outkast"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "aquemini"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -486,7 +518,9 @@
       "artistIds": [
         "prince"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "purple-rain"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -527,7 +561,7 @@
       "title": "J Dilla Transcended Musical Genre | 2 Hour Radio Show",
       "publishedAt": "2026-02-09T16:01:36Z",
       "durationSeconds": 8209,
-      "viewCount": 29436,
+      "viewCount": 29435,
       "thumbnail": "https://i.ytimg.com/vi/zu4eqjvDDGc/mqdefault.jpg",
       "artistIds": [
         "j-dilla"
@@ -578,7 +612,9 @@
       "artistIds": [
         "a-tribe-called-quest"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "peoples-instinctive-travels"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -668,12 +704,14 @@
       "title": "How Outkast Set Southern Hip Hop Free",
       "publishedAt": "2024-01-19T16:21:42Z",
       "durationSeconds": 1014,
-      "viewCount": 106209,
+      "viewCount": 106207,
       "thumbnail": "https://i.ytimg.com/vi/5tMOCJhxGFo/mqdefault.jpg",
       "artistIds": [
         "outkast"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "atliens"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -690,7 +728,7 @@
       "title": "The D'Angelo Song That's 100% REAL",
       "publishedAt": "2023-10-20T15:27:26Z",
       "durationSeconds": 998,
-      "viewCount": 165953,
+      "viewCount": 165952,
       "thumbnail": "https://i.ytimg.com/vi/UCALQl9UYYk/mqdefault.jpg",
       "artistIds": [
         "d-angelo"
@@ -713,7 +751,7 @@
       "title": "\"Stakes is High\" Changed Everything | De La Soul & J Dilla",
       "publishedAt": "2023-07-21T16:14:26Z",
       "durationSeconds": 1167,
-      "viewCount": 188617,
+      "viewCount": 188626,
       "thumbnail": "https://i.ytimg.com/vi/O68B6-LSo-M/mqdefault.jpg",
       "artistIds": [
         "j-dilla"
@@ -761,13 +799,16 @@
       "title": "D’Angelo, J Dilla & the “Lauryn” Track that Never Was",
       "publishedAt": "2022-11-26T16:37:40Z",
       "durationSeconds": 483,
-      "viewCount": 91566,
+      "viewCount": 91570,
       "thumbnail": "https://i.ytimg.com/vi/5kZMvKFTsAE/mqdefault.jpg",
       "artistIds": [
         "d-angelo",
         "j-dilla"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "brown-sugar",
+        "voodoo"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -813,7 +854,9 @@
       "artistIds": [
         "d-angelo"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "voodoo"
+      ],
       "lean": "secondhand",
       "lanes": [
         "hip-hop",
@@ -1204,7 +1247,7 @@
       "title": "Robert Glasper - Black Radio Episode 5 [Protest Mix]",
       "publishedAt": "2020-06-06T02:00:10Z",
       "durationSeconds": 3611,
-      "viewCount": 29652,
+      "viewCount": 29653,
       "thumbnail": "https://i.ytimg.com/vi/0gU3Due9v4c/mqdefault.jpg",
       "artistIds": [
         "robert-glasper"
@@ -1379,7 +1422,7 @@
       "title": "George Clinton On Parliament Funkadelic, Influencing Rappers, Writing Music On Acid | People's Party",
       "publishedAt": "2023-09-11T13:00:40Z",
       "durationSeconds": 2458,
-      "viewCount": 36293,
+      "viewCount": 36296,
       "thumbnail": "https://i.ytimg.com/vi/r-uXZRz4EG0/mqdefault.jpg",
       "artistIds": [
         "parliament"
@@ -1422,7 +1465,7 @@
       "title": "Robert Glasper Explains The FACTS Behind His Grammy \"Beef\" With Chris Brown | People's Party Clip",
       "publishedAt": "2023-09-02T20:35:02Z",
       "durationSeconds": 193,
-      "viewCount": 12532,
+      "viewCount": 12531,
       "thumbnail": "https://i.ytimg.com/vi/7XLvwKnYf20/mqdefault.jpg",
       "artistIds": [
         "robert-glasper"
@@ -1976,6 +2019,94 @@
       "confidence": "strong"
     },
     {
+      "videoId": "5ruNs3wfUr8",
+      "channelKey": "sway",
+      "channelName": "Sway in the Morning",
+      "title": "9th Wonder & The Musalini: The Secret to Longevity in Hip Hop | SWAY’S UNIVERSE",
+      "publishedAt": "2026-07-28T12:29:43Z",
+      "durationSeconds": 2512,
+      "viewCount": 4606,
+      "thumbnail": "https://i.ytimg.com/vi/5ruNs3wfUr8/mqdefault.jpg",
+      "artistIds": [
+        "9th-wonder"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "WhYX6RvapVg",
+      "channelKey": "sway",
+      "channelName": "Sway in the Morning",
+      "title": "From Miles Davis to Biggie: The Legend of Donald Harrison | SWAY’S UNIVERSE",
+      "publishedAt": "2026-04-18T14:00:51Z",
+      "durationSeconds": 2617,
+      "viewCount": 1362,
+      "thumbnail": "https://i.ytimg.com/vi/WhYX6RvapVg/mqdefault.jpg",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "tiPb7iLuJj8",
+      "channelKey": "sway",
+      "channelName": "Sway in the Morning",
+      "title": "Jazzy Jeff Reveals DJ Secrets & Jay Dilla Stories 🎧 | SWAY’S UNIVERSE",
+      "publishedAt": "2026-01-28T17:30:06Z",
+      "durationSeconds": 1388,
+      "viewCount": 21710,
+      "thumbnail": "https://i.ytimg.com/vi/tiPb7iLuJj8/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [
+        "donuts"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "K-4M2MDZO5I",
+      "channelKey": "sway",
+      "channelName": "Sway in the Morning",
+      "title": "Robert Glasper: The Quincy Jones of Our Time? | SWAY’S UNIVERSE",
+      "publishedAt": "2025-07-29T21:00:17Z",
+      "durationSeconds": 2516,
+      "viewCount": 5539,
+      "thumbnail": "https://i.ytimg.com/vi/K-4M2MDZO5I/mqdefault.jpg",
+      "artistIds": [
+        "robert-glasper"
+      ],
+      "albumIds": [
+        "black-radio"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "OYa-NQqT-ys",
       "channelKey": "big-boi",
       "channelName": "Big Boi",
@@ -2042,7 +2173,7 @@
       "title": "Sickick - Mood x Ms  Jackson 24kGoldn x Outkast Remix",
       "publishedAt": "2021-05-06T17:41:28Z",
       "durationSeconds": 119,
-      "viewCount": 219862,
+      "viewCount": 219863,
       "thumbnail": "https://i.ytimg.com/vi/RFWmTVd2nj0/mqdefault.jpg",
       "artistIds": [
         "outkast"
@@ -2109,9 +2240,7 @@
       "artistIds": [
         "outkast"
       ],
-      "albumIds": [
-        "live-at-the-apollo"
-      ],
+      "albumIds": [],
       "lean": "firsthand",
       "lanes": [
         "hip-hop"
@@ -2206,7 +2335,7 @@
       "title": "Outkast performance at the American Music Awards",
       "publishedAt": "2018-12-05T22:57:11Z",
       "durationSeconds": 474,
-      "viewCount": 65290,
+      "viewCount": 65292,
       "thumbnail": "https://i.ytimg.com/vi/PFA3RRKpoe8/mqdefault.jpg",
       "artistIds": [
         "outkast"
@@ -2280,6 +2409,75 @@
       "confidence": "strong"
     },
     {
+      "videoId": "CZP6nogQYPg",
+      "channelKey": "vox",
+      "channelName": "Vox",
+      "title": "Jacob Collier deconstructs a Stevie Wonder classic",
+      "publishedAt": "2019-07-05T12:00:02Z",
+      "durationSeconds": 643,
+      "viewCount": 3954579,
+      "thumbnail": "https://i.ytimg.com/vi/CZP6nogQYPg/mqdefault.jpg",
+      "artistIds": [
+        "stevie-wonder"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "soul",
+        "funk"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "DipzS0VH4PA",
+      "channelKey": "vox",
+      "channelName": "Vox",
+      "title": "How this young prince seized power in Saudi Arabia",
+      "publishedAt": "2018-01-23T13:00:01Z",
+      "durationSeconds": 292,
+      "viewCount": 10222613,
+      "thumbnail": "https://i.ytimg.com/vi/DipzS0VH4PA/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "SENzTt3ftiU",
+      "channelKey": "vox",
+      "channelName": "Vox",
+      "title": "How J Dilla humanized his MPC3000",
+      "publishedAt": "2017-12-06T12:53:58Z",
+      "durationSeconds": 624,
+      "viewCount": 4326109,
+      "thumbnail": "https://i.ytimg.com/vi/SENzTt3ftiU/mqdefault.jpg",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "albumIds": [],
+      "lean": "secondhand",
+      "lanes": [
+        "hip-hop",
+        "jazz",
+        "neo-soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "5RHFP6lAAo4",
       "channelKey": "nardwuar",
       "channelName": "Nardwuar",
@@ -2335,7 +2533,10 @@
       "artistIds": [
         "a-tribe-called-quest"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "low-end-theory",
+        "midnight-marauders"
+      ],
       "lean": "firsthand",
       "lanes": [
         "hip-hop",
@@ -2733,7 +2934,7 @@
       "title": "El Guincho talks Sampling, Positive music and J Dilla | Red Bull Music Academy",
       "publishedAt": "2018-03-23T03:05:47Z",
       "durationSeconds": 3355,
-      "viewCount": 7329,
+      "viewCount": 7328,
       "thumbnail": "https://i.ytimg.com/vi/BCBNMXxhNmk/mqdefault.jpg",
       "artistIds": [
         "j-dilla"
@@ -2837,7 +3038,7 @@
       "title": "Clare & Brent Fischer talks working with Prince and Latin music | Red Bull Music Academy",
       "publishedAt": "2017-08-16T23:10:32Z",
       "durationSeconds": 3374,
-      "viewCount": 10101,
+      "viewCount": 10102,
       "thumbnail": "https://i.ytimg.com/vi/ozWde7KJoZs/mqdefault.jpg",
       "artistIds": [
         "prince"
@@ -2969,7 +3170,9 @@
       "artistIds": [
         "prince"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "purple-rain"
+      ],
       "lean": "firsthand",
       "lanes": [
         "funk",
@@ -3046,7 +3249,7 @@
       "title": "Richard Prince",
       "publishedAt": "2025-02-19T17:02:27Z",
       "durationSeconds": 8361,
-      "viewCount": 9984,
+      "viewCount": 9982,
       "thumbnail": "https://i.ytimg.com/vi/ERmoRc40x9M/mqdefault.jpg",
       "artistIds": [
         "prince"
@@ -3068,7 +3271,7 @@
       "title": "Easy Mo Bee on Sampling, \"Iconic Beats\", & Working with Tupac, The Notorious B.I.G. & Miles Davis",
       "publishedAt": "2026-11-10T14:00:20Z",
       "durationSeconds": 4595,
-      "viewCount": 28459,
+      "viewCount": 28486,
       "thumbnail": "https://i.ytimg.com/vi/2ZxyXPMgBso/mqdefault.jpg",
       "artistIds": [
         "miles-davis"
@@ -3130,7 +3333,7 @@
       "title": "R&B writer/producer Raphael Saadiq breaks down his collaboration with D’Angelo on “Lady”",
       "publishedAt": "2024-09-26T15:41:41Z",
       "durationSeconds": 268,
-      "viewCount": 30430,
+      "viewCount": 30433,
       "thumbnail": "https://i.ytimg.com/vi/ZSKW5wBOpdI/mqdefault.jpg",
       "artistIds": [
         "d-angelo"
@@ -3191,7 +3394,7 @@
       "title": "The Cast of Buena Vista Social Club: Tiny Desk Concert",
       "publishedAt": "2025-05-27T09:00:47Z",
       "durationSeconds": 1219,
-      "viewCount": 4848304,
+      "viewCount": 4848362,
       "thumbnail": "https://i.ytimg.com/vi/X1bx9_TL20A/mqdefault.jpg",
       "artistIds": [
         "buena-vista-social-club"
@@ -3254,7 +3457,7 @@
       "title": "The Lost Album of John Coltrane",
       "publishedAt": "2018-06-29T14:00:07Z",
       "durationSeconds": 648,
-      "viewCount": 210002,
+      "viewCount": 210005,
       "thumbnail": "https://i.ytimg.com/vi/vgRxCOr6MUI/mqdefault.jpg",
       "artistIds": [
         "john-coltrane"
@@ -3274,7 +3477,7 @@
       "title": "The Coltrane Fractal",
       "publishedAt": "2017-07-03T14:02:22Z",
       "durationSeconds": 552,
-      "viewCount": 1207276,
+      "viewCount": 1207279,
       "thumbnail": "https://i.ytimg.com/vi/J98jwtm5U4E/mqdefault.jpg",
       "artistIds": [
         "john-coltrane"
@@ -3530,7 +3733,7 @@
       "title": "Ladies Love Soul: Marvin Gaye, Al Green & Barry White's Impact on R&B Music  | Soul Train Awards '21",
       "publishedAt": "2021-11-11T20:15:58Z",
       "durationSeconds": 229,
-      "viewCount": 9274,
+      "viewCount": 9270,
       "thumbnail": "https://i.ytimg.com/vi/h35Sy3r1oko/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -3552,7 +3755,7 @@
       "title": "All Day Long! 2018 BET Soul Train Awards Performances Ft Faith Evans, Erykah Badu, Jon B & More",
       "publishedAt": "2021-11-06T06:40:15Z",
       "durationSeconds": 42850,
-      "viewCount": 323130,
+      "viewCount": 323136,
       "thumbnail": "https://i.ytimg.com/vi/1pi44JKSfrQ/mqdefault.jpg",
       "artistIds": [
         "erykah-badu"
@@ -3620,7 +3823,7 @@
       "title": "Soul Train Dancer Crystal McCarey Recalls Marvin Gaye Asking Her To Dance During His Performance!",
       "publishedAt": "2020-11-19T17:00:01Z",
       "durationSeconds": 699,
-      "viewCount": 1690630,
+      "viewCount": 1690632,
       "thumbnail": "https://i.ytimg.com/vi/2aIj0IHqYAw/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -3777,7 +3980,7 @@
       "title": "Curtis Mayfield Sings \"Back to the World\" To The Soul Train Crowd!",
       "publishedAt": "2019-04-24T22:00:05Z",
       "durationSeconds": 156,
-      "viewCount": 10510,
+      "viewCount": 10511,
       "thumbnail": "https://i.ytimg.com/vi/xAJXbWCdWlM/mqdefault.jpg",
       "artistIds": [
         "curtis-mayfield"
@@ -3801,7 +4004,7 @@
       "title": "One Of The Sexiest Songs Ever: Marvin Gaye - \"Let's Get It On\"",
       "publishedAt": "2019-04-16T22:00:00Z",
       "durationSeconds": 207,
-      "viewCount": 7839127,
+      "viewCount": 7839140,
       "thumbnail": "https://i.ytimg.com/vi/9KmR774hV5o/mqdefault.jpg",
       "artistIds": [
         "marvin-gaye"
@@ -4046,7 +4249,7 @@
       "title": "James Brown • It's A Man's Man's Man's World • 1968 [Reelin' In The Years Archive]",
       "publishedAt": "2026-07-22T19:00:19Z",
       "durationSeconds": 682,
-      "viewCount": 3412,
+      "viewCount": 3411,
       "thumbnail": "https://i.ytimg.com/vi/TG9RbSoAokc/mqdefault.jpg",
       "artistIds": [
         "james-brown"
@@ -4110,7 +4313,7 @@
       "title": "Stevie Wonder • Master Blaster (Jammin') • 1980",
       "publishedAt": "2026-01-07T20:00:33Z",
       "durationSeconds": 325,
-      "viewCount": 22864,
+      "viewCount": 22866,
       "thumbnail": "https://i.ytimg.com/vi/S9ph98y75CM/mqdefault.jpg",
       "artistIds": [
         "stevie-wonder"
@@ -4151,7 +4354,7 @@
       "title": "Beatles Songs at Rock Hall: Prince, Paul McCartney, Foo Fighters & More",
       "publishedAt": "2026-09-05T14:00:06Z",
       "durationSeconds": 2006,
-      "viewCount": 658137,
+      "viewCount": 658164,
       "thumbnail": "https://i.ytimg.com/vi/vCYzDL0KG2w/mqdefault.jpg",
       "artistIds": [
         "prince"
@@ -4301,7 +4504,7 @@
       "title": "ART BLAKEY on Keeping the Intensity of the Beat",
       "publishedAt": "2018-02-23T22:52:30Z",
       "durationSeconds": 153,
-      "viewCount": 43387,
+      "viewCount": 43389,
       "thumbnail": "https://i.ytimg.com/vi/CHu-Euwfj0s/mqdefault.jpg",
       "artistIds": [
         "art-blakey"
@@ -4321,7 +4524,7 @@
       "title": "MILES DAVIS on Dizzy & Drawing",
       "publishedAt": "2017-02-23T15:47:01Z",
       "durationSeconds": 164,
-      "viewCount": 34508,
+      "viewCount": 34510,
       "thumbnail": "https://i.ytimg.com/vi/hlzzminLRDE/mqdefault.jpg",
       "artistIds": [
         "miles-davis"
@@ -4341,12 +4544,15 @@
       "title": "Marcus Miller: Electric Miles Davis | JAZZ NIGHT IN AMERICA",
       "publishedAt": "2021-04-22T20:00:15Z",
       "durationSeconds": 3555,
-      "viewCount": 114891,
+      "viewCount": 114897,
       "thumbnail": "https://i.ytimg.com/vi/wv3EbfQtj2w/mqdefault.jpg",
       "artistIds": [
         "miles-davis"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "bitches-brew",
+        "in-a-silent-way"
+      ],
       "lean": "firsthand",
       "lanes": [
         "jazz"
@@ -4438,6 +4644,279 @@
       "confidence": "strong"
     },
     {
+      "videoId": "xP_rKIlYGsI",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Chris Botti -  Someday My Prince Will Come",
+      "publishedAt": "2023-12-16T05:00:30Z",
+      "durationSeconds": 284,
+      "viewCount": 855,
+      "thumbnail": "https://i.ytimg.com/vi/xP_rKIlYGsI/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "0sd6ebMtdhY",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Chris Botti - Some Day My Prince Will Come (Cozy Fireplace Video)",
+      "publishedAt": "2023-12-16T05:00:00Z",
+      "durationSeconds": 284,
+      "viewCount": 666,
+      "thumbnail": "https://i.ytimg.com/vi/0sd6ebMtdhY/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "8ZvJxHOxQYg",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Chris Botti - Someday My Prince Will Come (Relaxing Snow Scene Video)",
+      "publishedAt": "2023-12-14T05:00:02Z",
+      "durationSeconds": 284,
+      "viewCount": 689,
+      "thumbnail": "https://i.ytimg.com/vi/8ZvJxHOxQYg/mqdefault.jpg",
+      "artistIds": [
+        "prince"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz",
+        "funk",
+        "rnb",
+        "soul"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "hE9w0wXsOX0",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers - First  Flight to Tokyo - Vinyl Live Stream (Full Album)",
+      "publishedAt": "2021-12-10T02:00:13Z",
+      "durationSeconds": 6353,
+      "viewCount": 24740,
+      "thumbnail": "https://i.ytimg.com/vi/hE9w0wXsOX0/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [
+        "moanin"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "GzWy04TEG3g",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "The Story Behind Art Blakey & The Jazz Messengers “First Flight To Tokyo: The Lost 1961 Recordings”",
+      "publishedAt": "2021-11-05T04:00:05Z",
+      "durationSeconds": 405,
+      "viewCount": 10516,
+      "thumbnail": "https://i.ytimg.com/vi/GzWy04TEG3g/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "zSRrcH2HGvI",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey and The Jazz Messengers - A Night In Tunisia (Live at Hibiya Public Hall, Tokyo, 1/14/61)",
+      "publishedAt": "2021-10-22T04:00:32Z",
+      "durationSeconds": 672,
+      "viewCount": 10564,
+      "thumbnail": "https://i.ytimg.com/vi/zSRrcH2HGvI/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "CidPZqDqSE4",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey and the Jazz Messengers - Moanin' (Live at Hibiya Public Hall, Tokyo, Japan 1/14/61)",
+      "publishedAt": "2021-09-15T04:00:03Z",
+      "durationSeconds": 813,
+      "viewCount": 19670,
+      "thumbnail": "https://i.ytimg.com/vi/CidPZqDqSE4/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [
+        "moanin"
+      ],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "fskj_IM29Ws",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers - Just Coolin'  - Vinyl Live Stream (Full Album)",
+      "publishedAt": "2020-07-18T01:45:00Z",
+      "durationSeconds": 2372,
+      "viewCount": 18878,
+      "thumbnail": "https://i.ytimg.com/vi/fskj_IM29Ws/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "kO1lT8EK0bA",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers  -  Close Your Eyes",
+      "publishedAt": "2020-07-17T04:00:21Z",
+      "durationSeconds": 387,
+      "viewCount": 46183,
+      "thumbnail": "https://i.ytimg.com/vi/kO1lT8EK0bA/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "RQcfoXbGtq8",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers -  Just Coolin'",
+      "publishedAt": "2020-07-17T04:00:06Z",
+      "durationSeconds": 524,
+      "viewCount": 25209,
+      "thumbnail": "https://i.ytimg.com/vi/RQcfoXbGtq8/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "Ch0k48LiD6M",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers -  Jimerick",
+      "publishedAt": "2020-07-17T04:00:05Z",
+      "durationSeconds": 383,
+      "viewCount": 6967,
+      "thumbnail": "https://i.ytimg.com/vi/Ch0k48LiD6M/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "GGJYjs9lSYM",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Art Blakey & The Jazz Messengers  -  M&M",
+      "publishedAt": "2020-07-17T04:00:03Z",
+      "durationSeconds": 360,
+      "viewCount": 5294,
+      "thumbnail": "https://i.ytimg.com/vi/GGJYjs9lSYM/mqdefault.jpg",
+      "artistIds": [
+        "art-blakey"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
+      "videoId": "lzQM_SVM7dM",
+      "channelKey": "blue-note",
+      "channelName": "Blue Note Records",
+      "title": "Gerald Clayton -  Take The Coltrane  - Happening: Live at the Village Vanguard",
+      "publishedAt": "2020-07-10T04:10:46Z",
+      "durationSeconds": 842,
+      "viewCount": 8682,
+      "thumbnail": "https://i.ytimg.com/vi/lzQM_SVM7dM/mqdefault.jpg",
+      "artistIds": [
+        "john-coltrane"
+      ],
+      "albumIds": [],
+      "lean": "firsthand",
+      "lanes": [
+        "jazz"
+      ],
+      "matchedOn": "title",
+      "confidence": "strong"
+    },
+    {
       "videoId": "DSmU7r9sfbo",
       "channelKey": "aimee-nolte",
       "channelName": "Aimee Nolte",
@@ -4449,7 +4928,9 @@
       "artistIds": [
         "miles-davis"
       ],
-      "albumIds": [],
+      "albumIds": [
+        "kind-of-blue"
+      ],
       "lean": "secondhand",
       "lanes": [
         "jazz"
@@ -4678,7 +5159,7 @@
       "title": "How James Brown Invented Funk",
       "publishedAt": "2019-01-31T13:00:48Z",
       "durationSeconds": 501,
-      "viewCount": 343769,
+      "viewCount": 343779,
       "thumbnail": "https://i.ytimg.com/vi/AihgZv1D5-4/mqdefault.jpg",
       "artistIds": [
         "james-brown"

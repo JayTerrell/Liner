@@ -30,6 +30,7 @@ export interface SeedChannel {
   channelId?: string;        // verified channel, committed once confirmed
   resolvedTitle?: string;    // that channel's real title, so a bad match is visible
   titleMustContain?: string; // for a show that lives inside a bigger channel
+  depth?: number;            // how many uploads to take, when the default is not enough
   uploadsPlaylist?: string;
 }
 
@@ -176,7 +177,7 @@ async function main() {
       // are scattered among everything else the channel posts.
       // A filtered show is a thin seam in a big channel, so dig much deeper
       // for it than for a channel we take whole.
-      const want = c.titleMustContain ? Math.max(PER_CHANNEL, 1500) : PER_CHANNEL;
+      const want = c.depth ?? (c.titleMustContain ? Math.max(PER_CHANNEL, 1500) : PER_CHANNEL);
       const ids = await recentVideoIds(c.uploadsPlaylist, want);
       let vids = await videoDetails(ids, c);
       if (c.titleMustContain) {

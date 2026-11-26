@@ -91,9 +91,10 @@
       "type": "Artist interviews",
       "lean": "firsthand",
       "priority": "P3",
-      "channelId": "UCm1rJvggb7msnIo9zjxwN5g",
-      "uploadsPlaylist": "UUm1rJvggb7msnIo9zjxwN5g",
-      "resolvedTitle": "SWAY𖤐⁶⁶⁶"
+      "handle": "@SWAYSUNIVERSE1",
+      "channelId": "UCuS96jkLKpTaGB_OWnwZV_A",
+      "resolvedTitle": "SWAY'S UNIVERSE",
+      "uploadsPlaylist": "UUuS96jkLKpTaGB_OWnwZV_A"
     },
     {
       "id": "big-boi",
@@ -168,8 +169,8 @@
       "resolvedTitle": "Song Exploder"
     },
     {
-      "id": "vox-earworm",
-      "name": "Vox Earworm",
+      "id": "vox",
+      "name": "Vox",
       "query": "Vox Earworm",
       "lanes": [
         "hip-hop",
@@ -179,9 +180,9 @@
       "lean": "secondhand",
       "priority": "P3",
       "channelId": "UCLXo7UDZvByw2ixzpQCufnA",
-      "titleMustContain": "Earworm",
       "uploadsPlaylist": "UULXo7UDZvByw2ixzpQCufnA",
-      "resolvedTitle": "Vox"
+      "resolvedTitle": "Vox",
+      "depth": 2000
     },
     {
       "id": "rick-beato",
@@ -577,10 +578,9 @@
       "type": "Label interviews and archive",
       "lean": "firsthand",
       "priority": "P2",
-      "handle": "@BlueNoteRecords",
-      "channelId": "UCVJx__ZVLGqL9JYorSj8xMg",
-      "resolvedTitle": "BlueNoteRecords",
-      "uploadsPlaylist": "UUVJx__ZVLGqL9JYorSj8xMg"
+      "channelId": "UCLd5ucnvGl5A0lohJQWVIsw",
+      "uploadsPlaylist": "UULd5ucnvGl5A0lohJQWVIsw",
+      "resolvedTitle": "Blue Note Records"
     },
     {
       "id": "aimee-nolte",
@@ -620,9 +620,10 @@
       "type": "Short-form video",
       "lean": "mixed",
       "priority": "P2",
-      "channelId": "UCADj6wtgh2SRaDr77SuIuNQ",
-      "uploadsPlaylist": "UUADj6wtgh2SRaDr77SuIuNQ",
-      "resolvedTitle": "Kofi Boateng"
+      "handle": "@ChefKDofficial",
+      "channelId": "UCXkknZV3xGT4oC2TZ64VOdw",
+      "resolvedTitle": "ChefKD",
+      "uploadsPlaylist": "UUXkknZV3xGT4oC2TZ64VOdw"
     },
     {
       "id": "life-of-music",
@@ -790,9 +791,10 @@
       "type": "Scholar",
       "lean": "secondhand",
       "priority": "P3",
-      "channelId": "UC0iblXjmdyrsu1_sruXuShA",
-      "uploadsPlaylist": "UU0iblXjmdyrsu1_sruXuShA",
-      "resolvedTitle": "Ivor Miller"
+      "handle": "@MbakaraEkoretonko",
+      "channelId": "UC-niiyOTD5s1WzflwgmFx8w",
+      "resolvedTitle": "Ivor Miller",
+      "uploadsPlaylist": "UU-niiyOTD5s1WzflwgmFx8w"
     },
     {
       "id": "fania-records",

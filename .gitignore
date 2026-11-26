@@ -5,3 +5,7 @@ next-env.d.ts
 *.tsbuildinfo
 .env*.local
 .DS_Store
+
+# Raw YouTube API output: large, regenerable with npm run yt:ingest, and the
+# app never reads it. Only data/youtube/matches.json is used at build time.
+data/youtube/videos.json
