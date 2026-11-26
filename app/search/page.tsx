@@ -25,13 +25,16 @@ export default async function SearchPage({
           <input name="q" defaultValue={q} placeholder="An artist, an album, a sound, a question…" aria-label="Search Liner" />
           <button className="btn" type="submit">Search</button>
         </form>
-        <div className="chips">
-          <Link href={q ? `/search?q=${encodeURIComponent(q)}` : "/search"} className={lane ? "chip" : "chip on"}>All</Link>
-          {lanes.map((l) => (
-            <Link key={l.id} href={`/search?${q ? `q=${encodeURIComponent(q)}&` : ""}lane=${l.id}`} className={lane === l.id ? "chip on" : "chip"}>
-              {l.label}
-            </Link>
-          ))}
+        <div className="picker">
+          <span className="picker-label">Filter by genre</span>
+          <div className="chips">
+            <Link href={q ? `/search?q=${encodeURIComponent(q)}` : "/search"} className={lane ? "chip" : "chip on"}>All</Link>
+            {lanes.map((l) => (
+              <Link key={l.id} href={`/search?${q ? `q=${encodeURIComponent(q)}&` : ""}lane=${l.id}`} className={lane === l.id ? "chip on" : "chip"}>
+                {l.label}
+              </Link>
+            ))}
+          </div>
         </div>
         <div className="mono muted">{total} results</div>
       </section>

@@ -1,0 +1,1227 @@
+T|a-love-supreme|1|1|A Love Supreme, Part 1: Acknowledgement|468
+T|a-love-supreme|1|2|A Love Supreme, Part 2: Resolution|445
+T|a-love-supreme|1|3|A Love Supreme, Part 3: Pursuance / A Love Supreme, Part 4: Psalm|1071
+C|a-love-supreme|Rudy van Gelder|engineer|0|
+C|a-love-supreme|John Coltrane|vocal|1|
+C|a-love-supreme|Bob Thiele|producer|3|
+C|a-love-supreme|Elvin Jones|instrument|3|drums (drum set)
+C|a-love-supreme|Jimmy Garrison|instrument|3|double bass
+C|a-love-supreme|John Coltrane|instrument|3|tenor saxophone
+C|a-love-supreme|McCoy Tyner|instrument|3|piano
+C|a-love-supreme|Rudy van Gelder|recording|3|
+T|amazing-grace|1|1|Mary Don’t You Weep|449
+T|amazing-grace|1|2|Medley: Precious Lord, Take My Hand / You’ve Got a Friend|334
+T|amazing-grace|1|3|Old Landmark|220
+T|amazing-grace|1|4|Give Yourself to Jesus|316
+T|amazing-grace|1|5|How I Got Over|262
+T|amazing-grace|1|6|What a Friend We Have in Jesus|363
+T|amazing-grace|1|7|Amazing Grace|645
+T|amazing-grace|2|1|Precious Memories|440
+T|amazing-grace|2|2|Climbing Higher Mountains|152
+T|amazing-grace|2|3|Remarks by Reverend C.L. Franklin|116
+T|amazing-grace|2|4|God Will Take Care of You|528
+T|amazing-grace|2|5|Wholy Holy|330
+T|amazing-grace|2|6|You’ll Never Walk Alone|391
+T|amazing-grace|2|7|Never Grow Old|597
+C|amazing-grace|Ken Lupper|instrument|10|organ
+C|amazing-grace|Gene Paul|recording|10|assistant
+C|amazing-grace|George Piros|recording|10|assistant
+C|amazing-grace|Pancho Morales|instrument|10|congas
+C|amazing-grace|Ray Thompson|recording|10|
+C|amazing-grace|Jerry Wexler|producer|10|
+C|amazing-grace|Jimmy Douglass|recording|10|assistant
+C|amazing-grace|Chuck Rainey|instrument|10|bass guitar
+C|amazing-grace|Aretha Franklin|producer|10|
+C|amazing-grace|Aretha Franklin|vocal|10|lead vocals
+C|amazing-grace|Arif Mardin|producer|10|
+C|amazing-grace|Arif Mardin|editor|10|
+C|amazing-grace|Arif Mardin|mix|10|
+C|amazing-grace|Bernard “Pretty” Purdie|instrument|10|drums (drum set)
+C|amazing-grace|Cornell Dupree|instrument|10|guitar
+T|amor-prohibido|1|1|Amor Prohibido|173
+T|amor-prohibido|1|2|No Me Queda Más|201
+T|amor-prohibido|1|3|Cobarde|172
+T|amor-prohibido|1|4|Fotos Y Recuerdos - 'Back in the Chain Gang'|157
+T|amor-prohibido|1|5|El Chico Del Apartamento 512|209
+T|amor-prohibido|1|6|Bidi Bidi Bom Bom|211
+T|amor-prohibido|1|7|Techno Cumbia|227
+T|amor-prohibido|1|8|Tus Desprecios|205
+T|amor-prohibido|1|9|Si Una Vez|167
+T|amor-prohibido|1|10|Ya No|238
+C|amor-prohibido|Suzette Quintanilla|instrument|1|drums (drum set)
+C|amor-prohibido|Selena|vocal|1|
+C|amor-prohibido|Ricky "He's Alright" Vela|instrument|1|keyboard
+C|amor-prohibido|Joe Ojeda|instrument|1|keyboard
+C|amor-prohibido|Chris Pérez|instrument|1|guitar
+C|amor-prohibido|Brian "Red" Moore|mix|1|
+C|amor-prohibido|Brian "Red" Moore|recording|1|
+C|amor-prohibido|Art Meza|instrument|1|percussion
+C|amor-prohibido|A.B. Quintanilla III|arranger|1|
+C|amor-prohibido|A.B. Quintanilla III|producer|1|
+C|amor-prohibido|A.B. Quintanilla III|instrument|1|bass
+T|aquemini|1|1|Hold On, Be Strong|72
+T|aquemini|1|2|Return of the "G"|289
+T|aquemini|1|3|Rosa Parks|324
+T|aquemini|1|4|Skew It on the Bar-B|195
+T|aquemini|1|5|Aquemini|319
+T|aquemini|1|6|Synthesizer|311
+T|aquemini|1|7|Slump|309
+T|aquemini|1|8|West Savannah|243
+T|aquemini|1|9|Da Art of Storytellin', Part 1|222
+T|aquemini|1|10|Da Art of Storytellin', Part 2|168
+T|aquemini|1|11|Mamacita|352
+T|aquemini|1|12|SpottieOttieDopaliscious|427
+T|aquemini|1|13|Y'all Scared|290
+T|aquemini|1|14|Nathaniel|70
+T|aquemini|1|15|Liberation|526
+T|aquemini|1|16|Chonkyfire|371
+C|aquemini|Blake Eiseman|recording|4|
+C|aquemini|Jason Rome|recording|4|assistant
+C|aquemini|Jason Stokes|recording|4|assistant
+C|aquemini|Organized Noize|producer|4|executive
+C|aquemini|Kenneth Stallworth|recording|5|assistant
+C|aquemini|Donny Mathis|instrument|6|guest, guitar, acoustic guitar
+C|aquemini|Marvin “Chanz” Parkman|instrument|7|synthesizer, bass guitar, piano, guest, keyboard, Moog
+C|aquemini|Neal Pogue|recording|7|
+C|aquemini|OutKast|producer|7|executive
+C|aquemini|Ralph Cacciurri|recording|9|assistant
+C|aquemini|Preston Crump|instrument|10|bass guitar, guest, guitar, electric guitar
+C|aquemini|John Frye|recording|11|
+C|aquemini|André 3000|vocal|12|lead vocals
+C|aquemini|Neal Pogue|mix|13|
+C|aquemini|Big Boi|vocal|14|lead vocals
+T|atliens|1|1|You May Die (intro)|66
+T|atliens|1|2|Two Dope Boyz (in a Cadillac)|162
+T|atliens|1|3|ATLiens|231
+T|atliens|1|4|Wheelz of Steel|243
+T|atliens|1|5|Jazzy Belle|252
+T|atliens|1|6|Elevators (Me & You)|265
+T|atliens|1|7|Ova da Wudz|228
+T|atliens|1|8|Babylon|264
+T|atliens|1|9|Wailin’|119
+T|atliens|1|10|Mainstream|318
+T|atliens|1|11|Decatur Psalm|238
+T|atliens|1|12|Millennium|189
+T|atliens|1|13|E.T. (Extraterrestrial)|187
+T|atliens|1|14|13th Floor/Growing Old|411
+T|atliens|1|15|Elevators (ONP 86 mix)|277
+C|atliens|Big Gipp|vocal|1|
+C|atliens|CeeLo Green|vocal|1|additional
+C|atliens|Andrea Martin|vocal|1|additional
+C|atliens|Cool Breeze|vocal|1|
+C|atliens|Earthtone III|producer|1|
+C|atliens|Joi|vocal|1|additional
+C|atliens|Organized Noize|remixer|1|
+C|atliens|Shajuanna Edghill|vocal|1|additional
+C|atliens|Khujo Goodie|vocal|1|
+C|atliens|Trina|vocal|1|additional
+C|atliens|Witchdoctor|vocal|2|additional
+C|atliens|OutKast|programming|5|keyboard, membranophone
+C|atliens|OutKast|producer|5|
+C|atliens|Organized Noize|producer|10|
+C|atliens|Organized Noize|programming|11|keyboard, membranophone
+T|baduizm|1|1|Rimshot (intro)|117
+T|baduizm|1|2|On & On|226
+T|baduizm|1|3|Appletree|265
+T|baduizm|1|4|Otherside of the Game|394
+T|baduizm|1|5|Sometimes (mix #9)|44
+T|baduizm|1|6|Next Lifetime|387
+T|baduizm|1|7|Afro (Freestyle skit)|124
+T|baduizm|1|8|Certainly|283
+T|baduizm|1|9|4 Leaf Clover|275
+T|baduizm|1|10|No Love|309
+T|baduizm|1|11|Drama|363
+T|baduizm|1|12|Sometimes…|251
+T|baduizm|1|13|Certainly (Flipped It)|326
+T|baduizm|1|14|Rimshot (outro)|140
+C|baduizm|James Poyser|producer|3|
+C|baduizm|The Roots|producer|3|
+C|baduizm|Richard Nichols|producer|3|
+C|baduizm|Erykah Badu|producer|3|
+C|baduizm|David Ivory|recording|4|
+C|baduizm|Madukwu Chinwah|producer|4|
+C|baduizm|John Meredith|recording|4|assistant
+C|baduizm|Chris Trevett|recording|4|
+C|baduizm|Paul Shatraw|mix|5|assistant
+C|baduizm|DURO|mix|5|
+C|baduizm|Tim Latham|mix|7|
+C|baduizm|Michael Gilbert|recording|8|
+C|baduizm|Charles McCrorey|recording|8|assistant
+C|baduizm|Martin Czembor|mix|10|assistant
+C|baduizm|Erykah Badu|vocal|14|background vocals, lead vocals
+T|bitches-brew|1|1|Pharaoh’s Dance|1200
+T|bitches-brew|1|2|Bitches Brew|1620
+T|bitches-brew|2|1|Spanish Key|1050
+T|bitches-brew|2|2|John McLaughlin|266
+T|bitches-brew|2|3|Miles Runs the Voodoo Down|845
+T|bitches-brew|2|4|Sanctuary|653
+C|bitches-brew|Frank Laico|recording|3|
+C|bitches-brew|Harvey Brooks|instrument|3|electric bass guitar, bass
+C|bitches-brew|Stanley Tonkell|recording|3|
+C|bitches-brew|Larry Young|instrument|4|keyboard, electric piano
+C|bitches-brew|Lenny White|instrument|4|drums (drum set)
+C|bitches-brew|Bennie Maupin|instrument|5|bass clarinet
+C|bitches-brew|Jim Riley|instrument|5|congas, shakers
+C|bitches-brew|Joe Zawinul|instrument|5|electric piano, keyboard
+C|bitches-brew|Chick Corea|instrument|6|electric piano, keyboard
+C|bitches-brew|Dave Holland|instrument|6|bass, electric bass guitar
+C|bitches-brew|Don Alias|instrument|6|congas, drums (drum set)
+C|bitches-brew|Jack DeJohnette|instrument|6|drums (drum set)
+C|bitches-brew|John McLaughlin|instrument|6|electric guitar, guitar
+C|bitches-brew|Miles Davis|instrument|6|trumpet
+C|bitches-brew|Wayne Shorter|instrument|6|soprano saxophone
+T|black-messiah|1|1|Ain’t That Easy|289
+T|black-messiah|1|2|1000 Deaths|349
+T|black-messiah|1|3|The Charade|200
+T|black-messiah|1|4|Sugah Daddy|302
+T|black-messiah|1|5|Really Love|344
+T|black-messiah|1|6|Back to the Future, Part I|322
+T|black-messiah|1|7|Till It’s Done (Tutu)|231
+T|black-messiah|1|8|Prayer|272
+T|black-messiah|1|9|Betray My Heart|355
+T|black-messiah|1|10|The Door|188
+T|black-messiah|1|11|Back to the Future, Part II|144
+T|black-messiah|1|12|Another Life|358
+C|black-messiah|Ben Kane|mix|0|additional
+C|black-messiah|Brent Fischer|instrument arranger|0|strings
+C|black-messiah|?uestlove|instrument|0|membranophone
+C|black-messiah|Ben Kane|audio|0|
+C|black-messiah|Assa Drori|instrument|0|strings
+C|black-messiah|Anatoly Rosinsky|instrument|0|strings
+C|black-messiah|Chuck Berghofer|instrument|0|strings
+C|black-messiah|Alex Budman|instrument|0|woodwind
+C|black-messiah|?uestlove|programming|0|membranophone
+C|black-messiah|Bill Reichenbach, Jr.|instrument|0|woodwind
+C|black-messiah|Alan Leeds|producer|0|executive
+C|black-messiah|Chris Soper|audio|0|assistant
+C|black-messiah|Ahrel Lumzy|vocal|0|background vocals
+C|black-messiah|D’Angelo|vocal|0|background vocals
+C|black-messiah|Dave Collins|mastering|0|
+T|black-radio|1|1|Lift Off / Mic Check|237
+T|black-radio|1|2|Afro Blue|308
+T|black-radio|1|3|Cherish the Day|352
+T|black-radio|1|4|Always Shine|322
+T|black-radio|1|5|Gonna Be Alright (F.T.B.)|370
+T|black-radio|1|6|Move Love|198
+T|black-radio|1|7|Ah Yeah|309
+T|black-radio|1|8|The Consequences of Jealousy|367
+T|black-radio|1|9|Why Do We Try|392
+T|black-radio|1|10|Black Radio|326
+T|black-radio|1|11|Letter to Hermione|292
+T|black-radio|1|12|Smells Like Teen Spirit|445
+T|black-radio|1|13|Twice|326
+C|black-radio|Anita Bias|vocal|1|background vocals, lead vocals
+C|black-radio|Amber Strother|vocal|1|lead vocals, background vocals
+C|black-radio|Stokley|instrument|2|percussion
+C|black-radio|Bilal|vocal|2|
+C|black-radio|Lalah Hathaway|vocal|2|additional
+C|black-radio|Robert Glasper|arranger|3|
+C|black-radio|Jahi Sundance|instrument|4|turntable
+C|black-radio|Casey Benjamin|instrument|10|saxophone, flute, vocoder
+C|black-radio|Derrick Hodge|instrument|12|bass
+C|black-radio|Qmillion|mix|12|
+C|black-radio|Todd Bergman|engineer|12|assistant
+C|black-radio|Robert Glasper|producer|12|co
+C|black-radio|Qmillion|engineer|12|
+C|black-radio|Robert Glasper|instrument|12|piano, Rhodes piano, synthesizer
+C|black-radio|Chris Dave|instrument|12|drums (drum set), percussion
+T|blue-train|1|1|Blue Train|643
+T|blue-train|1|2|Moment’s Notice|551
+T|blue-train|1|3|Locomotion|435
+T|blue-train|1|4|I’m Old Fashioned|478
+T|blue-train|1|5|Lazy Bird|425
+C|blue-train|Philly Joe Jones|instrument|5|drums (drum set)
+C|blue-train|Rudy van Gelder|recording|5|
+C|blue-train|Alfred Lion|producer|5|
+C|blue-train|Curtis Fuller|instrument|5|trombone
+C|blue-train|John Coltrane|instrument|5|tenor saxophone
+C|blue-train|Kenny Drew|instrument|5|piano
+C|blue-train|Lee Morgan|instrument|5|trumpet
+C|blue-train|Paul Chambers|instrument|5|double bass
+T|brilliant-corners|1|1|Brilliant Corners|465
+T|brilliant-corners|1|2|Ba-lue Bolivar Ba-lues-are|787
+T|brilliant-corners|1|3|Pannonica|530
+T|brilliant-corners|1|4|I Surrender, Dear|327
+T|brilliant-corners|1|5|Bemsha Swing|461
+C|brilliant-corners|Clark Terry|instrument|1|trumpet
+C|brilliant-corners|Paul Chambers|instrument|1|double bass
+C|brilliant-corners|Oscar Pettiford|instrument|3|double bass
+C|brilliant-corners|Ernie Henry|instrument|3|alto saxophone
+C|brilliant-corners|Sonny Rollins|instrument|4|tenor saxophone
+C|brilliant-corners|Max Roach|instrument|4|drums (drum set)
+C|brilliant-corners|Thelonious Monk|instrument|5|piano, celesta
+C|brilliant-corners|Orrin Keepnews|producer|5|
+C|brilliant-corners|Jack Higgins|recording|5|
+T|brown-sugar|1|1|Brown Sugar|263
+T|brown-sugar|1|2|Alright|313
+T|brown-sugar|1|3|Jonz in My Bonz|356
+T|brown-sugar|1|4|Me and Those Dreamin’ Eyes of Mine|287
+T|brown-sugar|1|5|Shit, Damn, Motherfucker|314
+T|brown-sugar|1|6|Smooth|259
+T|brown-sugar|1|7|Cruisin’|385
+T|brown-sugar|1|8|When We Get By|345
+T|brown-sugar|1|9|Lady|346
+T|brown-sugar|1|10|Higher|328
+C|brown-sugar|Ali Shaheed Muhammad|producer|1|
+C|brown-sugar|Chaz Harper|engineer|3|assistant
+C|brown-sugar|G-Spot|recording|3|additional
+C|brown-sugar|Russell Elevado|mix|3|
+C|brown-sugar|Rob Farrell|engineer|4|assistant
+C|brown-sugar|Bob Power|recording|5|
+C|brown-sugar|Bob Power|producer|5|
+C|brown-sugar|Bob Power|instrument|5|guitar
+C|brown-sugar|Tim Latham|engineer|5|additional
+C|brown-sugar|Bob Power|mix|6|
+C|brown-sugar|G-Spot|engineer|6|assistant
+C|brown-sugar|D’Angelo|producer|10|
+C|brown-sugar|D’Angelo|arranger|10|
+C|brown-sugar|D’Angelo|vocal|10|
+C|brown-sugar|D’Angelo|vocal arranger|10|
+T|buena-vista-social-club|1|1|Chan Chan|259
+T|buena-vista-social-club|1|2|De camino a la vereda|304
+T|buena-vista-social-club|1|3|El cuarto de Tula|445
+T|buena-vista-social-club|1|4|Pueblo Nuevo|367
+T|buena-vista-social-club|1|5|Dos gardenias|184
+T|buena-vista-social-club|1|6|¿Y tú qué has hecho?|195
+T|buena-vista-social-club|1|7|Veinte años|212
+T|buena-vista-social-club|1|8|El carretero|210
+T|buena-vista-social-club|1|9|Candela|329
+T|buena-vista-social-club|1|10|Amor de loca juventud|203
+T|buena-vista-social-club|1|11|Orgullecida|199
+T|buena-vista-social-club|1|12|Murmullo|231
+T|buena-vista-social-club|1|13|Buena Vista Social Club|293
+T|buena-vista-social-club|1|14|La Bayamesa|174
+C|buena-vista-social-club|Barbarito Torres|instrument|4|lute
+C|buena-vista-social-club|Eliades Ochoa|vocal|4|lead vocals
+C|buena-vista-social-club|Eliades Ochoa|instrument|5|guitar
+C|buena-vista-social-club|Compay Segundo|vocal|6|background vocals, lead vocals
+C|buena-vista-social-club|Compay Segundo|instrument|7|congas, guitar
+C|buena-vista-social-club|Rubén González|instrument|7|piano
+C|buena-vista-social-club|Ibrahim Ferrer|vocal|8|background vocals, lead vocals
+C|buena-vista-social-club|Manuel "Guajiro" Mirabal|instrument|9|trumpet, congas
+C|buena-vista-social-club|Alberto "Virgilio" Valdés|instrument|11|maracas
+C|buena-vista-social-club|Joachim Cooder|instrument|12|udu, drums (drum set), darbuka, congas
+C|buena-vista-social-club|Orlando “Cachaíto” López|instrument|13|bass
+C|buena-vista-social-club|Ry Cooder|instrument|13|guitar, guitar family, acoustic guitar, slide guitar, mbira, oud, percussion
+C|buena-vista-social-club|Jerry Boys|recording|14|
+C|buena-vista-social-club|Jerry Boys|mix|14|
+C|buena-vista-social-club|Ry Cooder|producer|14|
+T|confusion|1|1|Confusion Pt. I|0
+T|confusion|1|2|Confusion Pt. II|0
+C|confusion|Fela Kuti|vocal|1|lead vocals
+C|confusion|Emmanuel Odenusi|recording|2|
+C|confusion|Fela Kuti|producer|2|
+C|confusion|Fela Kuti|arranger|2|
+T|curtis|1|1|(Don’t Worry) If There’s a Hell Below We’re All Going to Go|472
+T|curtis|1|2|The Other Side of Town|243
+T|curtis|1|3|The Makings of You|225
+T|curtis|1|4|We the People Who Are Darker Than Blue|365
+T|curtis|1|5|Move On Up|535
+T|curtis|1|6|Miss Black America|180
+T|curtis|1|7|Wild and Free|199
+T|curtis|1|8|Give It Up|225
+C|curtis|Donald Simmons|instrument|3|drums (drum set)
+C|curtis|Harold Lepp|instrument|3|
+C|curtis|John Howell|instrument|3|trumpet
+C|curtis|Gary Slabo|instrument|3|
+C|curtis|Harold Dessent|instrument|3|woodwind
+C|curtis|Harold D. Klatz|instrument|3|viola
+C|curtis|Elloit Golub|instrument|3|violin
+C|curtis|Clifford Davis|instrument|3|saxophone
+C|curtis|Curtis Mayfield|vocal|4|
+C|curtis|Curtis Mayfield|producer|8|
+C|curtis|Danny Turbeville|engineer|8|assistant
+C|curtis|Gary Slabo|arranger|8|
+C|curtis|Riley Hampton|arranger|8|
+C|curtis|Roger Anfinsen|engineer|8|
+C|curtis|Tom Flye|engineer|8|
+T|dance-mania|1|1|El cayuco|0
+T|dance-mania|1|2|Complicación|0
+T|dance-mania|1|3|3-D Mambo|0
+T|dance-mania|1|4|Llegó Miján|0
+T|dance-mania|1|5|Cuando te vea|0
+T|dance-mania|1|6|Hong Kong Mambo|0
+T|dance-mania|1|7|Mambo gozón|0
+T|dance-mania|1|8|Mi chiquita quiere bembé|0
+T|dance-mania|1|9|Varsity Drag|0
+T|dance-mania|1|10|Estoy siempre junto a ti|0
+T|dance-mania|1|11|Agua limpia todo|0
+T|dance-mania|1|12|Saca tu mujer|0
+C|dance-mania|Fred Reynolds|producer|7|
+T|donuts|1|1|Donuts (outro)|13
+T|donuts|1|2|Workinonit|177
+T|donuts|1|3|Waves|99
+T|donuts|1|4|Light My Fire|36
+T|donuts|1|5|The New|50
+T|donuts|1|6|Stop|99
+T|donuts|1|7|People|84
+T|donuts|1|8|The Diff’rence|112
+T|donuts|1|9|Mash|91
+T|donuts|1|10|Time: The Donut of the Heart|99
+T|donuts|1|11|Glazed|81
+T|donuts|1|12|Airworks|105
+T|donuts|1|13|Lightworks|115
+T|donuts|1|14|Stepson of the Clapper|61
+T|donuts|1|15|The Twister (Huh, What)|77
+T|donuts|1|16|One Eleven|71
+T|donuts|1|17|Two Can Win|107
+T|donuts|1|18|Don’t Cry|119
+T|donuts|1|19|Anti‐American Graffiti|114
+T|donuts|1|20|Geek Down|80
+T|donuts|1|21|Thunder|54
+T|donuts|1|22|Gobstopper|65
+T|donuts|1|23|One for Ghost|78
+T|donuts|1|24|Dilla Says Go|76
+T|donuts|1|25|Walkinonit|75
+T|donuts|1|26|The Factory|84
+T|donuts|1|27|U‐Love|61
+T|donuts|1|28|Hi.|77
+T|donuts|1|29|Bye.|88
+T|donuts|1|30|Last Donut of the Night|100
+T|donuts|1|31|Donuts (intro)|72
+C|donuts|Dave Cooley|mastering|0|
+C|donuts|Peanut Butter Wolf|producer|0|executive
+C|donuts|Wolfman Jack|samples from artist|1|
+C|donuts|J Dilla|producer|31|
+T|expensive-shit|1|1|Expensive Shit|794
+T|expensive-shit|1|2|Water No Get Enemy|666
+C|expensive-shit|Christopher Uwaifor|instrument|2|tenor saxophone
+C|expensive-shit|Demola Odebiyi|engineer|2|
+C|expensive-shit|Fela Kuti|producer|2|
+C|expensive-shit|Fela Kuti|vocal|2|lead vocals
+C|expensive-shit|Stephen Ukem|instrument|2|trumpet
+C|expensive-shit|Fela Kuti|arranger|2|
+C|expensive-shit|Fela Kuti|instrument|2|electric piano, tenor saxophone, alto saxophone
+C|expensive-shit|Franco Aboddy|instrument|2|bass guitar
+C|expensive-shit|Henry Kofi|instrument|2|congas
+C|expensive-shit|Isaac Olaleye|instrument|2|maracas
+C|expensive-shit|Lekan Animashaun|instrument|2|baritone saxophone
+C|expensive-shit|Leke Benson|instrument|2|guitar
+C|expensive-shit|Tony Allen|instrument|2|drums (drum set)
+C|expensive-shit|Nicholas Addo|instrument|2|congas
+C|expensive-shit|Oghene Kologbo|instrument|2|tenor guitar
+T|feels|1|1|All I Have - Intro|115
+T|feels|1|2|Sometimes|192
+T|feels|1|3|Worse|133
+T|feels|1|4|You Got Me|178
+T|feels|1|5|Out of Your Way|227
+T|feels|1|6|You Keep Me Waiting|268
+T|feels|1|7|Fool for You|194
+T|feels|1|8|Time|224
+T|feels|1|9|Nothing Burns Like the Cold|210
+T|feels|1|10|Feels|228
+T|feels|1|11|Like I Used Too|161
+T|feels|1|12|Walls|197
+T|feels|1|13|Recent Times|163
+C|feels|Leven Kali|producer|1|
+C|feels|Snoh Aalegra|producer|1|
+T|gentleman|1|1|Gentleman|881
+T|gentleman|1|2|Igbe (Na Shit)|492
+T|gentleman|1|3|Fefe Naa Efe|488
+T|giant-steps|1|1|Giant Steps|283
+T|giant-steps|1|2|Cousin Mary|345
+T|giant-steps|1|3|Countdown|141
+T|giant-steps|1|4|Spiral|356
+T|giant-steps|1|5|Syeeda’s Song Flute|420
+T|giant-steps|1|6|Naima|261
+T|giant-steps|1|7|Mr. P.C.|417
+C|giant-steps|Lee Friedlander|photography|0|task
+C|giant-steps|Marvin Israel|design|0|task
+C|giant-steps|Nat Hentoff|liner notes|0|
+C|giant-steps|Jimmy Cobb|instrument|1|drums (drum set)
+C|giant-steps|Wynton Kelly|instrument|1|piano
+C|giant-steps|Art Taylor|instrument|6|drums (drum set)
+C|giant-steps|Tommy Flanagan|instrument|6|piano
+C|giant-steps|John Coltrane|instrument|7|tenor saxophone
+C|giant-steps|Nesuhi Ertegun|producer|7|
+C|giant-steps|Paul Chambers|instrument|7|double bass
+C|giant-steps|Phil Iehle|recording|7|
+C|giant-steps|Tom Dowd|recording|7|
+T|head-hunters|1|1|Chameleon|941
+T|head-hunters|1|2|Watermelon Man|389
+T|head-hunters|1|3|Sly|618
+T|head-hunters|1|4|Vein Melter|550
+C|head-hunters|Scott H. Thompson|liner notes|0|
+C|head-hunters|Harvey Mason|arranger|1|
+C|head-hunters|Bennie Maupin|instrument|4|alto flute, soprano saxophone, tenor saxophone, bass clarinet, basset clarinet, other instruments
+C|head-hunters|Bill Summers|instrument|4|gankogui, surdo, agogô, whistle, percussion, tambourine, balafon, cabasa, congas, shekere, other instruments
+C|head-hunters|David Rubinson|producer|4|
+C|head-hunters|Harvey Mason|instrument|4|drums (drum set), membranophone
+C|head-hunters|Herbie Hancock|producer|4|
+C|head-hunters|Herbie Hancock|instrument|4|clavinet, Rhodes piano, synthesizer, electric piano, other instruments
+C|head-hunters|Paul Jackson|instrument|4|electric bass guitar, bass, marímbula, electric upright bass, other instruments
+T|in-a-silent-way|1|1|Shhh / Peaceful|1099
+T|in-a-silent-way|1|2|In a Silent Way / It’s About That Time|1194
+C|in-a-silent-way|Miles Davis|instrument|2|trumpet
+C|in-a-silent-way|Russ Payne|editor|2|
+C|in-a-silent-way|Tony Williams|instrument|2|drums (drum set)
+C|in-a-silent-way|Teo Macero|producer|2|
+C|in-a-silent-way|Stanley Tonkell|recording|2|
+C|in-a-silent-way|John McLaughlin|instrument|2|guitar
+C|in-a-silent-way|Joe Zawinul|instrument|2|organ
+C|in-a-silent-way|Herbie Hancock|instrument|2|electric piano
+C|in-a-silent-way|Dave Holland|instrument|2|double bass
+C|in-a-silent-way|Wayne Shorter|instrument|2|soprano saxophone
+C|in-a-silent-way|Chick Corea|instrument|2|electric piano
+C|in-a-silent-way|Russ Payne|mix|2|task
+T|innervisions|1|1|Too High|277
+T|innervisions|1|2|Visions|317
+T|innervisions|1|3|Living for the City|446
+T|innervisions|1|4|Golden Lady|300
+T|innervisions|1|5|Higher Ground|234
+T|innervisions|1|6|Jesus Children of America|244
+T|innervisions|1|7|All in Love Is Fair|225
+T|innervisions|1|8|Don’t You Worry ’Bout a Thing|295
+T|innervisions|1|9|He’s Misstra Know‐It‐All|366
+C|innervisions|Lani Groves|vocal|1|background vocals
+C|innervisions|Larry Latimer|instrument|1|congas
+C|innervisions|Malcolm Cecil|producer|1|associate
+C|innervisions|Ralph Hammer|instrument|1|acoustic guitar
+C|innervisions|Robert Margouleff|producer|1|associate
+C|innervisions|Scott Edwards|instrument|1|bass guitar
+C|innervisions|Sheila Wilkerson|instrument|1|bongos
+C|innervisions|Dean Parks|instrument|1|acoustic guitar
+C|innervisions|Jim Gilstrap|vocal|1|background vocals
+C|innervisions|Clarence Bell|instrument|1|organ
+C|innervisions|David T. Walker|instrument|1|electric guitar
+C|innervisions|Malcolm Cecil|instrument|1|bass guitar
+C|innervisions|Stevie Wonder|instrument|2|Moog, Rhodes piano, drums (drum set), piano
+C|innervisions|Stevie Wonder|producer|9|
+C|innervisions|Stevie Wonder|arranger|9|
+T|it-takes-a-nation|1|1|Countdown to Armageddon|101
+T|it-takes-a-nation|1|2|Bring the Noise|227
+T|it-takes-a-nation|1|3|Don’t Believe the Hype|320
+T|it-takes-a-nation|1|4|Cold Lampin’ With Flavor|253
+T|it-takes-a-nation|1|5|Terminator X to the Edge of Panic|270
+T|it-takes-a-nation|1|6|Mind Terrorist|78
+T|it-takes-a-nation|1|7|Louder Than a Bomb|217
+T|it-takes-a-nation|1|8|Caught, Can We Get a Witness?|303
+T|it-takes-a-nation|1|9|Show ’em Whatcha Got|117
+T|it-takes-a-nation|1|10|She Watch Channel Zero?!|230
+T|it-takes-a-nation|1|11|Night of the Living Baseheads|196
+T|it-takes-a-nation|1|12|Black Steel in the Hour of Chaos|385
+T|it-takes-a-nation|1|13|Security of the First World|82
+T|it-takes-a-nation|1|14|Rebel Without a Pause|305
+T|it-takes-a-nation|1|15|Prophets of Rage|195
+T|it-takes-a-nation|1|16|Party for Your Right to Fight|207
+C|it-takes-a-nation|Rick Rubin|producer|0|executive
+C|it-takes-a-nation|Eric Sadler|producer|1|
+C|it-takes-a-nation|Chuck D|producer|16|
+C|it-takes-a-nation|Hank Shocklee|producer|16|
+T|kind-of-blue|1|1|So What|545
+T|kind-of-blue|1|2|Freddie Freeloader|576
+T|kind-of-blue|1|3|Blue in Green|329
+T|kind-of-blue|1|4|All Blues|694
+T|kind-of-blue|1|5|Flamenco Sketches|565
+C|kind-of-blue|Bill Evans|liner notes|0|
+C|kind-of-blue|Patti Matheny|artists and repertoire|0|
+C|kind-of-blue|Fred Plaut|recording|1|
+C|kind-of-blue|Fred Plaut|engineer|1|
+C|kind-of-blue|Wynton Kelly|instrument|1|piano
+C|kind-of-blue|Irving Townsend|producer|2|
+C|kind-of-blue|Bill Evans|instrument|4|piano
+C|kind-of-blue|Cannonball Adderley|instrument|4|alto saxophone
+C|kind-of-blue|Jimmy Cobb|instrument|5|drums (drum set)
+C|kind-of-blue|John Coltrane|instrument|5|tenor saxophone
+C|kind-of-blue|Miles Davis|instrument|5|trumpet
+C|kind-of-blue|Paul Chambers|instrument|5|double bass
+T|live-at-the-apollo|1|1|Introduction / Opening Fanfare|109
+T|live-at-the-apollo|1|2|I'll Go Crazy|125
+T|live-at-the-apollo|1|3|Try Me|134
+T|live-at-the-apollo|1|4|Instrumental Bridge 1|12
+T|live-at-the-apollo|1|5|Think|105
+T|live-at-the-apollo|1|6|Instrumental Bridge 2|13
+T|live-at-the-apollo|1|7|I Don't Mind|148
+T|live-at-the-apollo|1|8|Instrumental Bridge 3|11
+T|live-at-the-apollo|1|9|Lost Someone|642
+T|live-at-the-apollo|1|10|Medley: Please, Please, Please / You've Got the Power / I Found Someone / Why Do You Do Me / I Want You So Bad / I Love You, Yes I Do / Strange Things Happen / Bewildered / Please, Please, Please|386
+T|live-at-the-apollo|1|11|Night Train / Closing|206
+C|live-at-the-apollo|Bobby Bennett|vocal|1|background vocals
+C|live-at-the-apollo|James Brown|vocal|2|lead vocals
+C|live-at-the-apollo|Lewis Hamlin|instrument|2|trumpet
+C|live-at-the-apollo|Les Buie|instrument|2|guitar
+C|live-at-the-apollo|Hubert Perry|instrument|2|bass
+C|live-at-the-apollo|St. Clair Pinckney|instrument|2|tenor saxophone
+C|live-at-the-apollo|Dicky Wells|instrument|2|trombone
+C|live-at-the-apollo|Lucas Fats Gonder|vocal|2|other vocals
+C|live-at-the-apollo|Clifford MacMillan|instrument|2|tenor saxophone
+C|live-at-the-apollo|Roscoe Patrick|instrument|2|trumpet
+C|live-at-the-apollo|Clayton Fillyau|instrument|2|drums (drum set)
+C|live-at-the-apollo|Al Brisco Clark|instrument|2|baritone saxophone, tenor saxophone
+C|live-at-the-apollo|William "Po' Devil" Burgess|instrument|2|alto saxophone
+C|live-at-the-apollo|Teddy Washington|instrument|2|trumpet
+C|live-at-the-apollo|James Brown|producer|3|task
+T|low-end-theory|1|1|Excursions|235
+T|low-end-theory|1|2|Buggin’ Out|217
+T|low-end-theory|1|3|Rap Promoter|133
+T|low-end-theory|1|4|Butter|219
+T|low-end-theory|1|5|Verses From the Abstract|239
+T|low-end-theory|1|6|Show Business|233
+T|low-end-theory|1|7|Vibes and Stuff|258
+T|low-end-theory|1|8|The Infamous Date Rape|174
+T|low-end-theory|1|9|Check the Rhime|217
+T|low-end-theory|1|10|Everything Is Fair|178
+T|low-end-theory|1|11|Jazz (We’ve Got)|250
+T|low-end-theory|1|12|Skypager|132
+T|low-end-theory|1|13|What?|149
+T|low-end-theory|1|14|Scenario|250
+C|low-end-theory|Sadat X|vocal|1|
+C|low-end-theory|Ron Carter|instrument|1|bass, guest
+C|low-end-theory|Busta Rhymes|vocal|1|guest
+C|low-end-theory|Charlie Brown|vocal|1|guest
+C|low-end-theory|Diamond D|vocal|1|
+C|low-end-theory|Dinco D|vocal|1|guest
+C|low-end-theory|Lord Jamar|vocal|1|
+C|low-end-theory|Skeff Anselm|producer|2|
+C|low-end-theory|Phife Dawg|vocal|10|additional
+C|low-end-theory|Q‐Tip|vocal|14|
+C|low-end-theory|Bob Power|mix|14|
+C|low-end-theory|Bob Power|recording|14|
+C|low-end-theory|A Tribe Called Quest|producer|14|co
+C|low-end-theory|A Tribe Called Quest|recording|14|
+C|low-end-theory|A Tribe Called Quest|mix|14|
+T|maiden-voyage|1|1|Maiden Voyage|477
+T|maiden-voyage|1|2|The Eye of the Hurricane|361
+T|maiden-voyage|1|3|Little One|527
+T|maiden-voyage|1|4|Survival of the Fittest|603
+T|maiden-voyage|1|5|Dolphin Dance|556
+C|maiden-voyage|Rudy van Gelder|recording|5|
+C|maiden-voyage|Ron Carter|instrument|5|bass
+C|maiden-voyage|Tony Williams|instrument|5|drums (drum set)
+C|maiden-voyage|Michael Cuscuna|producer|5|task
+C|maiden-voyage|Herbie Hancock|instrument|5|piano
+C|maiden-voyage|George Coleman|instrument|5|tenor saxophone
+C|maiden-voyage|Freddie Hubbard|instrument|5|trumpet
+C|maiden-voyage|Alfred Lion|producer|5|
+T|mamas-gun|1|1|Penitentiary Philosophy|372
+T|mamas-gun|1|2|Didn’t Cha Know|241
+T|mamas-gun|1|3|My Life|242
+T|mamas-gun|1|4|… & On|216
+T|mamas-gun|1|5|Cleva|228
+T|mamas-gun|1|6|Hey Sugah|53
+T|mamas-gun|1|7|Booty|247
+T|mamas-gun|1|8|Kiss Me on My Neck (Hesi)|337
+T|mamas-gun|1|9|A.D. 2000|293
+T|mamas-gun|1|10|Orange Moon|432
+T|mamas-gun|1|11|In Love With You|323
+T|mamas-gun|1|12|Bag Lady|351
+T|mamas-gun|1|13|Time’s a Wastin|404
+T|mamas-gun|1|14|Green Eyes|605
+C|mamas-gun|Leslie Brathwaite|mix|5|
+C|mamas-gun|Jon Adler|recording|5|assistant
+C|mamas-gun|D'Wayne Kerr|instrument|5|flute
+C|mamas-gun|Steve Mandel|mix|5|assistant
+C|mamas-gun|Russell Elevado|mix|5|
+C|mamas-gun|Shinobu Mitsuoka|recording|5|assistant
+C|mamas-gun|Shinobu Mitsuoka|mix|5|assistant
+C|mamas-gun|YahZarah|vocal|6|background vocals, additional
+C|mamas-gun|?uestlove|instrument|7|drums (drum set)
+C|mamas-gun|James Poyser|producer|7|co, associate
+C|mamas-gun|James Poyser|instrument|9|synthesizer, piano, Rhodes piano, organ, clavinet, Minimoog
+C|mamas-gun|Tom Soares|recording|9|
+C|mamas-gun|Kedar Massenburg|producer|13|executive
+C|mamas-gun|Erykah Badu|producer|13|executive
+C|mamas-gun|Erykah Badu|vocal|14|background vocals
+T|midnight-marauders|1|1|Midnight Marauders Tour Guide|45
+T|midnight-marauders|1|2|Steve Biko (Stir It Up)|192
+T|midnight-marauders|1|3|Award Tour|226
+T|midnight-marauders|1|4|8 Million Stories|262
+T|midnight-marauders|1|5|Sucka Nigga|245
+T|midnight-marauders|1|6|Midnight|265
+T|midnight-marauders|1|7|We Can Get Down|259
+T|midnight-marauders|1|8|Electric Relaxation|244
+T|midnight-marauders|1|9|Clap Your Hands|196
+T|midnight-marauders|1|10|Oh My God|210
+T|midnight-marauders|1|11|Keep It Rollin’|186
+T|midnight-marauders|1|12|The Chase, Part II|242
+T|midnight-marauders|1|13|Lyrics to Go|250
+T|midnight-marauders|1|14|God Lives Through|255
+C|midnight-marauders|Phife Dawg|vocal|1|
+C|midnight-marauders|Q‐Tip|vocal|1|
+C|midnight-marauders|Raphael Saadiq|performer|1|
+C|midnight-marauders|Tim Latham|engineer|1|additional
+C|midnight-marauders|Large Professor|vocal|1|guest
+C|midnight-marauders|Large Professor|performer|1|guest
+C|midnight-marauders|Large Professor|producer|1|
+C|midnight-marauders|Busta Rhymes|vocal|1|background vocals, guest
+C|midnight-marauders|Consequence|vocal|1|guest, choir vocals
+C|midnight-marauders|Skeff Anselm|producer|1|
+C|midnight-marauders|A Tribe Called Quest|producer|12|
+C|midnight-marauders|Bob Power|mix|13|
+C|midnight-marauders|Bob Power|recording|13|
+C|midnight-marauders|A Tribe Called Quest|recording|14|
+C|midnight-marauders|A Tribe Called Quest|mix|14|
+T|milestones|1|1|Dr. Jackle|353
+T|milestones|1|2|Sid’s Ahead|785
+T|milestones|1|3|Two Bass Hit|319
+T|milestones|1|4|Milestones|347
+T|milestones|1|5|Billy Boy|440
+T|milestones|1|6|Straight, No Chaser|643
+C|milestones|Red Garland|instrument|5|piano
+C|milestones|Miles Davis|instrument|6|trumpet, piano
+C|milestones|Cannonball Adderley|instrument|6|alto saxophone
+C|milestones|Philly Joe Jones|instrument|6|drums (drum set)
+C|milestones|Paul Chambers|instrument|6|double bass
+C|milestones|John Coltrane|instrument|6|tenor saxophone
+T|mingus-ah-um|1|1|Better Git It in Your Soul|443
+T|mingus-ah-um|1|2|Goodbye Pork Pie Hat|287
+T|mingus-ah-um|1|3|Boogie Stop Shuffle|224
+T|mingus-ah-um|1|4|Self-Portrait in Three Colors|186
+T|mingus-ah-um|1|5|Open Letter to Duke|296
+T|mingus-ah-um|1|6|Bird Calls|194
+T|mingus-ah-um|1|7|Fables of Faubus|494
+T|mingus-ah-um|1|8|Pussy Cat Dues|389
+T|mingus-ah-um|1|9|Jelly Roll|242
+C|mingus-ah-um|Teo Macero|producer|3|
+C|mingus-ah-um|Willie Dennis|instrument|3|trombone
+C|mingus-ah-um|Jimmy Knepper|instrument|4|trombone
+C|mingus-ah-um|Shafi Hadi|instrument|8|tenor saxophone, alto saxophone
+C|mingus-ah-um|Horace Parlan|instrument|9|piano
+C|mingus-ah-um|Dannie Richmond|instrument|9|drums (drum set)
+C|mingus-ah-um|Charles Mingus|instrument|9|double bass
+C|mingus-ah-um|John Handy|instrument|9|alto saxophone, tenor saxophone, clarinet
+C|mingus-ah-um|Booker Ervin|instrument|9|tenor saxophone
+T|moanin|1|1|Moanin'|575
+T|moanin|1|2|Are You Real?|290
+T|moanin|1|3|Along Came Betty|371
+T|moanin|1|4|The Drum Thunder Suite|455
+T|moanin|1|5|Blues March|377
+T|moanin|1|6|Come Rain or Come Shine|347
+C|moanin|Art Blakey|instrument|6|drums (drum set)
+C|moanin|Alfred Lion|producer|6|
+C|moanin|Benny Golson|instrument|6|tenor saxophone
+C|moanin|Bobby Timmons|instrument|6|piano
+C|moanin|Jymie Merritt|instrument|6|double bass
+C|moanin|Lee Morgan|instrument|6|trumpet
+C|moanin|Rudy van Gelder|recording|6|
+T|mothership-connection|1|1|P. Funk (Wants to Get Funked Up)|461
+T|mothership-connection|1|2|Mothership Connection (Star Child)|373
+T|mothership-connection|1|3|Unfunky UFO|264
+T|mothership-connection|1|4|Supergroovalisticprosifunkstication|305
+T|mothership-connection|1|5|Handcuffs|244
+T|mothership-connection|1|6|Give Up the Funk (Tear the Roof Off the Sucker)|348
+T|mothership-connection|1|7|Night of the Thumpasorus Peoples|310
+C|mothership-connection|Fuzzy Haskins|vocal|0|
+C|mothership-connection|Bootsy Collins|instrument|0|bass guitar, drums (drum set), guitar, percussion
+C|mothership-connection|Bernie Worrell|instrument arranger|0|wind instruments
+C|mothership-connection|Bernie Worrell|instrument|0|keyboard, synthesizer
+C|mothership-connection|Cordell Mosson|instrument|0|bass guitar
+C|mothership-connection|George Clinton|vocal|0|
+C|mothership-connection|Fred Wesley|instrument|0|trombone
+C|mothership-connection|Fred Wesley|instrument arranger|0|wind instruments
+C|mothership-connection|Glen Goins|instrument|0|guitar
+C|mothership-connection|Gary “Mudbone” Cooper|instrument|0|drums (drum set), percussion
+C|mothership-connection|Bootsy Collins|vocal|0|
+C|mothership-connection|Calvin Simon|vocal|0|
+C|mothership-connection|Garry Shider|vocal|0|
+C|mothership-connection|Garry Shider|instrument|0|guitar family, guitar
+C|mothership-connection|George Clinton|producer|7|
+T|my-favorite-things|1|1|My Favorite Things|824
+T|my-favorite-things|1|2|Every Time We Say Goodbye|343
+T|my-favorite-things|1|3|Summertime|696
+T|my-favorite-things|1|4|But Not for Me|575
+C|my-favorite-things|Loring Eutemey|design|0|
+C|my-favorite-things|Lee Friedlander|photography|0|
+C|my-favorite-things|Bill Coss|liner notes|0|
+C|my-favorite-things|Phil Iehle|recording|1|
+C|my-favorite-things|Tom Dowd|recording|1|
+C|my-favorite-things|John Coltrane|instrument|4|tenor saxophone, soprano saxophone
+C|my-favorite-things|McCoy Tyner|instrument|4|piano
+C|my-favorite-things|Elvin Jones|instrument|4|drums (drum set)
+C|my-favorite-things|Steve Davis|instrument|4|double bass
+C|my-favorite-things|Nesuhi Ertegun|producer|4|
+T|off-the-wall|1|1|Don’t Stop ’til You Get Enough|362
+T|off-the-wall|1|2|Rock With You|218
+T|off-the-wall|1|3|Workin’ Day and Night|312
+T|off-the-wall|1|4|Get on the Floor|284
+T|off-the-wall|1|5|Off the Wall|244
+T|off-the-wall|1|6|Girlfriend|184
+T|off-the-wall|1|7|She’s Out of My Life|216
+T|off-the-wall|1|8|I Can’t Help It|267
+T|off-the-wall|1|9|It’s the Falling in Love|226
+T|off-the-wall|1|10|Burn This Disco Out|218
+C|off-the-wall|David Williams|instrument|5|guitar, electric guitar
+C|off-the-wall|Marlo Henderson|instrument|6|guitar, electric guitar
+C|off-the-wall|Bill Reichenbach, Jr.|instrument|8|trombone
+C|off-the-wall|Gary Grant|instrument|8|trumpet
+C|off-the-wall|Jerry Hey|instrument|8|flugelhorn, trumpet
+C|off-the-wall|Jerry Hey|instrument arranger|8|horn
+C|off-the-wall|John “JR” Robinson|instrument|8|drums (drum set), percussion
+C|off-the-wall|Kim Hutchcroft|instrument|8|baritone saxophone, flute, tenor saxophone
+C|off-the-wall|Larry Williams|instrument|8|alto saxophone, flute, tenor saxophone, solo
+C|off-the-wall|Louis Johnson|instrument|8|electric bass guitar, bass guitar
+C|off-the-wall|Quincy Jones|producer|9|
+C|off-the-wall|Bruce Swedien|recording|9|
+C|off-the-wall|Bruce Swedien|mix|9|
+C|off-the-wall|Greg Phillinganes|instrument|9|Rhodes piano, synthesizer, electric piano, piano
+C|off-the-wall|Michael Jackson|vocal|10|background vocals, lead vocals
+T|peoples-instinctive-travels|1|1|Push It Along|462
+T|peoples-instinctive-travels|1|2|Luck of Lucien|272
+T|peoples-instinctive-travels|1|3|After Hours|279
+T|peoples-instinctive-travels|1|4|Footprints|240
+T|peoples-instinctive-travels|1|5|I Left My Wallet in El Segundo|246
+T|peoples-instinctive-travels|1|6|Bonita Applebum|251
+T|peoples-instinctive-travels|1|7|Can I Kick It?|292
+T|peoples-instinctive-travels|1|8|Youthful Expression|241
+T|peoples-instinctive-travels|1|9|Rhythm (Devoted to the Art of Moving Butts)|213
+T|peoples-instinctive-travels|1|10|Mr. Muhammad|327
+T|peoples-instinctive-travels|1|11|Ham 'n' Eggs|234
+C|peoples-instinctive-travels|Lucien Papalu|performer|1|
+T|portrait-in-jazz|1|1|Come Rain or Come Shine|197
+T|portrait-in-jazz|1|2|Autumn Leaves|359
+T|portrait-in-jazz|1|3|Witchcraft|270
+T|portrait-in-jazz|1|4|When I Fall in Love|290
+T|portrait-in-jazz|1|5|Peri's Scope|190
+T|portrait-in-jazz|1|6|What Is This Thing Called Love?|273
+T|portrait-in-jazz|1|7|Spring Is Here|301
+T|portrait-in-jazz|1|8|Someday My Prince Will Come|288
+T|portrait-in-jazz|1|9|Blue in Green|318
+C|portrait-in-jazz|Bill Evans|performer|1|
+C|portrait-in-jazz|Bill Evans|instrument|9|piano
+C|portrait-in-jazz|Scott LaFaro|instrument|9|double bass, bass
+C|portrait-in-jazz|Paul Motian|instrument|9|drums (drum set)
+C|portrait-in-jazz|Orrin Keepnews|producer|9|
+C|portrait-in-jazz|Jack Higgins|recording|9|
+T|purple-rain|1|1|Let’s Go Crazy|279
+T|purple-rain|1|2|Take Me With U|234
+T|purple-rain|1|3|The Beautiful Ones|315
+T|purple-rain|1|4|Computer Blue|239
+T|purple-rain|1|5|Darling Nikki|255
+T|purple-rain|1|6|When Doves Cry|352
+T|purple-rain|1|7|I Would Die 4 U|171
+T|purple-rain|1|8|Baby I’m a Star|260
+T|purple-rain|1|9|Purple Rain|525
+C|purple-rain|Lisa Coleman|instrument arranger|3|strings
+C|purple-rain|David Coleman|instrument|3|cello, finger cymbals
+C|purple-rain|Dr. Fink|vocal|5|background vocals, additional
+C|purple-rain|Wendy Melvoin|instrument|5|electric guitar
+C|purple-rain|Prince|producer|5|
+C|purple-rain|Wendy Melvoin|vocal|5|background vocals
+C|purple-rain|Lisa Coleman|instrument|5|synthesizer
+C|purple-rain|Bobby Z.|instrument|5|percussion, electronic drum set, drum machine
+C|purple-rain|Brownmark|vocal|5|background vocals, additional
+C|purple-rain|Brownmark|instrument|5|electric bass guitar
+C|purple-rain|Dr. Fink|instrument|5|electric grand piano, synthesizer, drum machine
+C|purple-rain|Lisa Coleman|vocal|6|background vocals, lead vocals
+C|purple-rain|Prince|arranger|7|
+C|purple-rain|Prince|instrument|9|electric guitar, synthesizer, drum machine, acoustic guitar, drums (drum set), electric bass guitar, tambourine, percussion, piano
+C|purple-rain|Prince|vocal|9|lead vocals, background vocals, spoken vocals
+T|riot|1|1|Luv n’ Haight|241
+T|riot|1|2|Just Like a Baby|311
+T|riot|1|3|Poet|180
+T|riot|1|4|Family Affair|185
+T|riot|1|5|Africa Talks to You “The Asphalt Jungle”|525
+T|riot|1|6|There’s a Riot Goin’ On|8
+T|riot|1|7|Brave & Strong|209
+T|riot|1|8|(You Caught Me) Smilin’|174
+T|riot|1|9|Time|181
+T|riot|1|10|Spaced Cowboy|239
+T|riot|1|11|Runnin’ Away|176
+T|riot|1|12|Thank You for Talkin’ to Me Africa|434
+C|riot|Sly Stone|producer|1|
+T|round-about-midnight|1|1|’Round Midnight|356
+T|round-about-midnight|1|2|Ah‐Leu‐Cha|353
+T|round-about-midnight|1|3|All of You|423
+T|round-about-midnight|1|4|Bye Bye Blackbird|477
+T|round-about-midnight|1|5|Tadd’s Delight|270
+T|round-about-midnight|1|6|Dear Old Stockholm|471
+C|round-about-midnight|George Avakian|liner notes|0|
+C|round-about-midnight|Frank Laico|engineer|0|
+C|round-about-midnight|Gil Evans|arranger|1|
+C|round-about-midnight|Teo Macero|arranger|1|
+C|round-about-midnight|Raymond Moore|recording|2|
+C|round-about-midnight|Raymond Moore|engineer|4|
+C|round-about-midnight|George Avakian|producer|6|
+C|round-about-midnight|John Coltrane|instrument|6|tenor saxophone
+C|round-about-midnight|Miles Davis|instrument|6|trumpet
+C|round-about-midnight|Paul Chambers|instrument|6|double bass
+C|round-about-midnight|Philly Joe Jones|instrument|6|drums (drum set)
+C|round-about-midnight|Red Garland|instrument|6|piano
+T|selena-live|1|1|Como la flor / Baila esta cumbia|585
+T|selena-live|1|2|Ámame, quiéreme / Siempre estoy pensando en ti|228
+T|selena-live|1|3|Ven conmigo / Perdóname|394
+T|selena-live|1|4|Que creías|215
+T|selena-live|1|5|Si la quieres|197
+T|selena-live|1|6|Porque le gusta bailar cumbia|232
+T|selena-live|1|7|La carcacha / Besitos|414
+T|selena-live|1|8|Ya ves / Las cadenas / Yo te amo|490
+T|selena-live|1|9|No debes jugar|170
+T|selena-live|1|10|Tú robaste mi corazón|230
+T|selena-live|1|11|La llamada|192
+T|shape-of-jazz-to-come|1|1|Lonely Woman|302
+T|shape-of-jazz-to-come|1|2|Eventually|263
+T|shape-of-jazz-to-come|1|3|Peace|545
+T|shape-of-jazz-to-come|1|4|Focus on Sanity|412
+T|shape-of-jazz-to-come|1|5|Congeniality|408
+T|shape-of-jazz-to-come|1|6|Chronology|363
+C|shape-of-jazz-to-come|Dayton “Bones” Howe|recording|0|
+C|shape-of-jazz-to-come|Nesuhi Ertegun|producer|1|
+C|shape-of-jazz-to-come|Ornette Coleman|instrument|6|alto saxophone
+C|shape-of-jazz-to-come|Don Cherry|instrument|6|cornet
+C|shape-of-jazz-to-come|Charlie Haden|instrument|6|double bass
+C|shape-of-jazz-to-come|Billy Higgins|instrument|6|drums (drum set)
+T|sign-o-the-times|1|1|Sign “☮︎” the Times|302
+T|sign-o-the-times|1|2|Play in the Sunshine|305
+T|sign-o-the-times|1|3|Housequake|278
+T|sign-o-the-times|1|4|The Ballad of Dorothy Parker|244
+T|sign-o-the-times|1|5|It|310
+T|sign-o-the-times|1|6|Starfish and Coffee|171
+T|sign-o-the-times|1|7|Slow Love|258
+T|sign-o-the-times|1|8|Hot Thing|339
+T|sign-o-the-times|1|9|Forever in My Life|218
+T|sign-o-the-times|2|1|U Got the Look|238
+T|sign-o-the-times|2|2|If I Was Your Girlfriend|294
+T|sign-o-the-times|2|3|Strange Relationship|244
+T|sign-o-the-times|2|4|I Could Never Take the Place of Your Man|391
+T|sign-o-the-times|2|5|The Cross|286
+T|sign-o-the-times|2|6|It’s Gonna Be a Beautiful Night|539
+T|sign-o-the-times|2|7|Adore|389
+C|sign-o-the-times|Brownmark|instrument|1|electric bass guitar
+C|sign-o-the-times|Brad Marsh|vocal|1|other vocals
+C|sign-o-the-times|Bobby Z.|instrument|1|electronic drum set
+C|sign-o-the-times|Wendy Melvoin|vocal|2|background vocals
+C|sign-o-the-times|Lisa Coleman|vocal|2|background vocals
+C|sign-o-the-times|Lisa Coleman|instrument|2|sampler, keyboard
+C|sign-o-the-times|Wendy Melvoin|instrument|3|sampler, tambourine, electric guitar
+C|sign-o-the-times|Susannah Melvoin|vocal|3|background vocals
+C|sign-o-the-times|Sheila E.|instrument|3|congas, percussion, timbales, hi-hat, cymbal, drum machine
+C|sign-o-the-times|Matthew Blistan|instrument|4|trumpet
+C|sign-o-the-times|Eric Leeds|instrument|5|saxophone
+C|sign-o-the-times|Prince|arranger|16|
+C|sign-o-the-times|Prince|vocal|16|lead vocals
+C|sign-o-the-times|Prince|producer|16|
+C|sign-o-the-times|Prince|instrument|16|sampler, electric bass guitar, electric guitar, drums (drum set), synthesizer, drum machine, Hammond organ, acoustic guitar, piano, tambourine, keyboard, cowbell, electric grand piano, finger cymbals, 12 string guitar
+T|sketches-of-spain|1|1|Concierto de Aranjuez|982
+T|sketches-of-spain|1|2|Will O' the Wisp|231
+T|sketches-of-spain|1|3|The Pan Piper|240
+T|sketches-of-spain|1|4|Saeta|300
+T|sketches-of-spain|1|5|Solea|730
+C|sketches-of-spain|Frank Rehak|instrument|5|trombone
+C|sketches-of-spain|Gil Evans|arranger|5|
+C|sketches-of-spain|Gil Evans|conductor|5|
+C|sketches-of-spain|Dick Hixson|instrument|5|trombone
+C|sketches-of-spain|Harold Feldman|instrument|5|flute, clarinet, oboe
+C|sketches-of-spain|Janet Putnam|instrument|5|harp
+C|sketches-of-spain|Elvin Jones|instrument|5|percussion
+C|sketches-of-spain|Ernie Royal|instrument|5|trumpet
+C|sketches-of-spain|Jim Buffington|instrument|5|French horn
+C|sketches-of-spain|Jimmy Cobb|instrument|5|drums (drum set)
+C|sketches-of-spain|Al Block|instrument|5|flute
+C|sketches-of-spain|Danny Bank|instrument|5|bass clarinet
+C|sketches-of-spain|Paul Chambers|instrument|5|double bass
+C|sketches-of-spain|Miles Davis|instrument|5|brass, trumpet, flugelhorn
+C|sketches-of-spain|Bernie Glow|instrument|5|trumpet
+T|songs-in-the-key-of-life|1|1|Love’s in Need of Love Today|426
+T|songs-in-the-key-of-life|1|2|Have a Talk With God|162
+T|songs-in-the-key-of-life|1|3|Village Ghetto Land|205
+T|songs-in-the-key-of-life|1|4|Contusion|226
+T|songs-in-the-key-of-life|1|5|Sir Duke|234
+T|songs-in-the-key-of-life|1|6|I Wish|252
+T|songs-in-the-key-of-life|1|7|Knocks Me Off My Feet|216
+T|songs-in-the-key-of-life|1|8|Pastime Paradise|208
+T|songs-in-the-key-of-life|1|9|Summer Soft|254
+T|songs-in-the-key-of-life|1|10|Ordinary Pain|383
+T|songs-in-the-key-of-life|2|1|Isn’t She Lovely|393
+T|songs-in-the-key-of-life|2|2|Joy Inside My Tears|387
+T|songs-in-the-key-of-life|2|3|Black Man|356
+T|songs-in-the-key-of-life|2|4|Ngiculela - Es Una Historia / I Am Singing|228
+T|songs-in-the-key-of-life|2|5|If It’s Magic|191
+T|songs-in-the-key-of-life|2|6|As|429
+T|songs-in-the-key-of-life|2|7|Another Star|481
+T|songs-in-the-key-of-life|3|1|Saturn|293
+T|songs-in-the-key-of-life|3|2|Ebony Eyes|248
+T|songs-in-the-key-of-life|3|3|All Day Sucker|305
+T|songs-in-the-key-of-life|3|4|Easy Goin’ Evening (My Mama’s Call)|236
+C|songs-in-the-key-of-life|Charles Brewer|programming|2|
+C|songs-in-the-key-of-life|Raymond Pounds|instrument|3|drums (drum set)
+C|songs-in-the-key-of-life|Josette Valentino|instrument|3|handclaps, percussion
+C|songs-in-the-key-of-life|Trevor Lawrence|instrument|3|tenor saxophone
+C|songs-in-the-key-of-life|Steve Madaio|instrument|4|trumpet
+C|songs-in-the-key-of-life|Ray Maldonado|instrument|4|percussion, trumpet
+C|songs-in-the-key-of-life|Greg Phillinganes|instrument|4|keyboard
+C|songs-in-the-key-of-life|Ben Bridges|instrument|5|guitar
+C|songs-in-the-key-of-life|Hank Redd|instrument|5|alto saxophone, tenor saxophone
+C|songs-in-the-key-of-life|Michael Sembello|instrument|5|guitar
+C|songs-in-the-key-of-life|Nathan Watts|instrument|8|bass guitar, handclaps, percussion
+C|songs-in-the-key-of-life|Stevie Wonder|vocal|19|lead vocals, background vocals
+C|songs-in-the-key-of-life|Stevie Wonder|arranger|21|
+C|songs-in-the-key-of-life|Stevie Wonder|instrument|21|percussion, synthesizer, drums (drum set), vocoder, Rhodes piano, piano, bass synthesizer, talkbox, clavinet, harmonica, electric piano, other instruments, handclaps, keyboard, tack piano
+C|songs-in-the-key-of-life|Stevie Wonder|producer|21|
+T|southernplayalistic|1|1|Peaches (intro)|51
+T|southernplayalistic|1|2|Ain’t No Thang|323
+T|southernplayalistic|1|3|Welcome to Atlanta (interlude)|58
+T|southernplayalistic|1|4|Southernplayalisticadillacmuzik|318
+T|southernplayalistic|1|5|Call of da Wild|366
+T|southernplayalistic|1|6|Player’s Ball (original)|261
+T|southernplayalistic|1|7|Claimin’ True|283
+T|southernplayalistic|1|8|True Dat (interlude)|76
+T|southernplayalistic|1|9|Crumblin’ Erb|310
+T|southernplayalistic|1|10|Funky Ride|391
+T|southernplayalistic|1|11|Git Up, Git Out|447
+T|southernplayalistic|1|12|Hootie Hoo|239
+C|southernplayalistic|Bernasky Wall|recording|1|assistant
+C|southernplayalistic|Organized Noize|producer|3|
+C|southernplayalistic|Mark Hawley|recording|6|assistant
+C|southernplayalistic|Neal Pogue|recording|6|
+C|southernplayalistic|Organized Noize|programming|9|drums (drum set)
+C|southernplayalistic|Sean Davis|recording|9|assistant
+T|stand|1|1|Stand!|188
+T|stand|1|2|Don’t Call Me Nigger, Whitey|359
+T|stand|1|3|I Want to Take You Higher|322
+T|stand|1|4|Somebody’s Watching You|199
+T|stand|1|5|Sing a Simple Song|235
+T|stand|1|6|Everyday People|140
+T|stand|1|7|Sex Machine|828
+T|stand|1|8|You Can Make It If You Try|219
+C|stand|Larry Graham|instrument|8|bass guitar
+C|stand|Jerry Martini|vocal|8|
+C|stand|Jerry Martini|instrument|8|saxophone
+C|stand|Greg Errico|instrument|8|drums (drum set)
+C|stand|Freddie Stone|vocal|8|
+C|stand|Freddie Stone|instrument|8|guitar
+C|stand|Cynthia Robinson|instrument|8|trumpet
+C|stand|Larry Graham|vocal|8|
+C|stand|Rose Stone|vocal|8|
+C|stand|Rose Stone|instrument|8|keyboard
+C|stand|Sly Stone|instrument|8|guitar, keyboard
+C|stand|Sly Stone|vocal|8|
+T|sunday-at-the-village-vanguard|1|1|Gloria’s Step|365
+T|sunday-at-the-village-vanguard|1|2|My Man’s Gone Now|381
+T|sunday-at-the-village-vanguard|1|3|Solar|531
+T|sunday-at-the-village-vanguard|1|4|Alice in Wonderland|512
+T|sunday-at-the-village-vanguard|1|5|All of You|500
+T|sunday-at-the-village-vanguard|1|6|Jade Visions|226
+C|sunday-at-the-village-vanguard|David B. Jones|engineer|2|
+C|sunday-at-the-village-vanguard|Orrin Keepnews|producer|6|
+C|sunday-at-the-village-vanguard|Scott LaFaro|instrument|6|bass, double bass
+C|sunday-at-the-village-vanguard|Bill Evans|instrument|6|piano
+C|sunday-at-the-village-vanguard|Dave Jones|recording|6|
+C|sunday-at-the-village-vanguard|Paul Motian|instrument|6|drums (drum set)
+T|super-fly|1|1|Little Child Runnin’ Wild|326
+T|super-fly|1|2|Pusherman|304
+T|super-fly|1|3|Freddie’s Dead|328
+T|super-fly|1|4|Junkie Chase|99
+T|super-fly|1|5|Give Me Your Love (Love Song)|257
+T|super-fly|1|6|Eddie You Should Know Better|139
+T|super-fly|1|7|No Thing on Me (Cocaine Song)|295
+T|super-fly|1|8|Think|226
+T|super-fly|1|9|Superfly|232
+C|super-fly|Tyrone McCullen|instrument|1|drums (drum set)
+C|super-fly|Curtis Mayfield|vocal|8|lead vocals
+C|super-fly|Morris Jennings|instrument|8|drums (drum set)
+C|super-fly|Master Henry Gibson|instrument|9|percussion
+C|super-fly|Johnny Pate|arranger|9|
+C|super-fly|Roger Anfinsen|engineer|9|
+C|super-fly|Craig McMullen|instrument|9|guitar
+C|super-fly|Curtis Mayfield|producer|9|
+C|super-fly|Johnny Pate|orchestrator|9|
+C|super-fly|Joseph Scott|instrument|9|bass guitar
+C|super-fly|Curtis Mayfield|instrument|9|guitar
+T|talking-book|1|1|You Are the Sunshine of My Life|178
+T|talking-book|1|2|Maybe Your Baby|411
+T|talking-book|1|3|You and I|278
+T|talking-book|1|4|Tuesday Heartbreak|182
+T|talking-book|1|5|You’ve Got It Bad Girl|297
+T|talking-book|1|6|Superstition|266
+T|talking-book|1|7|Big Brother|214
+T|talking-book|1|8|Blame It on the Sun|206
+T|talking-book|1|9|Lookin’ for Another Pure Love|284
+T|talking-book|1|10|I Believe (When I Fall in Love It Will Be Forever)|292
+C|talking-book|David Sanborn|instrument|1|alto saxophone
+C|talking-book|Debra Wilson|vocal|1|background vocals
+C|talking-book|Gloria Barley|vocal|1|background vocals
+C|talking-book|Buzz Feiten|instrument|1|guitar
+C|talking-book|Austin Godsey|recording|1|
+C|talking-book|Deniece Williams|vocal|1|background vocals
+C|talking-book|Shirley Brewer|vocal|2|background vocals
+C|talking-book|Robert Margouleff|producer|2|associate
+C|talking-book|Malcolm Cecil|producer|2|associate
+C|talking-book|Daniel Ben Zebulon|instrument|2|congas
+C|talking-book|Jim Gilstrap|vocal|3|background vocals
+C|talking-book|Lani Groves|vocal|3|background vocals
+C|talking-book|Stevie Wonder|producer|10|
+C|talking-book|Malcolm Cecil|programming|10|Moog
+C|talking-book|Robert Margouleff|programming|10|Moog
+T|temporary-highs|1|1|Indecisive|195
+T|temporary-highs|1|2|Lost You|177
+T|temporary-highs|1|3|In Your Eyes|214
+T|temporary-highs|1|4|Just Like That|187
+T|temporary-highs|1|5|Neon Peach|192
+T|temporary-highs|1|6|We Don't Have to Talk About It|199
+T|temporary-highs|1|7|Tangerine Dream|213
+T|temporary-highs|1|8|Temporary Highs|80
+T|temporary-highs|1|9|Violet Skies|184
+T|temporary-highs|1|10|In the Moment|214
+T|temporary-highs|1|11|On My Mind|222
+T|temporary-highs|1|12|Taste|137
+T|temporary-highs|1|13|Everything|245
+T|temporary-highs|1|14|Dying 4 Your Love|204
+T|temporary-highs|1|15|Save Yourself|118
+C|temporary-highs|Pharrell Williams|vocal|1|guest
+T|thriller|1|1|Wanna Be Startin’ Somethin’|362
+T|thriller|1|2|Baby Be Mine|260
+T|thriller|1|3|The Girl Is Mine|222
+T|thriller|1|4|Thriller|357
+T|thriller|1|5|Beat It|257
+T|thriller|1|6|Billie Jean|297
+T|thriller|1|7|Human Nature|245
+T|thriller|1|8|P.Y.T. (Pretty Young Thing)|238
+T|thriller|1|9|The Lady in My Life|297
+C|thriller|Bill Reichenbach, Jr.|instrument|3|trombone
+C|thriller|Bill Wolfer|instrument|3|synthesizer, keyboard
+C|thriller|Steve Porcaro|programming|4|synthesizer
+C|thriller|Michael Jackson|instrument|4|drum machine, foot stomps, handclaps, percussion
+C|thriller|Michael Jackson|producer|4|co
+C|thriller|Jeff Porcaro|instrument|4|drums (drum set)
+C|thriller|David Williams|instrument|4|guitar
+C|thriller|David Paich|instrument|4|synthesizer, piano
+C|thriller|Louis Johnson|instrument|5|electric bass guitar, bass guitar
+C|thriller|Jerry Hey|instrument arranger|5|wind instruments, horn, strings
+C|thriller|Greg Phillinganes|instrument|8|synthesizer, Rhodes piano, handclaps, keyboard
+C|thriller|Bruce Swedien|recording|9|
+C|thriller|Bruce Swedien|mix|9|
+C|thriller|Michael Jackson|vocal|9|lead vocals, background vocals
+C|thriller|Quincy Jones|producer|9|
+T|tutu|1|1|Tutu|316
+T|tutu|1|2|Tomaas|338
+T|tutu|1|3|Portia|379
+T|tutu|1|4|Splatch|287
+T|tutu|1|5|Backyard Ritual|289
+T|tutu|1|6|Perfect Way|275
+T|tutu|1|7|Don’t Lose Your Mind|350
+T|tutu|1|8|Full Nelson|307
+C|tutu|Bernard Wright|instrument|2|additional, synthesizer
+C|tutu|Bill Schnee|mix|3|
+C|tutu|Eric Calvi|mix|4|
+C|tutu|Paulinho da Costa|instrument|4|percussion
+C|tutu|Eric Calvi|engineer|7|
+C|tutu|Marcus Miller|instrument arranger|7|
+C|tutu|Marcus Miller|arranger|7|
+C|tutu|Marcus Miller|producer|7|
+C|tutu|Maureen Thompson|engineer|7|assistant
+C|tutu|Peter Doell|engineer|7|
+C|tutu|Eddie Garcia|mix|7|assistant
+C|tutu|Tommy LiPuma|producer|8|executive
+C|tutu|Miles Davis|instrument|8|trumpet
+C|tutu|Marcus Miller|instrument|8|other instruments, bass guitar, drum machine, guitar, synthesizer
+C|tutu|Billy Hart|instrument|8|drums (drum set), bongos
+T|ugh-those-feels-again|1|1|Here Now (intro)|48
+T|ugh-those-feels-again|1|2|I Want You Around|213
+T|ugh-those-feels-again|1|3|Situationship|215
+T|ugh-those-feels-again|1|4|Whoa|199
+T|ugh-those-feels-again|1|5|Find Someone Like You|206
+T|ugh-those-feels-again|1|6|Toronto|177
+T|ugh-those-feels-again|1|7|Love Like That|196
+T|ugh-those-feels-again|1|8|Be Careful|108
+T|ugh-those-feels-again|1|9|Charleville 9200, Pt. II|180
+T|ugh-those-feels-again|1|10|You|204
+T|ugh-those-feels-again|1|11|Njoy|82
+T|ugh-those-feels-again|1|12|Nothing to Me|204
+T|ugh-those-feels-again|1|13|I Didn’t Mean to Fall in Love|202
+T|ugh-those-feels-again|1|14|Peace|183
+C|ugh-those-feels-again|Jonah Christian|producer|1|
+C|ugh-those-feels-again|Joel Compass|producer|1|
+C|ugh-those-feels-again|Matthew Burnett|producer|1|
+C|ugh-those-feels-again|NES|producer|1|
+C|ugh-those-feels-again|Richard “P2J” Isong|producer|1|
+C|ugh-those-feels-again|Riley Bell|producer|1|
+C|ugh-those-feels-again|Rob Holladay|producer|1|
+C|ugh-those-feels-again|Stephen Feigenbaum|producer|1|co
+C|ugh-those-feels-again|D’Mile|producer|1|
+C|ugh-those-feels-again|Cam O’Bi|producer|1|additional
+C|ugh-those-feels-again|Big White|producer|1|
+C|ugh-those-feels-again|Dee Lilly|producer|1|additional
+C|ugh-those-feels-again|Snoh Aalegra|producer|2|
+C|ugh-those-feels-again|Maneesh Bidaye|producer|3|
+C|ugh-those-feels-again|No I.D.|producer|6|additional
+T|ven-conmigo|1|1|Ya ves|196
+T|ven-conmigo|1|2|Aunque no salga el sol|207
+T|ven-conmigo|1|3|Ven conmigo|148
+T|ven-conmigo|1|4|Yo te amo|221
+T|ven-conmigo|1|5|Enamorada de ti|246
+T|ven-conmigo|1|6|La tracalera|174
+T|ven-conmigo|1|7|Baila esta cumbia|179
+T|ven-conmigo|1|8|Yo me voy|210
+T|ven-conmigo|1|9|No quiero saber|177
+T|ven-conmigo|1|10|Después de enero|176
+T|voodoo|1|1|Playa Playa|428
+T|voodoo|1|2|Devil’s Pie|322
+T|voodoo|1|3|Left & Right|286
+T|voodoo|1|4|The Line|316
+T|voodoo|1|5|Send It On|357
+T|voodoo|1|6|Chicken Grease|277
+T|voodoo|1|7|One Mo’Gin|375
+T|voodoo|1|8|The Root|393
+T|voodoo|1|9|Spanish Joint|345
+T|voodoo|1|10|Feel Like Makin’ Love|382
+T|voodoo|1|11|Greatdayndamornin’ / Booty|456
+T|voodoo|1|12|Untitled (How Does It Feel)|430
+T|voodoo|1|13|Africa|374
+C|voodoo|Charlie Hunter|instrument arranger|1|
+C|voodoo|Raphael Saadiq|instrument|2|guitar, bass guitar
+C|voodoo|Charlie Hunter|instrument|3|bass guitar, guitar
+C|voodoo|Roy Hargrove|instrument|3|horn, flugelhorn, trumpet
+C|voodoo|Spanky|instrument|3|guitar
+C|voodoo|Pino Palladino|instrument|5|bass guitar
+C|voodoo|?uestlove|instrument|7|drums (drum set)
+C|voodoo|D’Angelo|vocal|11|
+C|voodoo|D’Angelo|mix|12|
+C|voodoo|D’Angelo|vocal arranger|12|
+C|voodoo|D’Angelo|instrument arranger|12|
+C|voodoo|Steve Mandel|engineer|13|
+C|voodoo|D’Angelo|producer|13|executive
+C|voodoo|D’Angelo|instrument|13|
+C|voodoo|Russell Elevado|mix|13|
+T|waltz-for-debby|1|1|My Foolish Heart|296
+T|waltz-for-debby|1|2|Waltz for Debby|410
+T|waltz-for-debby|1|3|Detour Ahead|434
+T|waltz-for-debby|1|4|My Romance|435
+T|waltz-for-debby|1|5|Some Other Time|307
+T|waltz-for-debby|1|6|Milestones|395
+C|waltz-for-debby|David B. Jones|engineer|2|
+C|waltz-for-debby|Orrin Keepnews|producer|6|
+C|waltz-for-debby|Paul Motian|instrument|6|drums (drum set)
+C|waltz-for-debby|Scott LaFaro|instrument|6|bass, double bass
+C|waltz-for-debby|Bill Evans|instrument|6|piano
+C|waltz-for-debby|Dave Jones|recording|6|
+T|whats-going-on|1|1|What’s Going On|240
+T|whats-going-on|1|2|What’s Happening Brother|177
+T|whats-going-on|1|3|Flyin’ High (in the Friendly Sky)|220
+T|whats-going-on|1|4|Save the Children|246
+T|whats-going-on|1|5|God Is Love|104
+T|whats-going-on|1|6|Mercy Mercy Me (The Ecology)|183
+T|whats-going-on|1|7|Right On|435
+T|whats-going-on|1|8|Wholy Holy|186
+T|whats-going-on|1|9|Inner City Blues (Make Me Wanna Holler)|330
+C|whats-going-on|Bobby Rogers|vocal|0|background vocals
+C|whats-going-on|Alvin Score|instrument|0|violin family
+C|whats-going-on|Angelo Carlisi|instrument|0|alto saxophone
+C|whats-going-on|Art Stewart|recording|0|
+C|whats-going-on|Beatriz Budinzky|instrument|0|violin family
+C|whats-going-on|Mel Farr|vocal|1|background vocals
+C|whats-going-on|The Funk Brothers|instrument|1|
+C|whats-going-on|Marvin Gaye|instrument|1|percussion, piano
+C|whats-going-on|Lem Barney|vocal|1|background vocals
+C|whats-going-on|Detroit Symphony Orchestra|instrument|1|
+C|whats-going-on|David Van dePitte|arranger|1|
+C|whats-going-on|Marvin Gaye|vocal|2|lead vocals, background vocals
+C|whats-going-on|Lawrence Miles|mix|7|
+C|whats-going-on|David Van dePitte|conductor|7|
+C|whats-going-on|Marvin Gaye|producer|7|
+T|zombie|1|1|Zombie|746
+T|zombie|1|2|Mr Follow Follow|778
+C|zombie|Addo Nettey|instrument|1|congas
+C|zombie|Ayoola Abayomi|instrument|1|claves
+C|zombie|Babajide Olaleye|instrument|1|maracas
+C|zombie|Bose Osuhor|vocal|1|
+C|zombie|Fela Kuti|instrument|1|keyboard, saxophone
+C|zombie|Fela Kuti|producer|1|
+C|zombie|Fela Kuti|vocal|1|lead vocals
+C|zombie|Folake Oladejo|vocal|1|
+C|zombie|Kewe Oghomienor|vocal|1|
+C|zombie|Ladi Tony Alabi|instrument|1|drums (drum set)
+C|zombie|Lekan Animashaun|instrument|1|baritone saxophone
+C|zombie|Nweke Atifoh|instrument|1|bass
+C|zombie|Nwokoma Ukem|instrument|1|trumpet
+C|zombie|Oghene Kologbo|instrument|1|guitar
+C|zombie|Okalue Ojeah|instrument|1|guitar

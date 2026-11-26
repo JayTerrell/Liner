@@ -28,10 +28,13 @@ export default function Home() {
           <input name="q" placeholder="An artist, an album, a sound, a question…" aria-label="Search Liner" />
           <button className="btn" type="submit">Search</button>
         </form>
-        <div className="chips">
-          {lanes.map((l) => (
-            <Link key={l.id} href={`/search?lane=${l.id}`} className="chip">{l.label}</Link>
-          ))}
+        <div className="picker">
+          <span className="picker-label">Or start with a genre</span>
+          <div className="chips">
+            {lanes.map((l) => (
+              <Link key={l.id} href={`/search?lane=${l.id}`} className="chip">{l.label}</Link>
+            ))}
+          </div>
         </div>
       </section>
 
