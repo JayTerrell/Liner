@@ -1,0 +1,29 @@
+_note: >-
+  Hand-written editorial content, laid over the warehouse data by scripts/build-album-details.ts.
+  This is the only place a person writes album detail: everything else is built from LINER_DB and
+  overwritten on each run. trackNotes is keyed by track number. Titles and running times are NOT set
+  here: those come from MusicBrainz so they stay verifiable.
+albums:
+  kind-of-blue:
+    trackNotes:
+      '1': Bass asks, horns answer. Two scales, sixteen bars each, endless room.
+      '2': Wynton Kelly sits in on piano. The bluesiest stop on the record.
+      '3': A ten-bar cycle with no obvious top. Evans and Davis at their quietest.
+      '4': A 6/8 blues that floats instead of swings.
+      '5': Five scales. Each soloist decides when to move on.
+    stories:
+      - tag: SESSION
+        title: Two days, barely rehearsed
+        body: >-
+          Recorded March 2 and April 22, 1959 at Columbia's 30th Street Studio. Most of the players
+          saw Davis's sketches for the first time at the date.
+      - tag: LINER NOTES
+        title: Evans writes the sleeve
+        body: >-
+          Bill Evans's original notes compare the sessions to a Japanese painting discipline: one
+          stroke, no erasing, no going back.
+      - tag: PRESSING
+        title: Side one ran fast
+        body: >-
+          A tape machine running slow meant the first three tracks were issued slightly sharp.
+          Corrected-speed masters came decades later.

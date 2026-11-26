@@ -8,9 +8,12 @@
     "start": "next start",
     "art:warm": "tsx scripts/warm-art.ts",
     "yt:ingest": "tsx scripts/youtube-ingest.ts",
-    "yt:match": "tsx scripts/youtube-match.ts"
+    "yt:match": "tsx scripts/youtube-match.ts",
+    "albums:build": "tsx scripts/build-album-details.ts"
   },
   "dependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^5.5.0",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

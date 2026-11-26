@@ -15,11 +15,12 @@
 // because resolved channel IDs are written back to channels.json and reused.
 import { promises as fs } from "fs";
 import path from "path";
+import { load as yamlLoad, dump as yamlDump } from "js-yaml";
 
 const API = "https://www.googleapis.com/youtube/v3";
 const KEY = process.env.YOUTUBE_API_KEY ?? "";
 const PER_CHANNEL = Number(process.env.YT_PER_CHANNEL ?? 50);
-const CHANNELS_FILE = path.join(process.cwd(), "data", "youtube", "channels.json");
+const CHANNELS_FILE = path.join(process.cwd(), "data", "youtube", "channels.yaml");
 const VIDEOS_FILE = path.join(process.cwd(), "data", "youtube", "videos.json");
 
 export interface SeedChannel {
@@ -146,7 +147,7 @@ async function main() {
     process.exit(1);
   }
   const all = process.argv.includes("--all");
-  const seed = JSON.parse(await fs.readFile(CHANNELS_FILE, "utf8")) as { _note: string; channels: SeedChannel[] };
+  const seed = yamlLoad(await fs.readFile(CHANNELS_FILE, "utf8")) as { _note: string; channels: SeedChannel[] };
   let existing: RawVideo[] = [];
   try { existing = JSON.parse(await fs.readFile(VIDEOS_FILE, "utf8")).videos ?? []; } catch { /* first run */ }
   const done = new Set(existing.map((v) => v.channelKey));
@@ -194,7 +195,7 @@ async function main() {
   }
 
   // Write resolved IDs back so the 100-unit search never runs twice.
-  await fs.writeFile(CHANNELS_FILE, JSON.stringify(seed, null, 2) + "\n");
+  await fs.writeFile(CHANNELS_FILE, yamlDump(seed, { lineWidth: 120, noRefs: true }));
   await fs.writeFile(VIDEOS_FILE, JSON.stringify({
     _note: "Raw YouTube metadata pulled by scripts/youtube-ingest.ts. Not edited by hand.",
     pulledAt: new Date().toISOString(),

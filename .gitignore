@@ -9,3 +9,7 @@ next-env.d.ts
 # Raw YouTube API output: large, regenerable with npm run yt:ingest, and the
 # app never reads it. Only data/youtube/matches.json is used at build time.
 data/youtube/videos.json
+
+# Intermediate output of docs/sql/album_details.sql, consumed by
+# scripts/build-album-details.ts to produce data/albums/details.yaml.
+data/albums/_payload.txt
