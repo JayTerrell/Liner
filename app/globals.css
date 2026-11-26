@@ -278,16 +278,26 @@ a.thread-item:hover .thread-name { color: var(--green-light); }
 @media (min-width: 760px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
 .voice { background: var(--brush), var(--s-gun); box-shadow: var(--bev); border: 1px solid var(--rule); padding: 16px; display: flex; flex-direction: column; gap: 8px; }
 .voice:hover { border-color: var(--green); }
-.voice-video { padding: 0; overflow: hidden; }
+/* Video cards sit on a tighter grid than the channel cards: a thumbnail
+   carries at a smaller size than a block of text, and three to a row keeps
+   the Voices section from dominating the page. */
+.voice-grid { gap: 12px; }
+@media (min-width: 760px) {
+  .voice-grid { grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+}
+.voice-video { padding: 0; overflow: hidden; gap: 6px; }
 .voice-video .row-gap,
 .voice-video .voice-title,
 .voice-video .muted { padding-inline: 14px; }
-.voice-video .row-gap { padding-top: 12px; }
-.voice-video .muted:last-child { padding-bottom: 14px; }
+.voice-video .row-gap { padding-top: 10px; }
+.voice-video .muted:last-child { padding-bottom: 12px; }
+.voice-video .row-gap,
+.voice-video .voice-title,
+.voice-video .muted { padding-inline: 12px; }
 .voice-thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: #161a18; }
 .voice-title {
   font-family: var(--font-body), system-ui, sans-serif;
-  font-size: 15px; line-height: 1.35; color: var(--paper);
+  font-size: 13.5px; line-height: 1.35; color: var(--paper);
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 
