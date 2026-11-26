@@ -9,7 +9,7 @@
 -- literal delimiter, so chr(10) is rejected), so it can be pasted straight into
 -- scripts/build-album-details.ts.
 --   T|album_id|disc|track_no|title|seconds
---   C|album_id|person|role|tracks_played|instruments
+--   C|album_id|person_mbid|person|role|tracks_played|instruments
 
 with seed as (select * from values ('kind-of-blue','Miles Davis','Kind of Blue',1959),('milestones','Miles Davis','Milestones',1958),('bitches-brew','Miles Davis','Bitches Brew',1970),('round-about-midnight','Miles Davis','''Round About Midnight',1957),('sketches-of-spain','Miles Davis','Sketches of Spain',1960),('in-a-silent-way','Miles Davis','In a Silent Way',1969),('tutu','Miles Davis','Tutu',1986),('blue-train','John Coltrane','Blue Train',1958),('giant-steps','John Coltrane','Giant Steps',1960),('my-favorite-things','John Coltrane','My Favorite Things',1961),('a-love-supreme','John Coltrane','A Love Supreme',1965),('portrait-in-jazz','Bill Evans','Portrait in Jazz',1960),('sunday-at-the-village-vanguard','Bill Evans','Sunday at the Village Vanguard',1961),('waltz-for-debby','Bill Evans','Waltz for Debby',1961),('brilliant-corners','Thelonious Monk','Brilliant Corners',1957),('mingus-ah-um','Charles Mingus','Mingus Ah Um',1959),('maiden-voyage','Herbie Hancock','Maiden Voyage',1965),('head-hunters','Herbie Hancock','Head Hunters',1973),('shape-of-jazz-to-come','Ornette Coleman','The Shape of Jazz to Come',1959),('moanin','Art Blakey','Moanin''',1958),('live-at-the-apollo','James Brown','Live at the Apollo',1963),('stand','Sly and the Family Stone','Stand!',1969),('riot','Sly and the Family Stone','There''s a Riot Goin'' On',1971),('mothership-connection','Parliament','Mothership Connection',1975),('talking-book','Stevie Wonder','Talking Book',1972),('innervisions','Stevie Wonder','Innervisions',1973),('songs-in-the-key-of-life','Stevie Wonder','Songs in the Key of Life',1976),('whats-going-on','Marvin Gaye','What''s Going On',1971),('curtis','Curtis Mayfield','Curtis',1970),('super-fly','Curtis Mayfield','Super Fly',1972),('purple-rain','Prince','Purple Rain',1984),('sign-o-the-times','Prince','Sign o'' the Times',1987),('off-the-wall','Michael Jackson','Off the Wall',1979),('thriller','Michael Jackson','Thriller',1982),('brown-sugar','D''Angelo','Brown Sugar',1995),('voodoo','D''Angelo','Voodoo',2000),('black-messiah','D''Angelo','Black Messiah',2014),('baduizm','Erykah Badu','Baduizm',1997),('mamas-gun','Erykah Badu','Mama''s Gun',2000),('black-radio','Robert Glasper','Black Radio',2012),('feels','Snoh Aalegra','Feels',2017),('ugh-those-feels-again','Snoh Aalegra','Ugh, Those Feels Again',2019),('temporary-highs','Snoh Aalegra','Temporary Highs in the Violet Skies',2021),('peoples-instinctive-travels','A Tribe Called Quest','People''s Instinctive Travels and the Paths of Rhythm',1990),('low-end-theory','A Tribe Called Quest','The Low End Theory',1991),('midnight-marauders','A Tribe Called Quest','Midnight Marauders',1993),('donuts','J Dilla','Donuts',2006),('southernplayalistic','OutKast','Southernplayalisticadillacmuzik',1994),('atliens','OutKast','ATLiens',1996),('aquemini','OutKast','Aquemini',1998),('it-takes-a-nation','Public Enemy','It Takes a Nation of Millions to Hold Us Back',1988),('gentleman','Fela Kuti','Gentleman',1973),('confusion','Fela Kuti','Confusion',1975),('expensive-shit','Fela Kuti','Expensive Shit',1975),('zombie','Fela Kuti','Zombie',1977),('dance-mania','Tito Puente','Dance Mania',1958),('buena-vista-social-club','Buena Vista Social Club','Buena Vista Social Club',1997),('ven-conmigo','Selena','Ven Conmigo',1990),('selena-live','Selena','Live!',1993),('amor-prohibido','Selena','Amor Prohibido',1994),('amazing-grace','Aretha Franklin','Amazing Grace',1972) as s(seed_id, artist, title, yr)),
 
@@ -46,20 +46,21 @@ tracks as (
          m.seed_id, 1 as ord, t.DISC_NUMBER as a, t.TRACK_NUMBER as b
   from map m join LINER_DB.ANALYTICS.ALBUM_TRACKS t on t.ALBUM_MBID = m.album_mbid),
 
--- At most 15 people per album, the ones who played on most of it first, so a
--- credits tab stays readable.
+-- Every credited person, with no cap. An album's credits tab pages through
+-- them 15 at a time; being sixteenth on a record is no reason to be invisible,
+-- and each of these people gets a page of their own.
+--
+-- ARTIST_MBID is what a person page is keyed on. Names are not unique and
+-- cannot be: MusicBrainz holds several distinct musicians called Jay Dee.
 credits as (
-  select line, seed_id, ord, a, b from (
-    -- ATTRIBUTES holds the actual instrument ("trumpet", "double bass"),
-    -- which is far better than the bare relationship name "instrument".
-    select 'C|' || m.seed_id || '|' || replace(l.ARTIST_NAME,'|','/') || '|'
-           || replace(l.RELATIONSHIP,'|','/') || '|' || coalesce(l.TRACK_COUNT,0) || '|'
-           || coalesce(replace(array_to_string(l.ATTRIBUTES, ', '),'|','/'),'') as line,
-           m.seed_id, 2 as ord, coalesce(l.TRACK_COUNT,0) as a, 0 as b,
-           row_number() over (partition by m.seed_id
-             order by coalesce(l.TRACK_COUNT,0) desc, l.ARTIST_NAME) rn
-    from map m join LINER_DB.ANALYTICS.ALBUM_LINEUP l on l.ALBUM_MBID = m.album_mbid)
-  where rn <= 15)
+  -- ATTRIBUTES holds the actual instrument ("trumpet", "double bass"), which
+  -- is far better than the bare relationship name "instrument".
+  select 'C|' || m.seed_id || '|' || coalesce(l.ARTIST_MBID,'') || '|'
+         || replace(l.ARTIST_NAME,'|','/') || '|'
+         || replace(l.RELATIONSHIP,'|','/') || '|' || coalesce(l.TRACK_COUNT,0) || '|'
+         || coalesce(replace(array_to_string(l.ATTRIBUTES, ', '),'|','/'),'') as line,
+         m.seed_id, 2 as ord, coalesce(l.TRACK_COUNT,0) as a, 0 as b
+  from map m join LINER_DB.ANALYTICS.ALBUM_LINEUP l on l.ALBUM_MBID = m.album_mbid)
 
-select listagg(line, '~') within group (order by seed_id, ord, a, b) as payload
+select listagg(line, '~') within group (order by seed_id, ord, a desc, b) as payload
 from (select * from tracks union all select * from credits)
