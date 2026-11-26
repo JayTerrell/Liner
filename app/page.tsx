@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Cover, Portrait } from "@/components/Art";
+import { SearchBar } from "@/components/SearchBar";
 import { PathCard } from "@/components/PathCard";
 import { getAlbum, getArtist, getPath, getPaths, lanes, sampleNote, artistOf } from "@/lib/data";
 
@@ -19,20 +20,11 @@ export default function Home() {
   return (
     <div className="page">
       <section className="intro">
-        <div className="mono muted">Build a path · invite people · hear music differently together</div>
         <h1 className="display">
           Start anywhere.<br />
           <em>Follow the thread.</em>
         </h1>
-        <form action="/search" className="hero-search" role="search">
-          <input name="q" placeholder="An artist, an album, a sound, a question…" aria-label="Search Liner" />
-          <button className="btn" type="submit">Search</button>
-        </form>
-        <div className="chips">
-          {lanes.map((l) => (
-            <Link key={l.id} href={`/search?lane=${l.id}`} className="chip">{l.label}</Link>
-          ))}
-        </div>
+        <SearchBar lanes={lanes} />
       </section>
 
       <section>
@@ -41,7 +33,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="section-label"><span>Paths on Liner</span><span>Brass = expert-led · Emerald = peer-led · Steel = open</span></div>
+        <div className="section-label"><span>Paths on Liner</span></div>
         <div className="path-grid">
           {rest.map((p) => <PathCard key={p.id} path={p} />)}
         </div>

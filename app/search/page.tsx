@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Cover, Portrait } from "@/components/Art";
+import { SearchBar } from "@/components/SearchBar";
 import { badgeClass } from "@/components/PathCard";
 import { artistOf, getLane, lanes, search } from "@/lib/data";
 
@@ -16,23 +17,10 @@ export default async function SearchPage({
   return (
     <div className="page">
       <section className="intro">
-        <div className="mono muted">Search</div>
         <h1 className="display" style={{ fontSize: "clamp(40px, 8vw, 80px)" }}>
           {laneLabel ? laneLabel : q ? `“${q}”` : "Start anywhere"}
         </h1>
-        <form action="/search" className="hero-search" role="search">
-          {lane && <input type="hidden" name="lane" value={lane} />}
-          <input name="q" defaultValue={q} placeholder="An artist, an album, a sound, a question…" aria-label="Search Liner" />
-          <button className="btn" type="submit">Search</button>
-        </form>
-        <div className="chips">
-          <Link href={q ? `/search?q=${encodeURIComponent(q)}` : "/search"} className={lane ? "chip" : "chip on"}>All</Link>
-          {lanes.map((l) => (
-            <Link key={l.id} href={`/search?${q ? `q=${encodeURIComponent(q)}&` : ""}lane=${l.id}`} className={lane === l.id ? "chip on" : "chip"}>
-              {l.label}
-            </Link>
-          ))}
-        </div>
+        <SearchBar lanes={lanes} q={q} lane={lane} />
         <div className="mono muted">{total} results</div>
       </section>
 

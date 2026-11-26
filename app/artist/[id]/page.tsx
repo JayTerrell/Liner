@@ -95,7 +95,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
       )}
 
       <section>
-        <div className="section-label"><span>Voices on {artist.name}</span><span>{clips.length ? `${clips.length} ingested` : "none ingested yet"}</span></div>
+        <div className="section-label"><span>Voices on {artist.name}</span></div>
         <Voices videos={clips} channels={voices} subject={artist.name} />
       </section>
     </div>
