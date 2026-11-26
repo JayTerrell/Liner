@@ -41,7 +41,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
         tracks={detail.tracks}
         credits={detail.credits}
         stories={detail.stories}
-        channels={channelsForLanes(artist.lanes, 4)}
+        channels={channelsForLanes(artist.lanes ?? [], 4)}
         videos={videosForAlbum(album, 6)}
         subject={`${artist.name} ${album.title}`}
         artistNames={artistNames}

@@ -18,7 +18,7 @@ const SEED = path.join(process.cwd(), "data", "seed.yaml");
 const EDITORIAL = path.join(process.cwd(), "data", "albums", "editorial.yaml");
 
 interface Track { n: number; title: string; len: string; note: string }
-interface CreditRow { name: string; role: string; scope: string; artistId?: string }
+interface CreditRow { name: string; role: string; scope: string; mbid?: string; artistId?: string }
 interface Story { tag: string; title: string; body: string }
 
 const clock = (s: number) => (s > 0 ? `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}` : "—");
@@ -48,13 +48,16 @@ const role = (r: string, instruments: string) =>
 
 async function main() {
   const seed = yamlLoad(await fs.readFile(SEED, "utf8")) as {
-    albums: { id: string }[]; artists: { id: string; name: string }[];
+    albums: { id: string }[]; artists: { id: string; name: string; mbid?: string }[];
   };
   // Hand-written notes and stories. Nothing here is overwritten by a rebuild.
   const editorial = (yamlLoad(await fs.readFile(EDITORIAL, "utf8")) as {
     albums: Record<string, { trackNotes?: Record<string, string>; stories?: Story[] }>;
   }).albums ?? {};
   const artistByName = new Map(seed.artists.map((a) => [a.name.toLowerCase(), a.id]));
+  const artistByMbid = new Map(
+    seed.artists.filter((a) => a.mbid).map((a) => [a.mbid as string, a.id]),
+  );
 
   const tracks = new Map<string, Track[]>();
   const credits = new Map<string, CreditRow[]>();
@@ -67,11 +70,15 @@ async function main() {
       if (!tracks.has(album)) tracks.set(album, []);
       tracks.get(album)!.push({ n: Number(no), title, len: clock(Number(secs)), note: "" });
     } else if (p[0] === "C") {
-      const [, album, name, rel, n, instruments = ""] = p;
+      const [, album, mbid, name, rel, n, instruments = ""] = p;
       if (!credits.has(album)) credits.set(album, []);
+      // A credit points at a curated artist page when we have one for this
+      // person, by MusicBrainz ID first and by name only as a fallback.
+      const seedId = artistByMbid.get(mbid) ?? artistByName.get(name.toLowerCase());
       credits.get(album)!.push({
         name, role: role(rel, instruments), scope: "", // scope filled below, once the track total is known
-        ...(artistByName.has(name.toLowerCase()) ? { artistId: artistByName.get(name.toLowerCase()) } : {}),
+        ...(mbid ? { mbid } : {}),
+        ...(seedId ? { artistId: seedId } : {}),
         _n: Number(n),
       } as CreditRow & { _n: number });
     }
@@ -90,7 +97,7 @@ async function main() {
     // first, so the band reads before the crew.
     const merged = new Map<string, CreditRow & { _n: number }>();
     for (const row of (credits.get(a.id) ?? []) as (CreditRow & { _n: number })[]) {
-      const key = `${row.name}|${row._n}`;
+      const key = `${row.mbid ?? row.name}|${row._n}`;
       const seen = merged.get(key);
       if (seen) {
         if (!seen.role.split(", ").includes(row.role)) seen.role += `, ${row.role}`;
@@ -120,11 +127,14 @@ async function main() {
 
   const withT = Object.values(albums).filter((a) => a.tracks.length).length;
   const withC = Object.values(albums).filter((a) => a.credits.length).length;
-  const linked = Object.values(albums).flatMap((a) => a.credits).filter((c) => c.artistId).length;
+  const allCredits = Object.values(albums).flatMap((a) => a.credits);
+  const linked = allCredits.filter((c) => c.artistId).length;
+  const people = new Set(allCredits.filter((c) => c.mbid).map((c) => c.mbid));
   console.log(`${Object.keys(albums).length} albums written`);
   console.log(`  ${withT} with a track list, ${Object.values(albums).reduce((n, a) => n + a.tracks.length, 0)} tracks`);
   console.log(`  ${withC} with credits, ${Object.values(albums).reduce((n, a) => n + a.credits.length, 0)} credit rows`);
-  console.log(`  ${linked} credits link to an artist page in the archive`);
+  console.log(`  ${linked} credits link to a curated artist page`);
+  console.log(`  ${people.size} distinct people, each with a page of their own`);
   const stories = Object.values(albums).reduce((n, a) => n + a.stories.length, 0);
   const notes = Object.values(albums).flatMap((a) => a.tracks).filter((t) => t.note).length;
   console.log(`  ${stories} stories and ${notes} track notes from the editorial overlay`);
