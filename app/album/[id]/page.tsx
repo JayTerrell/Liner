@@ -4,7 +4,7 @@ import { AlbumTabs } from "@/components/AlbumTabs";
 import { Cover } from "@/components/Art";
 import { PathCard } from "@/components/PathCard";
 import {
-  artistOf, channelsForLanes, detailFor, getAlbum, getAlbums, getArtists, neighbors, pathsForAlbum,
+  artistOf, channelsForLanes, detailFor, getAlbum, getAlbums, getArtists, neighbors, pathsForAlbum, videosForAlbum,
 } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -42,6 +42,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
         credits={detail.credits}
         stories={detail.stories}
         channels={channelsForLanes(artist.lanes, 4)}
+        videos={videosForAlbum(album, 6)}
         subject={`${artist.name} ${album.title}`}
         artistNames={artistNames}
       />

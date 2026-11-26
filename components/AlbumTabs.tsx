@@ -4,14 +4,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { Portrait } from "./Art";
 import { Voices } from "./Voices";
-import type { Channel, CreditRow, Story, Track } from "@/lib/types";
+import type { Channel, CreditRow, Story, Track, VideoMatch } from "@/lib/types";
 
 type Tab = "tracks" | "credits" | "stories" | "voices";
 
 export function AlbumTabs({
-  tracks, credits, stories, channels, subject, artistNames,
+  tracks, credits, stories, channels, videos, subject, artistNames,
 }: {
-  tracks: Track[]; credits: CreditRow[]; stories: Story[]; channels: Channel[]; subject: string;
+  tracks: Track[]; credits: CreditRow[]; stories: Story[]; channels: Channel[]; videos: VideoMatch[]; subject: string;
   artistNames: Record<string, string>;
 }) {
   const [tab, setTab] = useState<Tab>("tracks");
@@ -82,7 +82,7 @@ export function AlbumTabs({
 
       {tab === "voices" && (
         <div style={{ paddingTop: 12 }}>
-          <Voices channels={channels} subject={subject} />
+          <Voices videos={videos} channels={channels} subject={subject} />
         </div>
       )}
     </div>
