@@ -59,7 +59,7 @@ export default async function SearchPage({
           <div className="section-label"><span>Artists &amp; musicians</span></div>
           {res.artists.map((a) => (
             <Link key={a.id} href={`/artist/${a.id}`} className="res">
-              <Portrait name={a.name} mbid={a.mbid} circle />
+              <Portrait name={a.name} mbid={a.mbid} qid={a.wikidataQid} circle />
               <div className="stack" style={{ gap: 3 }}>
                 <span className="row-title">{a.name}</span>
                 <span className="muted small">{a.roles} · {a.years}</span>

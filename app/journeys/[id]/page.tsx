@@ -49,7 +49,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
           </div>
           <div className="next-grid">
             <h2 className="display">{next.title}</h2>
-            <Cover title={next.title} artist={next.artist} mbid={next.albumId ? getAlbum(next.albumId)?.mbid : undefined} />
+            <Cover title={next.title} artist={next.artist} mbid={next.mbid ?? (next.albumId ? getAlbum(next.albumId)?.mbid : undefined)} />
           </div>
           <div className="mono">{next.artist} · {next.year}</div>
           {path.whyNext && (
@@ -84,7 +84,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
           const content = (
             <>
               <span className="row-num" style={{ color: isNext ? "var(--ink)" : done ? "#5e5f5a" : "var(--paper)" }}>{String(i + 1).padStart(2, "0")}</span>
-              <Cover title={it.title} artist={it.artist} mbid={it.albumId ? getAlbum(it.albumId)?.mbid : undefined} />
+              <Cover title={it.title} artist={it.artist} mbid={it.mbid ?? (it.albumId ? getAlbum(it.albumId)?.mbid : undefined)} />
               <div className="stack" style={{ gap: 2, minWidth: 0 }}>
                 <span className="row-title">{it.title}</span>
                 <span className="muted small">{it.artist} · {it.year}</span>

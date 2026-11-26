@@ -19,6 +19,7 @@ export interface Artist {
   before: LineageRef[];
   after: LineageRef[];
   mbid?: string;     // MusicBrainz artist ID, once matched
+  wikidataQid?: string; // Wikidata ID, once matched: lets the portrait lookup skip MusicBrainz
 }
 
 export interface Album {
@@ -35,6 +36,7 @@ export interface PathItem {
   artist: string;
   year: string;
   albumId?: string;
+  mbid?: string;     // MusicBrainz release-group ID, for items not yet in the album list
 }
 
 export interface Fork { glyph: string; title: string; by: string; change: string; n: string }

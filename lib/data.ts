@@ -81,6 +81,6 @@ export function pathCovers(p: LinerPath, n = 4) {
   return p.items.slice(0, n).map((i) => ({
     title: i.title,
     artist: i.artist,
-    mbid: i.albumId ? getAlbum(i.albumId)?.mbid : undefined,
+    mbid: i.mbid ?? (i.albumId ? getAlbum(i.albumId)?.mbid : undefined),
   }));
 }
