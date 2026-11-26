@@ -69,7 +69,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
             </div>
           )}
           {path.kind === "journey" && (
-            <div style={{ color: "var(--green-deep)", fontWeight: 600, fontSize: 14 }}>
+            <div style={{ color: "#173d2c", fontWeight: 600, fontSize: 14 }}>
               I&apos;m still learning. Bring questions, observations and recommendations.
             </div>
           )}
@@ -90,7 +90,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
                 <span className="muted small">{it.artist} · {it.year}</span>
               </div>
               <span className="row-status" style={{ color: isNext ? undefined : done ? "var(--muted)" : "var(--body)" }}>
-                {done ? "✓ done" : isNext ? "next" : "upcoming"}
+                {done ? "listened" : isNext ? "next" : "upcoming"}
               </span>
             </>
           );

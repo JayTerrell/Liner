@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="section-label"><span>Paths on Liner</span><span>Cream = expert-led · Green = peer-led · Grey = open</span></div>
+        <div className="section-label"><span>Paths on Liner</span><span>Brass = expert-led · Emerald = peer-led · Steel = open</span></div>
         <div className="path-grid">
           {rest.map((p) => <PathCard key={p.id} path={p} />)}
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
             const a = getArtist(id)!;
             return (
               <Link key={id} href={`/artist/${id}`} className="person">
-                <Portrait name={a.name} mbid={a.mbid} qid={a.wikidataQid} circle />
+                <span className="ring"><Portrait name={a.name} mbid={a.mbid} qid={a.wikidataQid} circle /></span>
                 <span className="person-name">{a.name}</span>
               </Link>
             );

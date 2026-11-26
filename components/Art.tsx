@@ -19,8 +19,12 @@ export function Cover({
   const qs = new URLSearchParams({ title, artist, ...(mbid ? { mbid } : {}) });
 
   return (
-    <div className={`art ${className}`} style={{ borderRadius: rounded ? 6 : 0 }}>
-      <div className="art-fallback" style={{ background: tint }} aria-hidden>
+    <div className={`art ${className}`} style={{ borderRadius: 0 }}>
+      <div
+        className="art-fallback"
+        style={{ background: `linear-gradient(160deg, ${tint}, color-mix(in srgb, ${tint} 45%, #000))` }}
+        aria-hidden
+      >
         <span className="art-fallback-title">{title}</span>
         <span className="art-fallback-artist">{artist}</span>
       </div>
@@ -50,7 +54,11 @@ export function Portrait({
 
   return (
     <div className={`art ${className}`} style={{ borderRadius: circle ? "50%" : 0 }}>
-      <div className="art-fallback portrait-fallback" style={{ background: tint }} aria-hidden>
+      <div
+        className="art-fallback portrait-fallback"
+        style={{ background: `linear-gradient(170deg, ${tint}, color-mix(in srgb, ${tint} 45%, #000))` }}
+        aria-hidden
+      >
         <span className="portrait-initials">{initials}</span>
       </div>
       {state !== "failed" && (
