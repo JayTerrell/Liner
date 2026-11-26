@@ -54,7 +54,7 @@ export default function Home() {
             const a = getArtist(id)!;
             return (
               <Link key={id} href={`/artist/${id}`} className="person">
-                <Portrait name={a.name} mbid={a.mbid} circle />
+                <Portrait name={a.name} mbid={a.mbid} qid={a.wikidataQid} circle />
                 <span className="person-name">{a.name}</span>
               </Link>
             );

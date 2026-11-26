@@ -42,7 +42,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
       <div>
         <Link href="/search" className="back">‹ BACK TO SEARCH</Link>
         <div className="head">
-          <Portrait name={artist.name} mbid={artist.mbid} className="ratio-45" />
+          <Portrait name={artist.name} mbid={artist.mbid} qid={artist.wikidataQid} className="ratio-45" />
           <div className="head-info">
             <div className="row-gap">
               {artist.lanes.map((l) => (

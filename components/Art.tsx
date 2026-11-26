@@ -41,12 +41,12 @@ export function Cover({
 }
 
 export function Portrait({
-  name, mbid, className = "", circle = false,
-}: { name: string; mbid?: string; className?: string; circle?: boolean }) {
+  name, mbid, qid, className = "", circle = false,
+}: { name: string; mbid?: string; qid?: string; className?: string; circle?: boolean }) {
   const [state, setState] = useState<"loading" | "ok" | "failed">("loading");
   const tint = TINTS[hash(name) % TINTS.length];
   const initials = name.split(/[\s.]+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("").toUpperCase();
-  const qs = new URLSearchParams({ name, ...(mbid ? { mbid } : {}) });
+  const qs = new URLSearchParams({ name, ...(mbid ? { mbid } : {}), ...(qid ? { qid } : {}) });
 
   return (
     <div className={`art ${className}`} style={{ borderRadius: circle ? "50%" : 0 }}>

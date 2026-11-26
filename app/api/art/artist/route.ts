@@ -8,9 +8,10 @@ export async function GET(req: Request) {
   const u = new URL(req.url);
   const name = u.searchParams.get("name") ?? "";
   const mbid = u.searchParams.get("mbid") ?? undefined;
+  const qid = u.searchParams.get("qid") ?? undefined;
   if (!name) return new Response(null, { status: 400 });
 
-  const hit = await resolveArtistPhoto({ name, mbid });
+  const hit = await resolveArtistPhoto({ name, mbid, qid });
   if (!hit) return new Response(null, { status: 404, headers: { "Cache-Control": "public, max-age=300" } });
 
   if (u.searchParams.get("format") === "json") {
