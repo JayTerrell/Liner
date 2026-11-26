@@ -75,7 +75,7 @@ input::placeholder { color: var(--muted-2); }
 
 .wrap { max-width: 1120px; margin: 0 auto; padding: 0 18px; }
 .stack { display: flex; flex-direction: column; }
-.page { padding: 8px 0 120px; display: flex; flex-direction: column; gap: 40px; }
+.page { padding: 8px 0 56px; display: flex; flex-direction: column; gap: 40px; }
 
 /* Type */
 .display { font-family: "Barlow Condensed", sans-serif; font-weight: 800; text-transform: uppercase; line-height: 0.9; letter-spacing: 0.005em; }
@@ -120,7 +120,24 @@ h1.display em, .intro h1 em {
 @media (min-width: 820px) {
   .topnav, .topsearch { display: flex; }
   .tabbar { display: none; }
-  .page { padding-bottom: 80px; }
+}
+
+/* Footer: brass hairline on top, brushed dark metal ground */
+.footer { background: var(--brush), var(--panel); border-top: 1px solid var(--edge-brass); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05); padding: 36px 0 calc(92px + env(safe-area-inset-bottom)); }
+.footer-inner { display: grid; grid-template-columns: 1fr; gap: 28px; }
+.footer-about { display: flex; flex-direction: column; gap: 14px; }
+.footer-about .wordmark { align-self: flex-start; }
+.footer-blurb { font-size: 15px; line-height: 1.55; color: var(--body); max-width: 46ch; text-wrap: pretty; }
+.footer-col { display: flex; flex-direction: column; gap: 2px; }
+.footer-col .mono { margin-bottom: 8px; }
+.footer-col a { padding: 5px 0; font-size: 15px; color: var(--body); }
+.footer-col a:hover { color: var(--green-light); }
+.footer-base { margin: 28px 0 0; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 10px; }
+@media (min-width: 760px) {
+  .footer-inner { grid-template-columns: 1.7fr 1fr 1fr; gap: 40px; }
+}
+@media (min-width: 820px) {
+  .footer { padding-bottom: 36px; }
 }
 
 /* Artwork. Real covers sit under a faint glossy sheen like plastic sleeve wrap. */
