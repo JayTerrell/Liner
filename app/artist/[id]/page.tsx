@@ -1,13 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AlbumShelf, type ShelfAlbum } from "@/components/AlbumShelf";
 import { Cover, Portrait } from "@/components/Art";
-import { PathCard } from "@/components/PathCard";
-import { Voices } from "@/components/Voices";
+import { badgeClass } from "@/components/PathCard";
+import { Crumbs, JumpBar, LineageStrip, SectionHeader, WhereNext, type Neighbor, type NextTile } from "@/components/ui";
+import { VideoCard, type CardVideo } from "@/components/VideoCard";
+import { indexHref } from "@/components/index-ui";
 import {
-  albumsByArtist, allArtistIds, artistOf, channelsForLanes, creditsFor, getAlbum, getArtist, getLane,
-  pathsForArtist, videosForArtist,
+  FORMAT_LABEL, albumShelves, allArtistIds, albumsByArtist, artistOf, creditsFor, getAlbum, getArtist, getLane,
+  pathsForArtist, startHere, videoSummary, voicesFor,
 } from "@/lib/data";
-import type { LineageRef } from "@/lib/types";
+import type { LineageRef, VideoMatch } from "@/lib/types";
 
 // Curated artists by slug, and everyone who exists only through a credit by
 // MusicBrainz ID.
@@ -15,20 +18,18 @@ export function generateStaticParams() {
   return allArtistIds().map((id) => ({ id }));
 }
 
-function Ref({ r }: { r: LineageRef }) {
-  const a = r.id ? getArtist(r.id) : undefined;
-  const name = a?.name ?? r.name ?? "";
-  const body = (
-    <>
-      <span className="thread-name">{name}</span>
-      {r.note && <span className="muted small">{r.note}</span>}
-    </>
-  );
-  return a ? (
-    <Link href={`/artist/${a.id}`} className="thread-item">{body}</Link>
-  ) : (
-    <div className="thread-item">{body}</div>
-  );
+const card = (v: VideoMatch, why?: string): CardVideo => ({
+  videoId: v.videoId, title: v.title, thumbnail: v.thumbnail, durationSeconds: v.durationSeconds,
+  lean: v.lean, channelName: v.channelName, reason: why ?? v.reason,
+});
+
+// A lineage entry points at an artist page when that artist is in the archive
+// and is plain text when not yet.
+function neighbors(refs: LineageRef[] | undefined): Neighbor[] {
+  return (refs ?? []).map((r) => {
+    const a = r.id ? getArtist(r.id) : undefined;
+    return { id: a?.id, name: a?.name ?? r.name ?? "", note: r.note };
+  }).filter((n) => n.name);
 }
 
 export default async function ArtistPage({ params }: { params: Promise<{ id: string }> }) {
@@ -36,86 +37,207 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
   const artist = getArtist(id);
   if (!artist) notFound();
 
-  const albums = albumsByArtist(id);
+  const own = albumsByArtist(id);
+  const summary = videoSummary(id);
+  const shelves = albumShelves(id);
+  const start = startHere(id, 4);
+  const voices = voicesFor(id).slice(0, 12);
   const paths = pathsForArtist(id);
-  const lanes = artist.lanes ?? [];
-  const voices = channelsForLanes(lanes, 4);
-  const clips = videosForArtist(artist.id, 6);
-  const credits = creditsFor(artist.id);
-  // The thread is a curated judgement about influence. Nobody has written one
-  // for a session player, so their page leaves the section out rather than
-  // showing three empty columns.
-  const hasThread = Boolean(artist.bio || artist.before?.length || artist.after?.length || albums.length);
+  // Records by other people that this artist is credited on. Their own albums
+  // are already under By album, so they are not listed twice.
+  const creditedRaw = creditsFor(id).filter((c) => getAlbum(c.albumId)?.artistId !== id);
+  // One person can hold several roles on a record, and each shows as its own
+  // credit. The page lists the record once, with every role underneath.
+  const byAlbum = new Map<string, typeof creditedRaw>();
+  for (const c of creditedRaw) byAlbum.set(c.albumId, [...(byAlbum.get(c.albumId) ?? []), c]);
+  const credited = [...byAlbum.entries()].map(([albumId, rows]) => ({ albumId, rows }));
+  const lane = artist.lanes?.[0] ? getLane(artist.lanes[0]) : undefined;
+  const before = neighbors(artist.before);
+  const after = neighbors(artist.after);
+  const videosHref = `/artist/${id}/videos`;
+
+  const counts = [
+    { n: own.length, l: "Albums" },
+    { n: credited.length, l: "Credits" },
+    { n: summary.total, l: "Videos" },
+    { n: summary.firsthand, l: "Firsthand" },
+    { n: paths.length, l: "Journeys" },
+  ].filter((c) => c.n > 0);
+
+  const jump = [
+    start.length > 0 && { id: "start", label: "Start here" },
+    shelves.length > 0 && summary.total > 0 && { id: "albums", label: "By album" },
+    voices.length > 0 && { id: "voices", label: "By voice" },
+    summary.formats.length > 0 && { id: "formats", label: "By format" },
+    paths.length > 0 && { id: "journeys", label: "Journeys" },
+    credited.length > 0 && { id: "credited", label: "Credits" },
+  ].filter(Boolean) as { id: string; label: string }[];
+
+  const roleLine = [artist.years, artist.roles].filter(Boolean).join(" · ");
+  const maxFormat = Math.max(1, ...summary.formats.map((f) => f.count));
+
+  const shelfAlbums: ShelfAlbum[] = shelves.map(({ album, videos }) => ({
+    id: album.id, title: album.title, year: album.year, count: videos.length,
+    videos: videos.slice(0, 4).map((v) => card(v)),
+    albumHref: `/album/${album.id}`,
+    allHref: indexHref(videosHref, { album: album.id }),
+  }));
+
+  // Where to next: the neighbours in the lineage and the record that anchors
+  // the page. A session player has no lineage, so theirs are three records.
+  const tiles: NextTile[] = [];
+  if (before[0]?.id) tiles.push({ kind: "Came before", name: before[0].name, why: before[0].note, href: `/artist/${before[0].id}` });
+  const anchor = shelves[0]?.album;
+  if (anchor) tiles.push({ kind: "Album", name: anchor.title, why: anchor.blurb, href: `/album/${anchor.id}` });
+  if (after[0]?.id) tiles.push({ kind: "Came after", name: after[0].name, why: after[0].note, href: `/artist/${after[0].id}` });
+  if (!tiles.length) {
+    for (const c of credited.slice(0, 3)) {
+      const al = getAlbum(c.albumId);
+      if (al) tiles.push({ kind: "Credited on", name: al.title, why: `${artistOf(al).name}, ${al.year}`, href: `/album/${al.id}` });
+    }
+  }
 
   return (
     <div className="page">
       <div>
-        <Link href="/search" className="back">‹ BACK TO SEARCH</Link>
-        <div className="head">
-          <Portrait name={artist.name} mbid={artist.mbid} qid={artist.wikidataQid} className="ratio-45" />
-          <div className="head-info">
-            {lanes.length > 0 && (
-              <div className="row-gap">
-                {lanes.map((l) => (
-                  <Link key={l} href={`/search?lane=${l}`} className="badge badge-peer">{getLane(l)?.label ?? l}</Link>
+        <Crumbs trail={[
+          { label: "Artists", href: "/search" },
+          ...(lane ? [{ label: lane.label, href: `/search?lane=${lane.id}` }] : []),
+          { label: artist.name },
+        ]} />
+        <section className="ahead" style={{ paddingTop: 22 }}>
+          <div className="ahead-portrait">
+            <Portrait name={artist.name} mbid={artist.mbid} qid={artist.wikidataQid} circle />
+          </div>
+          <div className="ahead-info">
+            {roleLine && <span className="ahead-role">{roleLine}</span>}
+            <h1 className="display">{artist.name}</h1>
+            {counts.length > 0 && (
+              <div className="counts">
+                {counts.map((c) => (
+                  <span key={c.l} className="count">
+                    <span className="count-n">{c.n}</span>
+                    <span className="count-l">{c.l}</span>
+                  </span>
                 ))}
               </div>
             )}
-            <h1 className="display">{artist.name}</h1>
-            {(artist.roles || artist.years) && (
-              <div className="mono muted">{[artist.roles, artist.years].filter(Boolean).join(" · ")}</div>
-            )}
-            {artist.bio && <p className="body-copy">{artist.bio}</p>}
           </div>
-        </div>
+          <div className="ahead-actions">
+            <Link href="/journeys" className="btn">Start a journey</Link>
+          </div>
+        </section>
       </div>
 
-      {hasThread && (
-      <section>
-        <div className="section-label"><span>The thread · before → work → after</span></div>
-        <div className="thread">
-          <div className="thread-col">
-            <div className="thread-head"><span>BEFORE</span><span>←</span></div>
-            {artist.before?.length ? artist.before.map((r, i) => <Ref key={i} r={r} />) : <p className="thread-empty">Roots and influences arrive as the archive grows.</p>}
-          </div>
-          <div className="thread-col thread-work">
-            <div className="thread-head"><span>THE WORK</span><span>{albums.length} IN ARCHIVE</span></div>
-            {albums.length ? (
-              <div className="work-grid">
-                {albums.map((al) => (
-                  <Link key={al.id} href={`/album/${al.id}`} className="cover-tile">
-                    <Cover title={al.title} artist={artist.name} mbid={al.mbid} />
-                    <span className="tile-title" style={{ fontSize: 15 }}>{al.title}</span>
-                    <span className="muted small">{al.year}</span>
-                  </Link>
-                ))}
-              </div>
-            ) : (
-              <p className="thread-empty">No albums in the archive yet. They arrive with MusicBrainz and Discogs data.</p>
-            )}
-          </div>
-          <div className="thread-col">
-            <div className="thread-head"><span>AFTER</span><span>→</span></div>
-            {artist.after?.length ? artist.after.map((r, i) => <Ref key={i} r={r} />) : <p className="thread-empty">Who this music reached next arrives as the archive grows.</p>}
-          </div>
-        </div>
-      </section>
+      {(before.length > 0 || after.length > 0) && (
+        <LineageStrip name={artist.name} before={before} after={after} />
       )}
 
-      {credits.length > 0 && (
-        <section>
-          <div className="section-label"><span>Credited on</span></div>
+      {(jump.length > 1 || summary.total > 0) && (
+        <JumpBar
+          items={jump}
+          all={summary.total > 0 ? { href: videosHref, label: `All ${summary.total} videos` } : undefined}
+        />
+      )}
+
+      {start.length > 0 && (
+        <section id="start">
+          <SectionHeader title="Start here" />
+          <div className="start">
+            <div className="start-feature">
+              <VideoCard v={card(start[0].video, start[0].why)} variant="feature" />
+            </div>
+            {start.length > 1 && (
+              <div className="start-side">
+                {start.slice(1).map((s) => <VideoCard key={s.video.videoId} v={card(s.video, s.why)} variant="compact" />)}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {shelves.length > 0 && summary.total > 0 && (
+        <section id="albums">
+          <SectionHeader title="By album" />
+          <AlbumShelf albums={shelfAlbums} />
+        </section>
+      )}
+
+      {voices.length > 0 && (
+        <section id="voices">
+          <SectionHeader title="By voice" />
+          <div className="voices">
+            {voices.map((v) => {
+              const curated = getArtist(v.id)?.fromCredits !== true;
+              const initials = v.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase();
+              return (
+                <Link key={v.id} href={indexHref(videosHref, { voice: v.id })} className="voice-tile">
+                  <span className="ring-s">
+                    {curated ? (
+                      <Portrait name={v.name} mbid={getArtist(v.id)?.mbid} qid={getArtist(v.id)?.wikidataQid} circle />
+                    ) : (
+                      <span className="art" style={{ borderRadius: "50%", display: "grid", placeItems: "center" }}>
+                        <span className="mono">{initials}</span>
+                      </span>
+                    )}
+                  </span>
+                  <span className="stack" style={{ gap: 2, minWidth: 0 }}>
+                    <span className="voice-name">{v.name}</span>
+                    <span className="mono muted" style={{ fontSize: 10 }}>{v.count} {v.count === 1 ? "video" : "videos"}</span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {summary.formats.length > 0 && (
+        <section id="formats">
+          <SectionHeader title="By format" />
+          <div className="rule-list">
+            {summary.formats.map((f) => (
+              <Link key={f.format} href={indexHref(videosHref, { format: f.format })} className="rule-row">
+                <span className="rule-name">{FORMAT_LABEL[f.format]}</span>
+                <span className="rule-bar"><span style={{ width: `${Math.round((f.count / maxFormat) * 100)}%` }} /></span>
+                <span className="rule-n">{f.count} {f.count === 1 ? "video" : "videos"}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {paths.length > 0 && (
+        <section id="journeys">
+          <SectionHeader title={`Journeys through ${artist.name}`} />
+          <div className="rule-list">
+            {paths.map((p) => (
+              <Link key={p.id} href={`/journeys/${p.id}`} className="rule-row">
+                <span className="rule-text">
+                  <span className="rule-title">{p.title}</span>
+                  <span className="muted small">{p.host} · {p.meta}</span>
+                </span>
+                <span className={badgeClass(p.kind)}>{p.badge}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {credited.length > 0 && (
+        <section id="credited">
+          <SectionHeader title="Credits" />
           <div className="credit-list">
-            {credits.map((c, i) => {
+            {credited.map((c) => {
               const al = getAlbum(c.albumId);
               if (!al) return null;
               return (
-                <Link key={`${c.albumId}-${i}`} href={`/album/${al.id}`} className="res">
+                <Link key={c.albumId} href={`/album/${al.id}`} className="res">
                   <Cover title={al.title} artist={artistOf(al).name} mbid={al.mbid} />
                   <div className="stack" style={{ gap: 3 }}>
                     <span className="row-title">{al.title}</span>
                     <span className="muted small">{artistOf(al).name} · {al.year}</span>
-                    <span className="muted small">{c.role} · {c.scope}</span>
+                    {c.rows.map((r, i) => <span key={i} className="muted small">{r.role} · {r.scope}</span>)}
                   </div>
                 </Link>
               );
@@ -124,19 +246,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
         </section>
       )}
 
-      {paths.length > 0 && (
-        <section>
-          <div className="section-label"><span>In these paths</span></div>
-          <div className="path-grid">{paths.map((p) => <PathCard key={p.id} path={p} />)}</div>
-        </section>
-      )}
-
-      {(clips.length > 0 || voices.length > 0) && (
-        <section>
-          <div className="section-label"><span>Voices on {artist.name}</span></div>
-          <Voices videos={clips} channels={voices} subject={artist.name} />
-        </section>
-      )}
+      <WhereNext tiles={tiles} />
     </div>
   );
 }

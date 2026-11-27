@@ -1,0 +1,15 @@
+# Editor picks for the "Start here" block on an artist page.
+#
+# Start here shows four videos. Anything pinned here comes first, in the order
+# written, with the reason written here. The ranking rule then fills whatever
+# slots are left: firsthand first, then videos that name an album, then a
+# length worth sitting down for, never more than two from one channel.
+#
+# To pin a video, add its YouTube id under the artist's slug:
+#
+# artists:
+#   john-coltrane:
+#     - videoId: dQw4w9WgXcQ
+#       reason: Required listening
+#
+artists: {}

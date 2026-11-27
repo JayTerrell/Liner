@@ -87,7 +87,51 @@ interface Match {
   videoId: string; channelKey: string; channelName: string; title: string; publishedAt: string;
   durationSeconds: number; viewCount: number; thumbnail: string;
   artistIds: string[]; albumIds: string[]; lean: string; lanes: string[];
+  format: string; reason?: string;
   matchedOn: "title" | "description"; confidence: "strong" | "weak";
+}
+
+
+// --- Format and reason ------------------------------------------------------
+// The artist page groups videos by what kind of thing they are, and gives each
+// start-here card one short line saying why it is worth opening. Both come from
+// rules over the title, the channel's own description of itself and the
+// running time. They are approximate by nature: a rule can tell "Podcast" from
+// "Breakdown" but cannot tell that someone was in the room, so no reason line
+// claims a relationship. Anything the rules cannot place is "other" rather
+// than a guess, and an editor can override any pick in data/youtube/pins.yaml.
+
+type Format = "interview" | "breakdown" | "podcast" | "live" | "documentary" | "other";
+
+function classifyFormat(title: string, channelType: string, seconds: number): Format {
+  const t = title.toLowerCase();
+  const ct = channelType.toLowerCase();
+  // A press kit is promotion, not a conversation and not a concert.
+  if (/\bepk\b|\btrailer\b|\bteaser\b/.test(t)) return "other";
+  if (/live sets/.test(ct) || /\b(live (at|in|from|on|performance|session|version)|in concert|full concert)\b|\blive ?@|[(\[]live\b/.test(t)) return "live";
+  // Only a channel that says it publishes documentaries counts: one whose label
+  // is "features and documentaries" mostly publishes interviews.
+  if (/documentary|docuseries/.test(t) || (/^documentary|docuseries/.test(ct) && seconds > 20 * 60)) return "documentary";
+  if (/podcast|\bepisode \d+|\bep\.? ?\d+\b/.test(t) || /podcast/.test(ct)) return "podcast";
+  const breakdownTitle = /breakdown|breaking down|explained|explains|analysis|deconstruct|dissect|track by track|transcri|how .{3,40} (works|changed|made|turned|broke)|why (it|this|the|they)\b/.test(t);
+  const interviewTitle = /\b(interview|talks|talk|discusses|reveals|remembers|reflects|speaks|tells|on (working|playing|his|her|their))\b/.test(t);
+  if (breakdownTitle && !interviewTitle) return "breakdown";
+  if (interviewTitle) return "interview";
+  if (/breakdown|deep dive|explainer|essay|analysis|theory|history/.test(ct)) return "breakdown";
+  if (/interview|lecture|oral histor|conversation|scholar/.test(ct)) return "interview";
+  return "other";
+}
+
+// One factual line or nothing. Every phrase here is true of the video's length
+// and kind, which is all the rules can know.
+function reasonFor(format: Format, seconds: number): string | undefined {
+  const min = seconds / 60;
+  if (format === "live") return "Live footage";
+  if (format === "documentary") return "Full documentary";
+  if (format === "breakdown" && min <= 15) return "Short and clear";
+  if (format === "breakdown" && min >= 40) return "In depth";
+  if ((format === "interview" || format === "podcast") && min >= 45) return "Long conversation";
+  return undefined;
 }
 
 async function main() {
@@ -99,8 +143,8 @@ async function main() {
     videoId: string; channelKey: string; title: string; description: string;
     publishedAt: string; durationSeconds: number; viewCount: number; thumbnail: string;
   }>;
-  const channels = (yamlLoad(await fs.readFile(CHANNELS, "utf8")) as { channels: Array<{ id: string; name: string; lanes: string[]; lean: string }> }).channels as Array<{
-    id: string; name: string; lanes: string[]; lean: string;
+  const channels = (yamlLoad(await fs.readFile(CHANNELS, "utf8")) as { channels: Array<{ id: string; name: string; lanes: string[]; lean: string; type: string }> }).channels as Array<{
+    id: string; name: string; lanes: string[]; lean: string; type: string;
   }>;
   const chan = new Map(channels.map((c) => [c.id, c]));
 
@@ -149,12 +193,15 @@ async function main() {
       .map((al) => al.id);
 
     const c = chan.get(v.channelKey);
+    const format = classifyFormat(v.title, c?.type ?? "", v.durationSeconds);
+    const reason = reasonFor(format, v.durationSeconds);
     const lanes = [...new Set([...(c?.lanes ?? []), ...hit.flatMap((a) => a.lanes)])];
     matches.push({
       videoId: v.videoId, channelKey: v.channelKey, channelName: c?.name ?? v.channelKey, title: v.title,
       publishedAt: v.publishedAt, durationSeconds: v.durationSeconds,
       viewCount: v.viewCount, thumbnail: v.thumbnail,
       artistIds: [...hitIds], albumIds, lean: c?.lean ?? "mixed", lanes,
+      format, ...(reason ? { reason } : {}),
       matchedOn: inTitle.length ? "title" : "description",
       confidence: inTitle.length ? "strong" : "weak",
     });
@@ -172,6 +219,9 @@ async function main() {
   console.log(`  ${tooShort} dropped: under ${MIN_SECONDS}s (Shorts and teasers)`);
   console.log(`  ${noMatch} dropped: no Liner artist named in the title`);
   console.log(`  ${matches.length} matched  (${strong} by title, ${matches.length - strong} by description only)`);
+  const fmt = new Map<string, number>();
+  for (const m of matches) fmt.set(m.format, (fmt.get(m.format) ?? 0) + 1);
+  console.log(`  formats: ${[...fmt].sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} ${n}`).join(", ")}`);
   const withAlbum = matches.filter((m) => m.albumIds.length);
   console.log(`  ${withAlbum.length} also name an album by that artist (title or description)`);
   console.log(`\nartists covered: ${perArtist.size} of ${seed.artists.length}`);
