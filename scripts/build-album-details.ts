@@ -43,8 +43,27 @@ const ROLE: Record<string, string> = {
   performer: "Performer",
 };
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-const role = (r: string, instruments: string) =>
-  instruments ? instruments.split(", ").map(cap).join(", ") : ROLE[r] ?? cap(r);
+
+// MusicBrainz puts two different things in a credit's attributes. On a player
+// they name the instrument ("trumpet", "double bass"). On a production credit
+// they are a modifier on the role ("co" on a producer, "assistant" on an
+// engineer). Reading a modifier as an instrument printed "Co" for a
+// co-producer and "Assistant" and "Executive" with no role after them.
+const MODIFIERS = new Set(["co", "assistant", "executive", "associate", "additional", "minor"]);
+// A bare "recording" or "mix" reads fine alone, but not after a modifier.
+const NOUN: Record<string, string> = { recording: "recording engineer", mix: "mix engineer", audio: "audio engineer" };
+
+const role = (r: string, attrs: string) => {
+  const all = attrs ? attrs.split(", ") : [];
+  const mods = all.filter((a) => MODIFIERS.has(a));
+  const instruments = all.filter((a) => !MODIFIERS.has(a));
+  // An instrument, when there is one, is the role: "Piano", "Bass, Drum machine".
+  if (instruments.length) return instruments.map(cap).join(", ");
+  if (!mods.length) return ROLE[r] ?? cap(r);
+  const noun = NOUN[r] ?? (ROLE[r] ?? r).toLowerCase();
+  const co = mods.includes("co") ? "co-" : "";
+  return cap([...mods.filter((m) => m !== "co"), `${co}${noun}`].join(" "));
+};
 
 async function main() {
   const seed = yamlLoad(await fs.readFile(SEED, "utf8")) as {
