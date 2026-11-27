@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import type { Lean } from "@/lib/types";
 
 // Small pieces every screen of the redesign shares. They hold no data and make
@@ -60,36 +61,58 @@ export function JumpBar({
   );
 }
 
-export interface Neighbor { id?: string; name: string; note?: string }
+export interface Neighbor { id?: string; name: string; note?: string; meta?: string }
 
-// Who came before, where you are, who came after. Always the same three parts.
+// Who came before, where you are, who came after. Always the same three parts;
+// a side with nobody on it is left out rather than shown empty. A heading can
+// sit across the top to say what the lineage is of, and each chip can carry a
+// small piece of text such as the year someone arrived.
 export function LineageStrip({
-  name, before, after,
-}: { name: string; before: Neighbor[]; after: Neighbor[] }) {
+  name, before, after, heading, hereMeta,
+}: {
+  name: string; before: Neighbor[]; after: Neighbor[];
+  heading?: ReactNode; hereMeta?: string;
+}) {
   const chips = (list: Neighbor[]) =>
-    list.map((n, i) =>
-      n.id ? (
-        <Link key={i} href={`/artist/${n.id}`} className="chip-link">{n.name}</Link>
+    list.map((n, i) => {
+      const inner = (
+        <>
+          {n.name}
+          {n.meta && <span className="chip-meta mono">{n.meta}</span>}
+        </>
+      );
+      return n.id ? (
+        <Link key={i} href={`/artist/${n.id}`} className="chip-link">{inner}</Link>
       ) : (
-        <span key={i} className="chip-link chip-plain">{n.name}</span>
-      ),
-    );
+        <span key={i} className="chip-link chip-plain">{inner}</span>
+      );
+    });
   return (
     <section className="lineage" aria-label="Lineage">
-      <div className="lineage-side">
-        <span className="mono muted">Came before</span>
-        <div className="row-gap">{chips(before)}</div>
-      </div>
-      <span className="lineage-arrow" aria-hidden>→</span>
+      {heading && <div className="lineage-heading">{heading}</div>}
+      {before.length > 0 && (
+        <>
+          <div className="lineage-side">
+            <span className="mono muted">Came before</span>
+            <div className="row-gap">{chips(before)}</div>
+          </div>
+          <span className="lineage-arrow" aria-hidden>→</span>
+        </>
+      )}
       <div className="lineage-here">
         <span className="mono lineage-you">You are here</span>
         <span className="lineage-name">{name}</span>
+        {hereMeta && <span className="mono muted lineage-meta">{hereMeta}</span>}
       </div>
-      <span className="lineage-arrow" aria-hidden>→</span>
-      <div className="lineage-side">
-        <span className="mono muted">Came after</span>
-        <div className="row-gap">{chips(after)}</div>
-      </div>
+      {after.length > 0 && (
+        <>
+          <span className="lineage-arrow" aria-hidden>→</span>
+          <div className="lineage-side">
+            <span className="mono muted">Came after</span>
+            <div className="row-gap">{chips(after)}</div>
+          </div>
+        </>
+      )}
     </section>
   );
 }

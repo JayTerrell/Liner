@@ -419,6 +419,10 @@ a.thread-item:hover .thread-name { color: var(--green-light); }
 .lineage-side { flex: 1 1 260px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
 .lineage-arrow { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 30px; color: #5e625e; }
 @media (max-width: 759px) { .lineage-arrow { display: none; } }
+.lineage-heading { flex: 1 1 100%; }
+.lineage-title { font-family: "Barlow Condensed", sans-serif; font-weight: 800; text-transform: uppercase; font-size: 24px; line-height: 1; color: var(--cream); }
+.lineage-meta { display: block; margin-top: 6px; text-align: center; }
+.chip-meta { margin-left: 8px; font-size: 11px; color: var(--muted); }
 .lineage-here { flex: none; }
 .lineage-you { color: var(--green-light); display: block; margin-bottom: 6px; }
 .lineage-name { font-family: "Barlow Condensed", sans-serif; font-weight: 800; text-transform: uppercase; font-size: 34px; line-height: 1; color: var(--cream); border-bottom: 3px solid var(--green); }

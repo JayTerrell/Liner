@@ -103,3 +103,22 @@ export interface VideoMatch {
   // speaker is: no rule can know that.
   reason?: string;
 }
+
+// Who held the same chair before and after someone, under the same bandleader.
+// A chair is what a person played or did on a record: bass, drums, tenor
+// saxophone, engineer, producer. Built from MusicBrainz credits on studio
+// albums by scripts/build-role-lineage.ts.
+export interface RoleNeighbor {
+  id?: string;      // a page id when this person has a page, so the chip can link
+  name: string;
+  from: number;     // release year of their first studio album with this leader
+}
+
+export interface RoleLineage {
+  leader: string;
+  chair: string;
+  albums: number;   // how many studio albums this person made with the leader
+  from: number;
+  before: RoleNeighbor[];   // oldest first
+  after: RoleNeighbor[];
+}

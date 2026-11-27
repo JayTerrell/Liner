@@ -13,3 +13,4 @@ data/youtube/videos.json
 # Intermediate output of docs/sql/album_details.sql, consumed by
 # scripts/build-album-details.ts to produce data/albums/details.yaml.
 data/albums/_payload.txt
+data/lineage/_payload.txt
