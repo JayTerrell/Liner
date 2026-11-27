@@ -77,6 +77,11 @@ export interface Track { n: number; title: string; len: string; note: string }
 export interface CreditRow { name: string; role: string; scope: string; mbid?: string; artistId?: string }
 export interface Story { tag: string; title: string; body: string }
 
+// What kind of thing a video is. Decided by rules in scripts/youtube-match.ts
+// from the title, the channel's own description and the running time, so it is
+// approximate: "other" means the rules could not place it, not that it is odd.
+export type VideoFormat = "interview" | "breakdown" | "podcast" | "live" | "documentary" | "other";
+
 // A YouTube video matched to a Liner artist or album by scripts/youtube-match.ts.
 export interface VideoMatch {
   videoId: string;
@@ -93,4 +98,8 @@ export interface VideoMatch {
   lanes: string[];
   matchedOn: "title" | "description";
   confidence: "strong" | "weak";
+  format: VideoFormat;
+  // One factual line (length or kind) or nothing. Never a claim about who the
+  // speaker is: no rule can know that.
+  reason?: string;
 }

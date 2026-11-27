@@ -1,5 +1,5 @@
 _note: Videos matched to Liner artists and albums by scripts/youtube-match.ts. Rules only, no model judgement.
-builtAt: '2026-11-26T05:30:13.172Z'
+builtAt: '2026-11-27T02:36:47.536Z'
 matches:
   - videoId: 5849lYLkgc4
     channelKey: youll-hear-it
@@ -18,6 +18,8 @@ matches:
       - rnb
       - jazz
       - funk
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: AI7qpxy5A4g
@@ -39,6 +41,8 @@ matches:
       - rnb
       - jazz
       - funk
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: 93LYlCVetL4
@@ -59,6 +63,8 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: zM4dh42mBHE
@@ -78,6 +84,8 @@ matches:
       - rnb
       - soul
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: NoBEZ-csVQQ
@@ -99,6 +107,8 @@ matches:
       - rnb
       - funk
       - soul
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: f5C4vF0sFjA
@@ -119,6 +129,8 @@ matches:
       - rnb
       - soul
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: uk5x4-uTzj8
@@ -139,6 +151,8 @@ matches:
       - rnb
       - soul
       - funk
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: jtVmLyXBU2I
@@ -158,6 +172,8 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: XYeRZ0Awui4
@@ -177,6 +193,8 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: LOAgsTOe_ZY
@@ -196,6 +214,8 @@ matches:
       - hip-hop
       - rnb
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: EflU_gDWQSI
@@ -215,6 +235,8 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: ktzBpgVRMFE
@@ -235,6 +257,8 @@ matches:
       - rnb
       - soul
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: a_Ygq74SjvQ
@@ -254,6 +278,8 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: jDV51pNiKJk
@@ -273,6 +299,8 @@ matches:
       - rnb
       - jazz
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: hsJpuqtNH9o
@@ -291,6 +319,8 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: wsHmYOSzido
@@ -312,6 +342,8 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: aSdNNTmL7Yk
@@ -332,6 +364,7 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: UcxWTpen30s
@@ -350,6 +383,7 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: J_LWtA8tDW4
@@ -368,6 +402,7 @@ matches:
       - hip-hop
       - rnb
       - jazz
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: -d4fTU4MfRM
@@ -387,6 +422,7 @@ matches:
       - soul
       - rnb
       - afrobeat
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: cfNqmc6IZKM
@@ -406,6 +442,8 @@ matches:
       - hip-hop
       - soul
       - rnb
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 0lp7uRbEDdI
@@ -426,6 +464,7 @@ matches:
       - soul
       - rnb
       - funk
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: F3npo2MNG9w
@@ -445,6 +484,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: zu4eqjvDDGc
@@ -464,6 +505,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: In depth
     matchedOn: title
     confidence: strong
   - videoId: MPTmLIgiZ1I
@@ -483,6 +526,8 @@ matches:
       - soul
       - rnb
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: c5ukKH_C99Y
@@ -502,6 +547,7 @@ matches:
       - hip-hop
       - soul
       - rnb
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: xlHUGawIuqA
@@ -522,6 +568,7 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: fh32GyG3dic
@@ -541,6 +588,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: R_a6em4Q9wI
@@ -561,6 +610,7 @@ matches:
       - soul
       - rnb
       - funk
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: 5tMOCJhxGFo
@@ -580,6 +630,7 @@ matches:
       - hip-hop
       - soul
       - rnb
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: UCALQl9UYYk
@@ -599,6 +650,7 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: O68B6-LSo-M
@@ -618,6 +670,7 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: vnDNbFHx7cw
@@ -638,6 +691,8 @@ matches:
       - soul
       - rnb
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 5kZMvKFTsAE
@@ -660,6 +715,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: zYQswIkRB7A
@@ -679,6 +736,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: zUXBK1K9gGE
@@ -699,6 +758,8 @@ matches:
       - soul
       - rnb
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: qhxPC4rfl9Y
@@ -718,6 +779,7 @@ matches:
       - soul
       - rnb
       - funk
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: TgwVhzaTWGs
@@ -738,6 +800,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: cuHiEF3mgB0
@@ -758,6 +822,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: uSAJLZN3BPI
@@ -778,6 +844,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 1uqjbvlx8OA
@@ -798,6 +866,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: VuRGr9HTfQI
@@ -818,6 +888,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: iu0zFNvnP18
@@ -838,6 +910,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: uc9GE3Z9S14
@@ -858,6 +932,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: ziuzjIcxg8Y
@@ -878,6 +954,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: w_ropMVw6S8
@@ -898,6 +976,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: n_s-Tp_psQw
@@ -918,6 +998,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 1oectDa_ShQ
@@ -938,6 +1020,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: uY9W2HHHWw0
@@ -958,6 +1042,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: UOQiEjSUAEY
@@ -978,6 +1064,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 4lZNK6NADIA
@@ -998,6 +1086,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 0gU3Due9v4c
@@ -1018,6 +1108,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: ClxNDLxirAs
@@ -1038,6 +1130,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: dzDs3VdTY0A
@@ -1058,6 +1152,7 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
     matchedOn: title
     confidence: strong
   - videoId: Xo38MMpKXgY
@@ -1078,6 +1173,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: u1qnv1_xrWc
@@ -1098,6 +1195,8 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: andanPmWFzI
@@ -1118,6 +1217,7 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: 5xOeHioxYqM
@@ -1138,6 +1238,7 @@ matches:
       - jazz
       - rnb
       - hip-hop
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: r-uXZRz4EG0
@@ -1155,6 +1256,7 @@ matches:
     lanes:
       - hip-hop
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: CwNH1FmLQBM
@@ -1173,6 +1275,7 @@ matches:
       - hip-hop
       - jazz
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 7XLvwKnYf20
@@ -1191,6 +1294,8 @@ matches:
       - hip-hop
       - jazz
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: S43cybVRC1k
@@ -1210,6 +1315,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: qgJ3j84Gubc
@@ -1227,6 +1333,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: hMfmyj7Nquk
@@ -1243,6 +1350,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: wW_ZpGAcK74
@@ -1260,6 +1369,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: nGcsIh8UIys
@@ -1276,6 +1387,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: Xhzs6AptNX8
@@ -1293,6 +1405,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: R-Z0N6ktMLs
@@ -1312,6 +1426,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: t4-M--lxYyM
@@ -1328,6 +1444,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: lIagH7IAjcU
@@ -1344,6 +1461,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: JOjJrmvlnvg
@@ -1360,6 +1479,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: rDk36AVhUAE
@@ -1376,6 +1496,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: rr4IMZbfqg0
@@ -1393,6 +1515,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: lTg0QC7UW4A
@@ -1410,6 +1534,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: eEm_MYn_H98
@@ -1427,6 +1553,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: OlkAihLVqls
@@ -1444,6 +1571,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: -TlnRy-xTUE
@@ -1460,6 +1589,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: U0rZ7kt90WQ
@@ -1479,6 +1610,8 @@ matches:
       - hip-hop
       - funk
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: R6DbXOrwnUM
@@ -1497,6 +1630,8 @@ matches:
       - soul
       - hip-hop
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: eV2nwCrJjiU
@@ -1516,6 +1651,7 @@ matches:
       - hip-hop
       - funk
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: jR6V2IRRG-w
@@ -1535,6 +1671,7 @@ matches:
       - hip-hop
       - funk
       - gospel
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: y49Qpp4aQs4
@@ -1554,6 +1691,8 @@ matches:
       - hip-hop
       - funk
       - gospel
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: lFa-STax1Fs
@@ -1573,6 +1712,8 @@ matches:
       - hip-hop
       - funk
       - rnb
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: PY0Kkhp0qi0
@@ -1592,6 +1733,8 @@ matches:
       - hip-hop
       - funk
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: z4LUN-iTeic
@@ -1610,6 +1753,8 @@ matches:
       - soul
       - hip-hop
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: -pE4T4FPJtA
@@ -1629,6 +1774,8 @@ matches:
       - hip-hop
       - funk
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 5ruNs3wfUr8
@@ -1645,6 +1792,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: WhYX6RvapVg
@@ -1662,6 +1810,7 @@ matches:
     lanes:
       - hip-hop
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: tiPb7iLuJj8
@@ -1680,6 +1829,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: K-4M2MDZO5I
@@ -1699,6 +1849,7 @@ matches:
       - hip-hop
       - jazz
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: OYa-NQqT-ys
@@ -1715,6 +1866,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 9E_lHPyukrg
@@ -1731,6 +1883,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: yYlDFDiU-CU
@@ -1747,6 +1900,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: RFWmTVd2nj0
@@ -1763,6 +1917,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 3IqoxuORyIk
@@ -1781,6 +1936,7 @@ matches:
       - hip-hop
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 1JGRtv2Wl0A
@@ -1797,6 +1953,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: HIVtdWt7PXI
@@ -1813,6 +1970,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: 7sGZPjyDFHg
@@ -1829,6 +1988,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: fpUxgpNNDt4
@@ -1845,6 +2005,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: QLvB07dIB3Q
@@ -1861,6 +2022,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 4Qv_A-pv37U
@@ -1877,6 +2039,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: PFA3RRKpoe8
@@ -1893,6 +2056,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 00beUbaYe68
@@ -1909,6 +2073,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 4CbKCKhqH0A
@@ -1925,6 +2090,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: LeRSMmwN1sY
@@ -1941,6 +2107,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: CZP6nogQYPg
@@ -1960,6 +2127,8 @@ matches:
       - jazz
       - soul
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: DipzS0VH4PA
@@ -1980,6 +2149,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: SENzTt3ftiU
@@ -1998,6 +2169,8 @@ matches:
       - hip-hop
       - jazz
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 5RHFP6lAAo4
@@ -2016,6 +2189,7 @@ matches:
       - hip-hop
       - funk
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: W-XUTzpv7jk
@@ -2034,6 +2208,7 @@ matches:
       - hip-hop
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: hn8J3kJj1-s
@@ -2053,6 +2228,8 @@ matches:
     lanes:
       - hip-hop
       - rnb
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: IxJ2wXW0eLk
@@ -2072,6 +2249,7 @@ matches:
       - rnb
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: b0dTVbspYso
@@ -2090,6 +2268,8 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: MNsQgEsMb3k
@@ -2108,6 +2288,7 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: gkUvItl9ABc
@@ -2124,6 +2305,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 1fxaqj5sjy4
@@ -2143,6 +2325,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: fitDTwVAkq8
@@ -2159,6 +2343,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: juWNR3KC-9g
@@ -2178,6 +2364,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: XK_NrMSg6Ks
@@ -2195,6 +2382,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: GIflaDZwalA
@@ -2211,6 +2399,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: IpxV1Vpxa9Q
@@ -2227,6 +2417,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: ywiik_XEFH8
@@ -2245,6 +2436,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: dYuBnBzEJSc
@@ -2261,6 +2454,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: EOlgLDLCGrM
@@ -2277,6 +2472,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 7w3vkUWzGq4
@@ -2294,6 +2491,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: zDigxcOSUJE
@@ -2311,6 +2510,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 91Vu_FMWaXQ
@@ -2328,6 +2529,8 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: lUVGLSjzjOw
@@ -2345,6 +2548,8 @@ matches:
     lanes:
       - funk
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: czZrblFFEUY
@@ -2363,6 +2568,8 @@ matches:
     lanes:
       - funk
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: BCBNMXxhNmk
@@ -2380,6 +2587,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: VlECrKleQEI
@@ -2397,6 +2606,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: EFbeZ4QGzgA
@@ -2414,6 +2625,8 @@ matches:
     lanes:
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: UBBMH4Xhi1w
@@ -2431,6 +2644,8 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: BqWpIHbNqx0
@@ -2447,6 +2662,8 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: ozWde7KJoZs
@@ -2465,6 +2682,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: -PeI5pyf-hQ
@@ -2482,6 +2701,8 @@ matches:
     lanes:
       - funk
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: uCIL5suG4UU
@@ -2500,6 +2721,8 @@ matches:
     lanes:
       - neo-soul
       - hip-hop
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: hmznPrHpOjs
@@ -2516,6 +2739,8 @@ matches:
     lean: firsthand
     lanes:
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: nB_pC1qaj-Y
@@ -2533,6 +2758,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: EfNGqKxUHDM
@@ -2550,6 +2776,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 8ON0nQCQF08
@@ -2569,6 +2796,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 0NseBr7-W5s
@@ -2585,6 +2814,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: JvCukq3GmOo
@@ -2601,6 +2831,7 @@ matches:
     lean: firsthand
     lanes:
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: Zsij0ZJZnYo
@@ -2617,6 +2848,8 @@ matches:
     lean: firsthand
     lanes:
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: ERmoRc40x9M
@@ -2635,6 +2868,8 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: 2ZxyXPMgBso
@@ -2651,6 +2886,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: nzvVkgZB4YM
@@ -2668,6 +2905,8 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: BvS_3Vw3iGk
@@ -2685,6 +2924,7 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: podcast
     matchedOn: title
     confidence: strong
   - videoId: ZSKW5wBOpdI
@@ -2701,6 +2941,7 @@ matches:
     lean: firsthand
     lanes:
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: BggSrAfhHmI
@@ -2718,6 +2959,8 @@ matches:
     lanes:
       - hip-hop
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: VR2R27_ZuBc
@@ -2734,6 +2977,8 @@ matches:
     lean: firsthand
     lanes:
       - neo-soul
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: X1bx9_TL20A
@@ -2751,6 +2996,8 @@ matches:
     lean: firsthand
     lanes:
       - latin
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: tpzLD-SAwW8
@@ -2768,6 +3015,8 @@ matches:
     lanes:
       - jazz
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: Sapc6BSxlRI
@@ -2784,6 +3033,8 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: vgRxCOr6MUI
@@ -2800,6 +3051,8 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: J98jwtm5U4E
@@ -2816,6 +3069,8 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: v521bcTmy3c
@@ -2832,6 +3087,7 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: 3nFZvWO7QIc
@@ -2849,6 +3105,8 @@ matches:
     lanes:
       - jazz
       - neo-soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: WaGbVW_K1Gk
@@ -2867,6 +3125,8 @@ matches:
       - jazz
       - rnb
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 3el3Wj_LGUE
@@ -2885,6 +3145,8 @@ matches:
       - jazz
       - rnb
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: Oi07kBeRZkE
@@ -2902,6 +3164,8 @@ matches:
     lanes:
       - soul
       - funk
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: FcU0Rc5iXFg
@@ -2918,6 +3182,8 @@ matches:
     lean: secondhand
     lanes:
       - soul
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: H7oJ7s1sLQ8
@@ -2934,6 +3200,7 @@ matches:
     lean: secondhand
     lanes:
       - afrobeat
+    format: breakdown
     matchedOn: title
     confidence: strong
   - videoId: Bg1RGmyl-_A
@@ -2951,6 +3218,8 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: nfroW6KaXXc
@@ -2968,6 +3237,8 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: breakdown
+    reason: Short and clear
     matchedOn: title
     confidence: strong
   - videoId: 21bfc1Ret58
@@ -2987,6 +3258,7 @@ matches:
       - funk
       - rnb
       - gospel
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: oxT4A0JXoC8
@@ -3006,6 +3278,7 @@ matches:
       - funk
       - rnb
       - gospel
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: h35Sy3r1oko
@@ -3024,6 +3297,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 1pi44JKSfrQ
@@ -3043,6 +3317,8 @@ matches:
       - funk
       - rnb
       - neo-soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: RquJnM2Wkx0
@@ -3062,6 +3338,7 @@ matches:
       - funk
       - rnb
       - gospel
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: _DITcS4comE
@@ -3080,6 +3357,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 2aIj0IHqYAw
@@ -3098,6 +3376,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: VEve2zR-Rh0
@@ -3116,6 +3395,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 1PdnpK8r7l4
@@ -3134,6 +3414,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: aGI25DhwrVw
@@ -3152,6 +3433,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: gTh8t1JgXBY
@@ -3171,6 +3453,7 @@ matches:
       - funk
       - rnb
       - gospel
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 5qbiixoujU0
@@ -3189,6 +3472,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: GPkiF00OXh8
@@ -3208,6 +3492,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: xAJXbWCdWlM
@@ -3227,6 +3512,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 9KmR774hV5o
@@ -3245,6 +3531,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: AFxkKD8YpQY
@@ -3264,6 +3551,7 @@ matches:
       - funk
       - rnb
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: xJ-pC-wPKrQ
@@ -3284,6 +3572,8 @@ matches:
       - jazz
       - rnb
       - soul
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: YyJDsPgsG7g
@@ -3302,6 +3592,7 @@ matches:
       - hip-hop
       - neo-soul
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: aOpqU-BIHo0
@@ -3320,6 +3611,7 @@ matches:
       - hip-hop
       - neo-soul
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: UY1xE7D82tU
@@ -3338,6 +3630,7 @@ matches:
       - hip-hop
       - neo-soul
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: B4Kdq5Cv6IY
@@ -3356,6 +3649,8 @@ matches:
       - hip-hop
       - neo-soul
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: rB2mwPyjjbg
@@ -3374,6 +3669,7 @@ matches:
       - hip-hop
       - neo-soul
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: XqlAqXm0l3k
@@ -3392,6 +3688,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: zKC9Wddcjm8
@@ -3409,6 +3706,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: YRCqi7IsNOg
@@ -3427,6 +3725,7 @@ matches:
       - soul
       - funk
       - afrobeat
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: TG9RbSoAokc
@@ -3444,6 +3743,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 59b-fSFyXW4
@@ -3462,6 +3762,7 @@ matches:
       - soul
       - funk
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: F2wa6m1Om5U
@@ -3479,6 +3780,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: S9ph98y75CM
@@ -3496,6 +3798,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 1UKdMn4UmEo
@@ -3512,6 +3815,7 @@ matches:
     lean: firsthand
     lanes:
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: vCYzDL0KG2w
@@ -3530,6 +3834,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: klbGYtpmOqY
@@ -3549,6 +3854,7 @@ matches:
       - soul
       - funk
       - rnb
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: T_11YDQxRlA
@@ -3566,6 +3872,7 @@ matches:
     lanes:
       - jazz
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: FWX8Tlu8Bqg
@@ -3583,6 +3890,7 @@ matches:
     lanes:
       - jazz
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: oKlT8aGvDE8
@@ -3600,6 +3908,7 @@ matches:
     lanes:
       - jazz
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: jPxnqlF064Y
@@ -3618,6 +3927,7 @@ matches:
       - jazz
       - gospel
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: pH_zqsWKePM
@@ -3634,6 +3944,7 @@ matches:
     lean: mixed
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: CHu-Euwfj0s
@@ -3650,6 +3961,7 @@ matches:
     lean: mixed
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: hlzzminLRDE
@@ -3666,6 +3978,7 @@ matches:
     lean: mixed
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: wv3EbfQtj2w
@@ -3684,6 +3997,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: MAgJ-igwuSQ
@@ -3700,6 +4015,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: Caxwob1iKX4
@@ -3718,6 +4034,7 @@ matches:
       - jazz
       - neo-soul
       - hip-hop
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 2abyocolQSw
@@ -3735,6 +4052,8 @@ matches:
     lanes:
       - jazz
       - funk
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: JqhH-OUXyrY
@@ -3751,6 +4070,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: xP_rKIlYGsI
@@ -3770,6 +4090,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 0sd6ebMtdhY
@@ -3789,6 +4110,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 8ZvJxHOxQYg
@@ -3808,6 +4130,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: hE9w0wXsOX0
@@ -3825,6 +4148,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: GzWy04TEG3g
@@ -3841,6 +4166,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: zSRrcH2HGvI
@@ -3857,6 +4183,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: CidPZqDqSE4
@@ -3874,6 +4202,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: fskj_IM29Ws
@@ -3890,6 +4220,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: kO1lT8EK0bA
@@ -3906,6 +4237,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: RQcfoXbGtq8
@@ -3922,6 +4254,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: Ch0k48LiD6M
@@ -3938,6 +4271,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: GGJYjs9lSYM
@@ -3954,6 +4288,7 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: lzQM_SVM7dM
@@ -3970,6 +4305,8 @@ matches:
     lean: firsthand
     lanes:
       - jazz
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: DSmU7r9sfbo
@@ -3987,6 +4324,7 @@ matches:
     lean: secondhand
     lanes:
       - jazz
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: hau9eTCneAQ
@@ -4004,6 +4342,7 @@ matches:
     lanes:
       - gospel
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: MEFnqluJVgA
@@ -4021,6 +4360,8 @@ matches:
     lanes:
       - gospel
       - neo-soul
+    format: live
+    reason: Live footage
     matchedOn: title
     confidence: strong
   - videoId: AERRteq3Brw
@@ -4038,6 +4379,7 @@ matches:
     lanes:
       - gospel
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: DQJm7HR5DaA
@@ -4057,6 +4399,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: 1uGk-Lt_qt4
@@ -4073,6 +4416,7 @@ matches:
     lean: mixed
     lanes:
       - afrobeat
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: uckJfMovSYI
@@ -4089,6 +4433,7 @@ matches:
     lean: mixed
     lanes:
       - afrobeat
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: 0IAtzqN6ubg
@@ -4105,6 +4450,7 @@ matches:
     lean: mixed
     lanes:
       - afrobeat
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: ryTTHmUYc2o
@@ -4121,6 +4467,7 @@ matches:
     lean: secondhand
     lanes:
       - afrobeat
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: LBKeDBr2M3U
@@ -4142,6 +4489,7 @@ matches:
       - funk
       - hip-hop
       - neo-soul
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: TBr6H75DBsU
@@ -4161,6 +4509,7 @@ matches:
       - funk
       - rnb
       - soul
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: AihgZv1D5-4
@@ -4179,6 +4528,7 @@ matches:
       - afrobeat
       - funk
       - soul
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: K-qPIEhRRro
@@ -4196,6 +4546,7 @@ matches:
     lean: mixed
     lanes:
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: m-UegHhK4UI
@@ -4213,6 +4564,7 @@ matches:
     lean: mixed
     lanes:
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: MSxqfBi-dw8
@@ -4230,6 +4582,7 @@ matches:
     lanes:
       - tejano
       - latin
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: cFwFI_YdQBI
@@ -4247,6 +4600,7 @@ matches:
     lanes:
       - tejano
       - latin
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: btS_CHyQUJk
@@ -4264,6 +4618,7 @@ matches:
     lanes:
       - tejano
       - latin
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: YkVerwxpFAY
@@ -4281,6 +4636,7 @@ matches:
     lanes:
       - tejano
       - latin
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: cVN5akAeL08
@@ -4298,6 +4654,7 @@ matches:
     lanes:
       - tejano
       - latin
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: v0WARZCrb-c
@@ -4314,6 +4671,7 @@ matches:
     lean: mixed
     lanes:
       - soul
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: M2wlGbNk8Sc
@@ -4331,6 +4689,7 @@ matches:
     lanes:
       - soul
       - funk
+    format: other
     matchedOn: title
     confidence: strong
   - videoId: q6XB0FrBQl4
@@ -4349,6 +4708,7 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: EVZYpwhpkpQ
@@ -4367,6 +4727,7 @@ matches:
       - hip-hop
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: ZbDrbKe380M
@@ -4385,6 +4746,7 @@ matches:
       - hip-hop
       - rnb
       - neo-soul
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: ycOLauNckZg
@@ -4403,6 +4765,7 @@ matches:
       - hip-hop
       - soul
       - funk
+    format: interview
     matchedOn: title
     confidence: strong
   - videoId: zZBBJQq5cms
@@ -4419,6 +4782,8 @@ matches:
     lean: mixed
     lanes:
       - hip-hop
+    format: podcast
+    reason: Long conversation
     matchedOn: title
     confidence: strong
   - videoId: EnA9tt-tWpY
@@ -4437,5 +4802,6 @@ matches:
       - hip-hop
       - rnb
       - soul
+    format: interview
     matchedOn: title
     confidence: strong
