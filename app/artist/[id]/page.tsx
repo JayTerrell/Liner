@@ -3,12 +3,13 @@ import { notFound } from "next/navigation";
 import { AlbumShelf, type ShelfAlbum } from "@/components/AlbumShelf";
 import { Cover, Portrait } from "@/components/Art";
 import { badgeClass } from "@/components/PathCard";
+import { RoleLineage } from "@/components/RoleLineage";
 import { Crumbs, JumpBar, LineageStrip, SectionHeader, WhereNext, type Neighbor, type NextTile } from "@/components/ui";
 import { VideoCard, type CardVideo } from "@/components/VideoCard";
 import { indexHref } from "@/components/index-ui";
 import {
   FORMAT_LABEL, albumShelves, allArtistIds, albumsByArtist, artistOf, creditsFor, getAlbum, getArtist, getLane,
-  pathsForArtist, startHere, videoSummary, voicesFor,
+  pathsForArtist, roleLineageFor, startHere, videoSummary, voicesFor,
 } from "@/lib/data";
 import type { LineageRef, VideoMatch } from "@/lib/types";
 
@@ -54,6 +55,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
   const lane = artist.lanes?.[0] ? getLane(artist.lanes[0]) : undefined;
   const before = neighbors(artist.before);
   const after = neighbors(artist.after);
+  const roles = roleLineageFor(id);
   const videosHref = `/artist/${id}/videos`;
 
   const counts = [
@@ -84,14 +86,25 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
   }));
 
   // Where to next: the neighbours in the lineage and the record that anchors
-  // the page. A session player has no lineage, so theirs are three records.
+  // the page. A session player has no editorial lineage, so theirs come from the
+  // chair they held and, failing that, from the records they are credited on.
   const tiles: NextTile[] = [];
   if (before[0]?.id) tiles.push({ kind: "Came before", name: before[0].name, why: before[0].note, href: `/artist/${before[0].id}` });
   const anchor = shelves[0]?.album;
   if (anchor) tiles.push({ kind: "Album", name: anchor.title, why: anchor.blurb, href: `/album/${anchor.id}` });
   if (after[0]?.id) tiles.push({ kind: "Came after", name: after[0].name, why: after[0].note, href: `/artist/${after[0].id}` });
-  if (!tiles.length) {
-    for (const c of credited.slice(0, 3)) {
+  // Only someone with no editorial tiles gets the derived ones.
+  const editorial = tiles.length > 0;
+  if (!editorial && roles[0]) {
+    const r = roles[0];
+    const chair = r.chair.charAt(0).toUpperCase() + r.chair.slice(1);
+    const prev = [...r.before].reverse().find((n) => n.id);
+    const next = r.after.find((n) => n.id);
+    if (prev) tiles.push({ kind: "Came before", name: prev.name, why: `${chair} with ${r.leader}, ${prev.from}`, href: `/artist/${prev.id}` });
+    if (next) tiles.push({ kind: "Came after", name: next.name, why: `${chair} with ${r.leader}, ${next.from}`, href: `/artist/${next.id}` });
+  }
+  if (!editorial && tiles.length < 3) {
+    for (const c of credited.slice(0, 3 - tiles.length)) {
       const al = getAlbum(c.albumId);
       if (al) tiles.push({ kind: "Credited on", name: al.title, why: `${artistOf(al).name}, ${al.year}`, href: `/album/${al.id}` });
     }
@@ -132,6 +145,8 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
       {(before.length > 0 || after.length > 0) && (
         <LineageStrip name={artist.name} before={before} after={after} />
       )}
+
+      {roles.length > 0 && <RoleLineage name={artist.name} entries={roles} />}
 
       {(jump.length > 1 || summary.total > 0) && (
         <JumpBar

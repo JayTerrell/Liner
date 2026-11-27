@@ -2,7 +2,7 @@
 // Postgres queries later without touching any page.
 import { loadYaml } from "./files";
 import type {
-  Album, Artist, Channel, CreditRow, Lane, LinerPath, Story, Track, VideoFormat, VideoMatch,
+  Album, Artist, Channel, CreditRow, Lane, LinerPath, RoleLineage, Story, Track, VideoFormat, VideoMatch,
 } from "./types";
 
 interface Seed {
@@ -84,6 +84,40 @@ export const allArtistIds = (): string[] => [
 ];
 
 export const personCount = creditsByPerson.size;
+
+// --- Role lineage -----------------------------------------------------------
+// For a person: under each bandleader they worked with most, who held the same
+// chair before and after them. A neighbour links to a page only when one exists,
+// which today means someone credited on an album in the archive.
+
+interface RawLineage {
+  leader: string; chair: string; albums: number; from: number;
+  before: { mbid: string; name: string; from: number }[];
+  after: { mbid: string; name: string; from: number }[];
+}
+const lineageFile = loadYaml<{ people?: Record<string, RawLineage[]> }>("lineage", "roles.yaml").people ?? {};
+
+// A curated artist is keyed by slug on the page and by MusicBrainz id in the
+// lineage, so find the id behind the slug.
+const mbidForPageId = (id: string): string | undefined => {
+  if (creditsByPerson.has(id)) return id;
+  for (const [mbid, seedId] of seedIdForMbid) if (seedId === id) return mbid;
+  return undefined;
+};
+const hasPage = (mbid: string) => creditsByPerson.has(mbid) || seedIdForMbid.has(mbid);
+const neighbour = (n: { mbid: string; name: string; from: number }) => ({
+  id: hasPage(n.mbid) ? (seedIdForMbid.get(n.mbid) ?? n.mbid) : undefined,
+  name: n.name,
+  from: n.from,
+});
+
+export function roleLineageFor(artistId: string): RoleLineage[] {
+  const mbid = mbidForPageId(artistId);
+  return (mbid ? lineageFile[mbid] ?? [] : []).map((l) => ({
+    leader: l.leader, chair: l.chair, albums: l.albums, from: l.from,
+    before: l.before.map(neighbour), after: l.after.map(neighbour),
+  }));
+}
 export const getAlbums = () => albums;
 export const getAlbum = (id: string) => albums.find((a) => a.id === id);
 export const getPaths = () => paths;

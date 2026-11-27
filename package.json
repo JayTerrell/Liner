@@ -9,7 +9,8 @@
     "art:warm": "tsx scripts/warm-art.ts",
     "yt:ingest": "tsx scripts/youtube-ingest.ts",
     "yt:match": "tsx scripts/youtube-match.ts",
-    "albums:build": "tsx scripts/build-album-details.ts"
+    "albums:build": "tsx scripts/build-album-details.ts",
+    "lineage:build": "tsx scripts/build-role-lineage.ts"
   },
   "dependencies": {
     "@types/js-yaml": "^4.0.9",
